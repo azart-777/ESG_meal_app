@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../esg_meal_landing.iml" filepath="$PROJECT_DIR$/../esg_meal_landing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ESG_meal_landing.iml" filepath="$PROJECT_DIR$/.idea/ESG_meal_landing.iml" />
     </modules>
   </component>
 </project>

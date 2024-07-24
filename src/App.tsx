@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import { CssBaseline } from "@mui/material";
+import { CssBaseline, Container } from "@mui/material";
 import './App.scss';
+import Home from "./pages/Home/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <CssBaseline />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <CssBaseline />
+        <Container  maxWidth='xl'>
+            <Home />
+        </Container>
     </div>
   );
 }

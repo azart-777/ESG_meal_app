@@ -9,9 +9,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <Suspense fallback="...is loading">
-            <StrictMode>
-                <App />
-            </StrictMode>
+        <StrictMode>
+            <App />
+        </StrictMode>
     </Suspense>
 );
 

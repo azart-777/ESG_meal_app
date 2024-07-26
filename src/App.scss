@@ -1,4 +1,5 @@
 @use '/src/shared/styles/variables/colors' as colors;
+@import "shared/styles/base/global-fonts" ;
 
 .App {
   background-color: colors.$base-background-color;

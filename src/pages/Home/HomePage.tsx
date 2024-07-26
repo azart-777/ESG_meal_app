@@ -4,7 +4,6 @@ import { IconCardComponent } from '../../components/IconCardComponent/Icon Card 
 const Home = () => {
     return (
         <>
-            Home
             <IconCardComponent/>
             <ContactUsForm />
         </>

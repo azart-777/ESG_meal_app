@@ -1,0 +1,417 @@
+.main_container {
+    width: 1300px;
+    margin: 200px auto 0;
+    padding: 100px 0;
+    position: relative;
+
+    .treeInfoCard_container {
+        width: 100%;
+        height: auto;
+        padding-bottom: 650px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        .treeInfoCard {
+            z-index: 400;
+        }
+
+        .treeInfoCard:nth-child(2) {
+            margin-top: -108px;
+        }
+
+        .tree {
+            display: flex;
+            position: absolute;
+            top: 46.3%;
+            left: 49%;
+            z-index: 125;
+            transform: translateX(-50%);
+        }
+
+        .secondTree {
+            display: none;
+        }
+    }
+
+    .lightCircle {
+        width: 1400px;
+        height: 680px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(17, 159, 20, 0.7), rgba(7, 61, 9, 0.833), rgba(2, 20, 3, 0.7), rgba(1, 12, 2, 0.7), rgba(0, 0, 0, 0.7));
+        position: absolute;
+        top: 26.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        filter: blur(10px);
+        z-index: 100;
+    }
+
+    .secondLightCircle {
+        width: 1400px;
+        height: 680px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(17, 159, 20, 0.7), rgba(7, 61, 9, 0.833), rgba(2, 20, 3, 0.7), rgba(1, 12, 2, 0.7), rgba(0, 0, 0, 0.7));
+        position: absolute;
+        top: 26.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        filter: blur(10px);
+        z-index: 100;
+        display: none;
+    }
+        
+    .giftBoxIcon {
+        position: relative;
+        padding: 15px;
+        border-radius: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 12px 0;
+        z-index: 300;
+
+        img {
+            width: 300px;
+            height: 300px;
+            padding: 25px;
+        }
+        
+        &::after {
+            content: "";
+            width: 500px;
+            height: 350px;
+            border-radius: 50%;
+            position: absolute;
+            background: radial-gradient(circle, rgba(13, 126, 15, 0.7), rgba(7, 61, 9, 0.833), rgba(2, 20, 3, 0.7), rgba(1, 12, 2, 0.7), rgba(0, 0, 0, 0.799));
+            z-index: -2;
+        }
+        &::before {
+            
+            // opacity: 0;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .main_container {
+        width: 1160px;
+        .treeInfoCard_container {
+            .treeInfoCard {
+            }
+    
+            .treeInfoCard:nth-child(2) {
+                
+            }
+    
+            .tree {
+                top: 45%;
+            }
+        }
+    
+        .lightCircle {
+            width: 900px;
+        }
+
+        
+    
+        p {
+        }
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .main_container {
+        width: 100%;
+        padding: 100px 15px;
+    .treeInfoCard_container {
+        padding-bottom: 100px;
+        align-items: center;
+        flex-direction: column;
+        
+        margin: 0 auto;
+        .treeInfoCard {
+        }
+
+        
+        .treeInfoCard:nth-child(2) {
+            margin-top: 0;
+        }
+        
+
+        .tree {
+            top: 57%;
+            img {
+                width: 600px;
+            }
+            // display: none;
+        }
+
+        .secondTree {
+            display: block;
+            position: absolute;
+            top: 26%;
+            left: 49%;
+            z-index: 125;
+            transform: translateX(-50%);
+            img {
+                width: 600px;
+                
+            }
+        }
+        
+    }
+
+    .lightCircle {
+        top: 27%;
+    }
+
+    .secondLightCircle {
+        width: 900px;
+        display: block;
+        top: 50%;
+    }
+
+    .giftBoxIcon {
+    
+        img {
+            
+        }
+        
+        &::after {
+            content: "";
+            width: 500px;
+            height: 350px;
+            
+           
+        }
+        &::before {
+            content: "";
+            width: 5px;
+            height: 180px;
+            position: absolute;
+            top: -130px;
+            left: 50%;
+            border-radius: 40px;
+            background-color: #00FF00;
+            z-index: -1;
+        }
+    }
+}
+
+}
+
+@media (max-width: 992px) {
+    .main_container {
+    .treeInfoCard_container {
+        .treeInfoCard {
+            height: 725px;
+        }
+
+        // .treeInfoCard:nth-child(1) {
+        //     margin-top: -10px;
+        // }
+        // .treeInfoCard:nth-child(2) {
+        //     margin-top: -20px;
+        // }
+        // .treeInfoCard:nth-child(3) {
+        //     margin-top: -20px;
+        // }
+
+        .tree {
+            top: 61.3%;
+            img {
+                width: 480px;
+            }
+        }
+
+        .secondTree {
+            top: 29.5%;
+            img {
+                width: 480px;
+            }
+        }
+    }
+
+    .lightCircle {
+        width: 100%;
+    }
+
+    .secondLightCircle {
+        width: 100%;
+        display: block;
+        top: 52.5%;
+    }
+
+    .giftBoxIcon {
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+        
+        &::after {
+            
+        }
+
+        &::before {
+            content: "";
+            width: 4px;
+            position: absolute;
+            top: -120px;
+            left: 50%;
+            border-radius: 40px;
+            background-color: #00FF00;
+            z-index: -1;
+        }
+    }
+}
+
+}
+
+@media (max-width: 768px) {
+    .main_container {
+    .treeInfoCard_container {
+        .treeInfoCard {
+        }
+
+        .treeInfoCard:nth-child(2) {
+        }
+
+        .tree {
+        }
+    }
+
+    .lightCircle {
+    }
+
+    .giftBoxIcon {
+
+        img {
+            
+        }
+        
+        &::after {
+            
+        }
+    }
+}
+
+}
+
+@media (max-width: 576px) {
+    .main_container {
+        
+    .treeInfoCard_container {
+        .treeInfoCard {
+            height: 620px;
+        }
+
+        .treeInfoCard:nth-child(2) {
+        }
+
+        .tree {
+            top: 64%;
+            img {
+                width: 340px;
+            }
+        }
+
+        .secondTree {
+            top: 32%;
+            img {
+                width: 340px;
+            }
+        }
+    }
+
+    .lightCircle {
+        top: 31%;
+    }
+
+    .secondLightCircle {
+        top: 56%;
+    }
+
+    .giftBoxIcon {
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        
+        &::after {
+            width: 90vw;
+            height: 250px;
+            background: radial-gradient(circle, rgba(13, 126, 15, 0.548), rgba(7, 61, 9, 0.833), rgba(2, 20, 3, 0.434), rgba(1, 12, 2, 0.4), rgba(0, 0, 0, 0.537));
+
+        }
+        &::before {
+            content: "";
+            width: 2px;
+            height: 180px;
+            position: absolute;
+            top: -130px;
+            left: 50%;
+            border-radius: 40px;
+            background-color: #00FF00;
+            z-index: -1;
+        }
+    }
+}
+
+}
+
+@media (max-width: 420px) {
+    .main_container {
+        
+    .treeInfoCard_container {
+        .treeInfoCard {
+            height: 600px;
+        }
+
+        .treeInfoCard:nth-child(2) {
+        }
+
+        .tree {
+            top: 66%;
+            img {
+                width: 250px;
+            }
+        }
+
+        .secondTree {
+            top: 34%;
+            img {
+                width: 250px;
+            }
+        }
+    }
+
+    .lightCircle {
+        top: 31.6%;
+    }
+
+    .secondLightCircle {
+        top: 57%;
+    }
+
+    .giftBoxIcon {
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        
+        &::after {
+            width: 90vw;
+            height: 250px;
+            background: radial-gradient(circle, rgba(13, 126, 15, 0.548), rgba(7, 61, 9, 0.833), rgba(2, 20, 3, 0.434), rgba(1, 12, 2, 0.4), rgba(0, 0, 0, 0.537));
+
+        }
+    }
+}
+
+}

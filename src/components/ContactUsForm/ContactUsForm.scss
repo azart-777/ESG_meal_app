@@ -1,0 +1,56 @@
+@use './../../shared/styles/mixins/no-user-text-selection' as n;
+
+.contact-us {
+  &__form {
+    @include n.no-user-text-selection;
+
+    &-header {
+      &-container {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+
+        span {
+          font-size: 65px;
+          line-height: 78px;
+          letter-spacing: -5px;
+          & span {
+            color: #00FF00;
+          }
+        }
+      }
+    }
+
+    &-user {
+      &-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      &-item {
+        width: 47%;
+      }
+    }
+
+    &-actions {
+      &-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+          color: #00FF00;
+        }
+      }
+
+      &-submit {
+        display: flex;
+        align-items: center;
+
+        div {
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}

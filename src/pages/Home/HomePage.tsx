@@ -4,7 +4,6 @@ import TreeInfoComponent from '../../components/TreeInfoComponent/TreeInfoCompon
 const Home = () => {
     return (
         <>
-            Home
             <TreeInfoComponent />
             <ContactUsForm />
         </>

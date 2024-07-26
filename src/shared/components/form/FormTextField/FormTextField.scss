@@ -1,0 +1,27 @@
+.text-form-field {
+  & .MuiInput-root {
+    &:hover:not(.Mui-disabled, .Mui-error) {
+      &::before {
+        border-bottom: 2px solid #afafaf;
+      }
+    }
+
+    &::before {
+      border-bottom: 2px solid #808080;
+    }
+
+    &.Mui-focused {
+      &::after {
+        border-bottom: 2px solid #339b35;
+        transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+      }
+    }
+
+    &.Mui-error {
+       &::after {
+         border-bottom: 2px solid #d32f2f;
+       }
+     }
+
+  }
+}

@@ -4,8 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="567604dc-d2ce-4c41-83cf-420d46a48241" name="Changes" comment="Initial styles and exemle">
+    <list default="true" id="567604dc-d2ce-4c41-83cf-420d46a48241" name="Changes" comment="Adding image types">
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/DINCondensed/DINCondensed-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/DINCondensed/DINCondensed-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/DINCondensed/DINCondensed-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/DINCondensed/DINCondensed-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/DINCondensed/DINCondensed-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/DINCondensed/DINCondensed-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/DINCondensed/DINCondensed-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/DINCondensed/DINCondensed-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/DINCondensed/DINCondensed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsFormHelpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/FormTextField/FormTextField.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/form/FormTextField/FormTextField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/styles/mixins/no-user-text-selection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/styles/mixins/responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/styles/base/global-fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/base/global-fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/styles/variables/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/variables/colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,23 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Projects/story_harbor",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "D:\\Projects\\ESG_meal_landing\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/story_harbor&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\ESG_meal_landing\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\ESG_meal_landing\src\shared\interfaces" />
@@ -52,6 +83,8 @@
       <recent name="D:\Projects\ESG_meal_landing\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\ESG_meal_landing\src\assets\fonts" />
+      <recent name="D:\Projects\ESG_meal_landing\src\shared\components\form\FormTextField" />
       <recent name="D:\Projects\ESG_meal_landing\src\pages\Home" />
     </key>
   </component>
@@ -84,7 +117,8 @@
       <workItem from="1721734769160" duration="1700000" />
       <workItem from="1721755935595" duration="836000" />
       <workItem from="1721756902470" duration="1158000" />
-      <workItem from="1721803519991" duration="2305000" />
+      <workItem from="1721803519991" duration="14478000" />
+      <workItem from="1721983769466" duration="18470000" />
     </task>
     <task id="LOCAL-00001" summary="Update of Initial project&#10;Added: typescript, scss, material ui, jest(testing), i18n (languages)">
       <option name="closed" value="true" />
@@ -110,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721804944922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding image types">
+      <option name="closed" value="true" />
+      <created>1721814417797</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721814417797</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update of Initial project&#10;Added: typescript, scss, material ui, jest(testing), i18n (languages)" />
     <MESSAGE value="Initial styles and exemle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial styles and exemle" />
+    <MESSAGE value="Adding image types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding image types" />
   </component>
 </project>

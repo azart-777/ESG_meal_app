@@ -1,0 +1,30 @@
+{
+  "contactUs": {
+    "contact": "contact",
+    "us": "us",
+    "form": {
+      "userSummary": {
+        "question": "What`s your message about?",
+        "options": {
+          "1": "I would like to become a ESG MEAL family Partner",
+          "2": "I have some proposition/suggestion",
+          "3": "I have some feedback",
+          "4": "I'd like to work with you",
+          "5": "I'd like to chat"
+        }
+      },
+      "userName": "Your Name",
+      "userEmail": "Your Email",
+      "userMessage": "Just leave your message...",
+      "info": {
+        "newLine": "New Line",
+        "push": "push"
+      },
+      "buttons": {
+        "shift": "Shift",
+        "enter": "Enter",
+        "submit": "Submit"
+      }
+    }
+  }
+}

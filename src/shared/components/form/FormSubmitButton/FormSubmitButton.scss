@@ -1,12 +1,29 @@
+@use './../../../styles/variables/colors' as colors;
+
+$font-size: 20px;
+$font-weight: 700;
+$line-height: 20px;
+$letter-spacing: -1px;
+
+$text-color: colors.$black-text;
+$background-highlight-color: colors.$app-accent;
+$background-base-color: darken($background-highlight-color,35%);
+
+
 button.MuiButton-root {
   border-radius: 0 35px 15px;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
-  width: 105px;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  padding: 0 24px;
   height: 48px;
   text-transform: none;
-  color: black;
-  background: linear-gradient(90deg, #00FF00 23.44%, #059005 100%);
-  letter-spacing: -1px;
+  color: $text-color;
+  background: linear-gradient(90deg, $background-highlight-color 23.44%, $background-base-color 100%);
+  letter-spacing: $letter-spacing;
+
+  &.Mui-disabled {
+
+    background: linear-gradient(90deg, darken($background-highlight-color,35%) 23.44%, darken($background-base-color, 35%) 100%);
+  }
 }

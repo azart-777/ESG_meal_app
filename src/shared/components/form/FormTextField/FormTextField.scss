@@ -1,25 +1,35 @@
+@use './../../../styles/variables/colors' as colors;
+
+$border--hover: colors.$gray-hover;
+$border--base: colors.$gray-base;
+$border--focus: darken(colors.$app-accent, 15%);
+$border--error: colors.$error;
+
+$border-width: 2px;
+
+
 .text-form-field {
   & .MuiInput-root {
     &:hover:not(.Mui-disabled, .Mui-error) {
       &::before {
-        border-bottom: 2px solid #afafaf;
+        border-bottom: $border-width solid $border--hover;
       }
     }
 
     &::before {
-      border-bottom: 2px solid #808080;
+      border-bottom: $border-width solid $border--base;
     }
 
     &.Mui-focused {
       &::after {
-        border-bottom: 2px solid #339b35;
+        border-bottom: $border-width solid $border--focus;
         transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
       }
     }
 
     &.Mui-error {
        &::after {
-         border-bottom: 2px solid #d32f2f;
+         border-bottom: $border-width solid $border--error;
        }
      }
 

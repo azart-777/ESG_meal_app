@@ -1,8 +1,23 @@
 @use './../../shared/styles/mixins/no-user-text-selection' as n;
+@use './../../shared/styles/mixins/responsive' as r;
+@use './../../shared/styles/variables/colors' as colors;
+@use './../../shared/styles/variables/fonts' as fonts;
+
+$text-color--accent: colors.$app-accent;
+
+$font-size--header: 65px;
+$font-size--info: 20px;
+$font-size--info-icon: 22px;
 
 .contact-us {
   &__form {
     @include n.no-user-text-selection;
+
+    &-text {
+      &--highlight {
+        color: $text-color--accent;
+      }
+    }
 
     &-header {
       &-container {
@@ -11,13 +26,19 @@
         text-transform: uppercase;
 
         span {
-          font-size: 65px;
-          line-height: 78px;
-          letter-spacing: -5px;
+          font-size: $font-size--header;
+          letter-spacing: -1px;
+
           & span {
-            color: #00FF00;
+            color: $text-color--accent;
           }
         }
+      }
+    }
+
+    &-summary {
+      &-container {
+        margin-bottom: 40px;
       }
     }
 
@@ -25,9 +46,27 @@
       &-container {
         display: flex;
         justify-content: space-between;
+
+        @include r.responsive(phone-large) {
+          flex-direction: column;
+        }
+        @include r.responsive(phone) {
+          flex-direction: column;
+        }
       }
       &-item {
         width: 47%;
+
+        @include r.responsive(phone-large) {
+          width: 100%;
+        }
+        @include r.responsive(phone) {
+          width: 100%;
+        }
+      }
+
+      &-message {
+        height: 100px;
       }
     }
 
@@ -37,18 +76,45 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        font-size: $font-size--info;
 
-        span {
-          color: #00FF00;
+        @include r.responsive(phone-large) {
+          justify-content: flex-end;
+        }
+        @include r.responsive(phone) {
+          justify-content:  flex-end;
+        }
+      }
+
+      &-info {
+        display: flex;
+        align-items: center;
+        margin: 0 5px;
+
+        &-container {
+          display: flex;
+          align-items: center;
+
+          @include r.responsive(phone-large) {
+            display: none;
+          }
+          @include r.responsive(phone) {
+            display: none;
+          }
+        }
+
+        &-icon{
+          font-size: $font-size--info-icon;
+          margin: 0 5px;
+          transform: scale(1.5,1);
         }
       }
 
       &-submit {
         display: flex;
         align-items: center;
-
-        div {
-          padding-right: 20px;
+        &-text {
+          margin-right: 10px;
         }
       }
     }

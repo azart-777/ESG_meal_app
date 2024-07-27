@@ -1,24 +1,27 @@
 import React from 'react';
 import { FieldRenderProps } from "react-final-form";
 import './ContactUsSummary.scss'
+import {useTranslation} from "react-i18next";
 
 interface ContactUsSummaryProps extends FieldRenderProps<string, HTMLElement> {
     hasError?: boolean;
 }
 
 export const ContactUsSummary: React.FC<ContactUsSummaryProps> = ({ input, meta, hasError  }) => {
+    const { t } = useTranslation(["pages/home-page"]);
+
     const summaryOptions: string[] = [
-        'I would like to become a ESG MEAL family Partner',
-        'I have some proposition/suggestion',
-        'I have some feedback',
-        'I\'d like to work with you',
-        'I\'d like to chat'
+        t('contactUs.form.userSummary.options.1'),
+        t('contactUs.form.userSummary.options.2'),
+        t('contactUs.form.userSummary.options.3'),
+        t('contactUs.form.userSummary.options.4'),
+        t('contactUs.form.userSummary.options.5')
     ];
 
     return (
         <div className={`form-summary ${hasError ? 'error' : ''}`}>
             <div className={'form-summary__question-text'}>
-                What`s your message about?
+                {t('contactUs.form.userSummary.question')}
             </div>
             <div className={'form-summary__option-container'}>
             {summaryOptions.map((container, index) => (

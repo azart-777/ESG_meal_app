@@ -1,18 +1,27 @@
 @use './../../../shared/styles/mixins/no-user-text-selection' as n;
+@use './../../../shared/styles/mixins/responsive' as r;
+@use './../../../shared/styles/variables/colors' as colors;
+
+$box-border--error: colors.$error;
+$box-border--selected: colors.$app-accent;
+$box-border--base: darken($box-border--selected,35%);;
+
+$font-size--question: 32px;
+$font-size--container: 18px;
+
+$border-width: 2px;
 
 .form-summary {
   &.error {
     .form-summary__option {
       &-item {
-        border-color: rgba(255, 0, 0, 0.67);
+        border-color: $box-border--error;
       }
     }
   }
 
   &__question-text {
-    font-size: 32px;
-    line-height: 78px;
-    letter-spacing: -2px;
+    font-size: $font-size--question;
   }
 
   &__option {
@@ -23,20 +32,31 @@
     }
     &-item {
       flex: 0 1 calc(33.33% - 20px);
+      font-size: $font-size--container;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 150px;
       box-sizing: border-box;
-      padding: 5px;
+      padding: 15px;
       margin: 10px;
       text-align: center;
-      border: 3px solid #00FF0033;
+      border: $border-width solid $box-border--base;
       cursor: pointer;
       background: #282c34;
 
       &.selected {
-        border-color: rgba(0, 255, 0, 0.67);
+        border-color: $box-border--selected;
+      }
+
+      @include r.responsive(tablet) {
+        flex: 0 1 calc(50% - 20px);
+      }
+      @include r.responsive(phone-large) {
+        flex: 0 1 calc(50% - 20px);
+      }
+      @include r.responsive(phone) {
+        flex: 0 1 calc(100% - 20px);
       }
     }
   }

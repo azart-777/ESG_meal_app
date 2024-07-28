@@ -25,7 +25,7 @@ $font-size--info: 16px;
     radial-gradient(at 100% 99%, hsl(110, 94%, 13%) 0px, transparent 85%);
   border-radius: 1rem;
   box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
-
+  
   @include r.responsive(desktop-large) {
     width: 360px;
     height: 660px;

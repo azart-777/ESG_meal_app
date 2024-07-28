@@ -20,7 +20,7 @@ type TreeInfoCardData = {
   iconClass?: string;
 };
 
-export const data1: TreeInfoCardData = {
+export const card1: TreeInfoCardData = {
   icon: mealCountLogo,
   title: { main: "Meal", sub: "Count" },
   sections: [
@@ -48,7 +48,7 @@ export const data1: TreeInfoCardData = {
   iconClass: "container__icon-mealCount",
 };
 
-export const data2: TreeInfoCardData = {
+export const card2: TreeInfoCardData = {
   icon: cheapItLogo,
   title: { main: "Cheap", sub: "IT" },
   sections: [
@@ -77,7 +77,7 @@ export const data2: TreeInfoCardData = {
   iconClass: "container__icon-cheapIt",
 };
 
-export const data3: TreeInfoCardData = {
+export const card3: TreeInfoCardData = {
   icon: ecoMealMarketLogo,
   sections: [
     {

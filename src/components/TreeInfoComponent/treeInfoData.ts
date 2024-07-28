@@ -4,7 +4,7 @@ import ecoMealMarketLogo from "../../assets/images/ecoMealMarketLogo.png";
 
 type Title = {
   main: string;
-  sub?: string; // Підзаголовок є необов'язковим
+  sub?: string; 
 };
 
 type Section = {
@@ -25,27 +25,27 @@ export const data1: TreeInfoCardData = {
   title: { main: "Meal", sub: "Count" },
   sections: [
     {
-      heading: "For",
-      subheading: "Fitness Enthusiasts",
+      heading: "treeInfo.data1.sections.0.heading",
+      subheading: "treeInfo.data1.sections.0.subheading",
       items: [
-        "Maintain a balanced diet",
-        "Exercise regularly",
-        "Stay hydrated",
-        "Get enough sleep",
+        "treeInfo.data1.sections.0.items.0",
+        "treeInfo.data1.sections.0.items.1",
+        "treeInfo.data1.sections.0.items.2",
+        "treeInfo.data1.sections.0.items.3",
       ],
     },
     {
-      heading: "For",
-      subheading: "Mental Wellness",
+      heading: "treeInfo.data1.sections.1.heading",
+      subheading: "treeInfo.data1.sections.1.subheading",
       items: [
-        "Practice mindfulness",
-        "Take breaks",
-        "Connect with loved ones",
-        "Seek professional help if needed",
+        "treeInfo.data1.sections.1.items.0",
+        "treeInfo.data1.sections.1.items.1",
+        "treeInfo.data1.sections.1.items.2",
+        "treeInfo.data1.sections.1.items.3",
       ],
     },
   ],
-  iconClass: "icon_mealCount",
+  iconClass: "container__icon-mealCount",
 };
 
 export const data2: TreeInfoCardData = {
@@ -53,54 +53,54 @@ export const data2: TreeInfoCardData = {
   title: { main: "Cheap", sub: "IT" },
   sections: [
     {
-      heading: "For",
-      subheading: "Consumers",
+      heading: "treeInfo.data2.sections.0.heading",
+      subheading: "treeInfo.data2.sections.0.subheading",
       items: [
-        "Enjoy good food at less price",
-        "Save your money",
-        "Explore a world of deliciousness",
-        "Save time and money for your next adventure",
-        "Save the planet from excess waste",
+        "treeInfo.data2.sections.0.items.0",
+        "treeInfo.data2.sections.0.items.1",
+        "treeInfo.data2.sections.0.items.2",
+        "treeInfo.data2.sections.0.items.3",
+        "treeInfo.data2.sections.0.items.4",
       ],
     },
     {
-      heading: "For",
-      subheading: "Business",
+      heading: "treeInfo.data2.sections.1.heading",
+      subheading: "treeInfo.data2.sections.1.subheading",
       items: [
-        "Explore a world of deliciousness",
-        "Discover unique cuisines and local favourites just from your phone",
-        "Save time and money for your next adventure",
-        "Enjoy high-quality food finds",
+        "treeInfo.data2.sections.1.items.0",
+        "treeInfo.data2.sections.1.items.1",
+        "treeInfo.data2.sections.1.items.2",
+        "treeInfo.data2.sections.1.items.3",
       ],
     },
   ],
-  iconClass: "icon_cheapIt",
+  iconClass: "container__icon-cheapIt",
 };
 
 export const data3: TreeInfoCardData = {
   icon: ecoMealMarketLogo,
   sections: [
     {
-      heading: "For",
-      subheading: "Entrepreneurs",
+      heading: "treeInfo.data3.sections.0.heading",
+      subheading: "treeInfo.data3.sections.0.subheading",
       items: [
-        "Gain valuable insights",
-        "Boost your business",
-        "Connect with peers",
-        "Learn from the best",
+        "treeInfo.data3.sections.0.items.0",
+        "treeInfo.data3.sections.0.items.1",
+        "treeInfo.data3.sections.0.items.2",
+        "treeInfo.data3.sections.0.items.3",
       ],
     },
     {
-      heading: "For",
-      subheading: "Investors",
+      heading: "treeInfo.data3.sections.1.heading",
+      subheading: "treeInfo.data3.sections.1.subheading",
       items: [
-        "Find new opportunities",
-        "Maximize returns",
-        "Diversify portfolio",
-        "Stay ahead of the market",
+        "treeInfo.data3.sections.1.items.0",
+        "treeInfo.data3.sections.1.items.1",
+        "treeInfo.data3.sections.1.items.2",
+        "treeInfo.data3.sections.1.items.3",
       ],
     },
   ],
 
-  iconClass: "icon_ecoMealMarket",
+  iconClass: "container__icon-ecoMealMarket",
 };

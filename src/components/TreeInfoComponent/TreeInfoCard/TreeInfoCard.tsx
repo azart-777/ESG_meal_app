@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import './treeInfoCard.scss';
+import { useTranslation } from 'react-i18next';
 
 type Title = {
   main: string;
@@ -20,10 +21,12 @@ type TreeInfoCardProps = {
 };
 
 const TreeInfoCard: React.FC<TreeInfoCardProps> = ({ icon, title, sections, iconClass }) => {
+  const { t } = useTranslation(["pages/home-page"]);
+
   return (
-    <div className='container'>
-      <div className="card__border"></div>
-      <div className={`icon_placeholder ${iconClass}`}>
+    <div className={'container'}>
+      <div className={'container__border'}></div>
+      <div className={`container__icon-placeholder ${iconClass}`}>
         <img src={icon} alt="Icon" />
         {title && (
           <h3>
@@ -31,15 +34,15 @@ const TreeInfoCard: React.FC<TreeInfoCardProps> = ({ icon, title, sections, icon
           </h3>
         )}
       </div>
-      <div className='content'>
+      <div className={'container__content'}>
         {sections.map((section, index) => (
           <div key={index}>
             <h4>
-              {section.heading} <span>{section.subheading}</span>
+              {t(section.heading)} <span>{t(section.subheading)}</span>
             </h4>
             <ul>
               {section.items.map((item, idx) => (
-                <li key={idx}>{item}</li>
+                <li key={idx}>{t(item)}</li>
               ))}
             </ul>
           </div>
@@ -50,3 +53,4 @@ const TreeInfoCard: React.FC<TreeInfoCardProps> = ({ icon, title, sections, icon
 };
 
 export default TreeInfoCard;
+

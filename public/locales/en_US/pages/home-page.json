@@ -26,5 +26,80 @@
         "submit": "Submit"
       }
     }
+  },
+  "treeInfo": {
+    "data1": {
+      "sections": [
+        {
+          "heading": "For",
+          "subheading": "Fitness Enthusiasts",
+          "items": [
+            "Maintain a balanced diet",
+            "Exercise regularly",
+            "Stay hydrated",
+            "Get enough sleep"
+          ]
+        },
+        {
+          "heading": "For",
+          "subheading": "Mental Wellness",
+          "items": [
+            "Practice mindfulness",
+            "Take breaks",
+            "Connect with loved ones",
+            "Seek professional help if needed"
+          ]
+        }
+      ]
+    },
+    "data2": {
+      "sections": [
+        {
+          "heading": "For",
+          "subheading": "Consumers",
+          "items": [
+            "Enjoy good food at less price",
+            "Save your money",
+            "Explore a world of deliciousness",
+            "Save time and money for your next adventure",
+            "Save the planet from excess waste"
+          ]
+        },
+        {
+          "heading": "For",
+          "subheading": "Business",
+          "items": [
+            "Explore a world of deliciousness",
+            "Discover unique cuisines and local favourites just from your phone",
+            "Save time and money for your next adventure",
+            "Enjoy high-quality food finds"
+          ]
+        }
+      ]
+    },
+    "data3": {
+      "sections": [
+        {
+          "heading": "For",
+          "subheading": "Entrepreneurs",
+          "items": [
+            "Gain valuable insights",
+            "Boost your business",
+            "Connect with peers",
+            "Learn from the best"
+          ]
+        },
+        {
+          "heading": "For",
+          "subheading": "Investors",
+          "items": [
+            "Find new opportunities",
+            "Maximize returns",
+            "Diversify portfolio",
+            "Stay ahead of the market"
+          ]
+        }
+      ]
+    }
   }
 }

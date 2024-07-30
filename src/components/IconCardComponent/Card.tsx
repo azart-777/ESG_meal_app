@@ -8,24 +8,20 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ text, image = '', imageFirst = false }) => {
-  const cardStyle = {
-    '--image-first': imageFirst ? 'row-reverse' : 'row',
-  } as React.CSSProperties;
+  const cardClass = imageFirst ? 'card card_image-first' : 'card';
 
   return (
-    <div className='card' style={cardStyle}>
+    <div className={cardClass}>
       {image && (
-        <div className='cardImageContainer'>
-          <div className='backgroundCardImage'></div>
-            <div className='cardImage'>
-              <img src={image} alt="" />
-            </div>
+        <div className='card__image-container'>
+          <div className='card__background-image'></div>
+          <div className='card__image'>
+            <img src={image} alt="" />
+          </div>
         </div>
       )}
-      <div className='cardText'>
-
-        <div className='cardTextBorder'></div>
-
+      <div className='card__text'>
+        <div className='card__text-border'></div>
         {text}
       </div>
     </div>

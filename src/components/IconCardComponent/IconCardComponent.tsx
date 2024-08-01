@@ -4,19 +4,22 @@ import './IconCard/iconCardStyle.scss'
 import { Container } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
-import image1 from '../../assets/images/CheapItLogoName.png';
-import image2 from '../../assets/images/MealCountLogoName.png';
-import image3 from '../../assets/images/ecoMealMarketLogo.png';
-import image4 from '../../assets/images/giftBox.png';
+import { 
+  logo_Cheap_it_with_title, 
+  logo_Meal_count_with_title, 
+  logo_Meal_market_logo_with_title, 
+  logo_Gift_box_logo_with_title 
+} from '../../assets/images/';
+
 
 export const IconCardComponent: React.FC = () => {
   const { t } = useTranslation(["pages/home-page"]);
   
   const cards = [
-    { text: t('iconCardComponent.cardText1'), image: image1, imageFirst: true },
-    { text: t('iconCardComponent.cardText2'), image: image2 },
-    { text: t('iconCardComponent.cardText3'), image: image3, imageFirst: true },
-    { text: t('iconCardComponent.cardText4'), image: image4 },  ];
+    { text: t('iconCardComponent.cardText1'), image: logo_Cheap_it_with_title, imageFirst: true },
+    { text: t('iconCardComponent.cardText2'), image: logo_Meal_count_with_title },
+    { text: t('iconCardComponent.cardText3'), image: logo_Meal_market_logo_with_title, imageFirst: true },
+    { text: t('iconCardComponent.cardText4'), image: logo_Gift_box_logo_with_title },  ];
 
   return (
     <Container maxWidth="xl">

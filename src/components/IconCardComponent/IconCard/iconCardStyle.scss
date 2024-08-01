@@ -1,9 +1,22 @@
 @use './../../../shared/styles/mixins/responsive.scss' as r;
 @use './../../../shared/styles/variables/colors.scss' as colors;
 
-$background-card: colors.$green-background-gradient;
-$border-gradient: colors.$green-border-gradient;
-$background-img: colors.$green-img-background;
+$background-card-first: darken(colors.$green-gradient,60%);
+$background-card-second: darken(colors.$green-gradient,35%);
+$background-card-third:darken(colors.$green-gradient,60%);
+$background-card-all: linear-gradient(to right, $background-card-first, $background-card-second, $background-card-third);
+
+$border-card-first: darken(colors.$green-gradient,10%);
+$border-card-second: darken(colors.$green-gradient,40%);
+$border-card-third:darken(colors.$green-gradient,80%);
+$border-card-fourth:darken(colors.$green-gradient,10%);
+$border-card-all: linear-gradient(to right, $border-card-first, $border-card-second, $border-card-third, $border-card-fourth);
+
+$background-img-first: darken(colors.$green-gradient, 45%);
+$background-img-second: (colors.$black-transparent);
+
+$background-img: radial-gradient(closest-side, $background-img-first, $background-img-second);
+
 
 .icon-card__list {
   display: flex;
@@ -104,7 +117,7 @@ $background-img: colors.$green-img-background;
     right: 0;
     bottom: 0;
     left: 0;
-    background: $background-card;
+    background: $background-card-all;
     border-radius: 40px;
     z-index: -1;
   }
@@ -118,8 +131,8 @@ $background-img: colors.$green-img-background;
     left: 0;
     z-index: -2;
     border-radius: 40px;
-    background: $border-gradient;
     margin: -2px; 
+    background: $border-card-all;
   }
 
   &.card_image-first {

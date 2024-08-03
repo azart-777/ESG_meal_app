@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
-import './mooveUpArrow.scss';
-import mooveUpArrowIcon from '../../assets/images/mooveUpArrow.png';
+import React, { useEffect, useRef } from "react";
+import "./mooveUpArrow.scss";
+import mooveUpArrowIcon from "../../assets/images/mooveUpArrow.png";
 
 export default function MooveUpArrow() {
   const scrollBtnRef = useRef<HTMLDivElement>(null);
@@ -9,17 +9,17 @@ export default function MooveUpArrow() {
     const handleScroll = () => {
       if (scrollBtnRef.current) {
         if (window.scrollY > 700) {
-          scrollBtnRef.current.classList.remove('is-show-btn_hide');
+          scrollBtnRef.current.classList.remove("is-show-btn_hide");
         } else {
-          scrollBtnRef.current.classList.add('is-show-btn_hide');
+          scrollBtnRef.current.classList.add("is-show-btn_hide");
         }
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -32,12 +32,9 @@ export default function MooveUpArrow() {
       id="moove-up-arrow"
       className="is-show-btn is-show-btn_hide"
       ref={scrollBtnRef}
-      onClick={handleClick} // Додаємо обробник події
+      onClick={handleClick}
     >
       <img src={mooveUpArrowIcon} alt="moove up arrow icon" />
     </div>
   );
 }
-
-
-

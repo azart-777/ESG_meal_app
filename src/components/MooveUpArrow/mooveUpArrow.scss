@@ -1,35 +1,40 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #moove-up-arrow {
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    z-index: 9999;
-    cursor: pointer;
-    animation: triangle 4s both infinite;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 9999;
+  cursor: pointer;
+  animation: triangle 4s both infinite;
 
-    @keyframes triangle {
-        0% {
-          transform: translateY(0px);
-        }
-      
-        50% {
-          transform: translateY(15px);
-        }
-      
-        100% {
-          transform: translateY(0px);
-        }
-      }
+  @keyframes triangle {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(15px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  img {
+    width: 43px;
+    height: 100px;
+  }
 }
 
 .is-show-btn {
-    opacity: 1;
-    transition: 0.4s;
-    
-    &_hide {
-        opacity: 0;
-    }
+  opacity: 1;
+  transition: 0.4s;
+
+  &_hide {
+    opacity: 0;
+  }
 }

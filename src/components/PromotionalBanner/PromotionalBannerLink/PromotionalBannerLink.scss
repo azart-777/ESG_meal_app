@@ -28,8 +28,8 @@ $font-size--header: 65px;
     text-decoration: none;
 
     @include r.responsive(desktop-large) {
-      width: 14vw;
-      height: 14vw;
+      // width: 14vw;
+      // height: 14vw;
     }
 
     @include r.responsive(desktop) {
@@ -92,8 +92,8 @@ $font-size--header: 65px;
       transform: skew(-10deg, 0deg);
 
       @include r.responsive(desktop-large) {
-        width: 7vw;
-        height: 9vw;
+        // width: 7vw;
+        // height: 9vw;
       }
 
       @include r.responsive(desktop) {
@@ -127,8 +127,8 @@ $font-size--header: 65px;
       height: 135px;
 
       @include r.responsive(desktop-large) {
-        width: 12vw;
-        height: 9vw;
+        // width: 12vw;
+        // height: 9vw;
       }
 
       @include r.responsive(desktop) {
@@ -163,8 +163,8 @@ $font-size--header: 65px;
       transform: skew(15deg, 355deg);
 
       @include r.responsive(desktop-large) {
-        width: 10vw;
-        height: 12vw;
+        // width: 10vw;
+        // height: 12vw;
       }
 
       @include r.responsive(desktop) {
@@ -202,7 +202,7 @@ $font-size--header: 65px;
       color: white;
 
       @include r.responsive(desktop-large) {
-        font-size: 4vw;
+        // font-size: 4vw;
       }
 
       @include r.responsive(desktop) {
@@ -233,6 +233,31 @@ $font-size--header: 65px;
 
   &__link:first-child {
     transform: skew(10deg, 0deg);
+    &::before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      right: 2px;
+      bottom: 2px;
+      border-radius: 2vw;
+      padding: 2px;
+      background: linear-gradient(
+        115deg,
+        rgba(0, 255, 0, 0.8),
+        rgba(0, 255, 0, 0.8),
+        rgba(0, 255, 0, 0),
+        rgba(0, 255, 0, 0),
+        rgba(0, 255, 0, 0),
+        rgba(0, 255, 0, 0.8),
+      );
+      -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
   }
 
   &__link:nth-child(2) {
@@ -241,8 +266,8 @@ $font-size--header: 65px;
     border-radius: 3vw;
 
     @include r.responsive(desktop-large) {
-      width: 24vw;
-      height: 24vw;
+      // width: 24vw;
+      // height: 24vw;
     }
 
     @include r.responsive(desktop) {
@@ -277,5 +302,30 @@ $font-size--header: 65px;
 
   &__link:last-child {
     transform: skew(-10deg, 0deg);
+    &::before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      right: 2px;
+      bottom: 2px;
+      border-radius: 2vw;
+      padding: 2px;
+      background: linear-gradient(
+        65deg,
+        rgba(0, 255, 0, 0.8),
+        rgba(0, 255, 0, 0),
+        rgba(0, 255, 0, 0),
+        rgba(0, 255, 0, 0),
+        rgba(0, 255, 0, 0.8),
+        rgba(0, 255, 0, 0.8)
+      );
+      -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
   }
 }

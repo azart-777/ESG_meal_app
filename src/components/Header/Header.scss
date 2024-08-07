@@ -1,0 +1,40 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  &__logo {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    z-index: 30;
+
+    &-image {
+      height: 110px;
+    }
+
+    &-container {
+      position: relative;
+    }
+
+    &-planet {
+      position: absolute;
+      top: -400px;
+      left: calc(100% - 383px);
+      z-index: 20;
+
+      &-image {
+        height: 630px;
+        transform: rotate(230deg); filter: brightness(60%);
+      }
+    }
+
+  }
+
+  &__language-switch-container {
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+}

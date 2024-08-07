@@ -1,4 +1,4 @@
-import { CssBaseline, Container } from "@mui/material";
+import { CssBaseline } from "@mui/material";
 import { ThemeProvider } from '@mui/material/styles';
 
 import './App.scss';
@@ -11,9 +11,7 @@ function App() {
     <div className="App">
         <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Container  maxWidth='xl'>
-                <Home />
-            </Container>
+            <Home />
         </ThemeProvider>
     </div>
   );

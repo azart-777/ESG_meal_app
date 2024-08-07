@@ -9,9 +9,9 @@ export const MooveUpArrow:  React.FC = () => {
     const handleScroll = () => {
       if (scrollBtnRef.current) {
         if (window.scrollY > 700) {
-          scrollBtnRef.current.classList.remove("arrow-button--showed--hidden");
+          scrollBtnRef.current.classList.remove("moove-up-arrow--showed--hidden");
         } else {
-          scrollBtnRef.current.classList.add("arrow-button--showed--hidden");
+          scrollBtnRef.current.classList.add("moove-up-arrow--showed--hidden");
         }
       }
     };
@@ -30,7 +30,7 @@ export const MooveUpArrow:  React.FC = () => {
   return (
     <div
       id="moove-up-arrow"
-      className="arrow-button--showed arrow-button--hidden"
+      className="moove-up-arrow--showed moove-up-arrow--hidden"
       ref={scrollBtnRef}
       onClick={handleClick}
     >

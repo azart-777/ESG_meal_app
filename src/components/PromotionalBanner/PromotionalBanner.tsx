@@ -4,7 +4,7 @@ import PromotionalBannerSlogan from "./PromotionalBannerSlogan/PromotionalBanner
 import PromotionalBannerLink from "./PromotionalBannerLink/PromotionalBannerLink";
 import { Container } from "@mui/material";
 
-const PromotionalBanner: React.FC = () => {
+export const PromotionalBanner: React.FC = () => {
   return (
     <Container maxWidth="lg">
       <div className={"main-promotional-banner"}>
@@ -15,4 +15,4 @@ const PromotionalBanner: React.FC = () => {
   );
 };
 
-export default PromotionalBanner;
+

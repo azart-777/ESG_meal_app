@@ -1,8 +1,9 @@
 import { ContactUsForm } from '../../components';
+import { MooveUpArrow } from '../../components';
 import TreeInfoComponent from '../../components/TreeInfoComponent/TreeInfoComponent';
 import { IconCardComponent } from '../../components/IconCardComponent/IconCardComponent';
-import PromotionalBanner from '../../components/PromotionalBanner/PromotionalBanner';
-import EarthImage from '../../components/EarthImage/EarthImage';
+import { PromotionalBanner } from '../../components';
+import { EarthImage } from '../../components';
 
 const Home = () => {
     return (
@@ -12,6 +13,8 @@ const Home = () => {
             <TreeInfoComponent />
             <IconCardComponent/>
             <ContactUsForm />
+
+            <MooveUpArrow />
         </>
     );
 };

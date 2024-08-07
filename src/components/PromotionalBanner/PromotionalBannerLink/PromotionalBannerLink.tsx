@@ -1,8 +1,8 @@
 import React from "react";
 import "./PromotionalBannerLink.scss";
-import cheapMealIcon from "../../../assets/images/cheapItIcon.png";
-import mealCountIcon from "../../../assets/images/MealCountLogoName.png";
-import ecoMealIcon from "../../../assets/images/ecoMealIconRotate.png";
+import {logo_Cheap_IT_in_main_banner} from "../../../assets/images/index";
+import {logo_Meal_count_with_title} from "../../../assets/images/index";
+import {logo_Meal_market_logo_with_title} from "../../../assets/images/index";
 
 const PromotionalBannerLink: React.FC = () => {
   return (
@@ -10,14 +10,14 @@ const PromotionalBannerLink: React.FC = () => {
       <a className="promotional-banner__link" href="#">
         <img
           className="promotional-banner__link-img--first"
-          src={mealCountIcon}
+          src={logo_Meal_count_with_title}
           alt="Meal Count Icon"
         />
       </a>
       <a className="promotional-banner__link" href="#">
         <img
           className="promotional-banner__link-img--second"
-          src={cheapMealIcon}
+          src={logo_Cheap_IT_in_main_banner}
           alt="Cheap Meal Icon"
         />
         <p className="promotional-banner__link-text">
@@ -27,7 +27,7 @@ const PromotionalBannerLink: React.FC = () => {
       <a className="promotional-banner__link" href="#">
         <img
           className="promotional-banner__link-img--last"
-          src={ecoMealIcon}
+          src={logo_Meal_market_logo_with_title}
           alt="Eco Meal Icon"
         />
       </a>

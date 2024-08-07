@@ -43,9 +43,6 @@
     transform: scale(1.7) rotate(7deg) translateY(-50px);
     opacity: 0.8;
 
-    @include r.responsive(desktop-large) {
-    }
-
     @include r.responsive(desktop) {
       transform: scale(1.7) rotate(10deg) translateY(-110px);
     }
@@ -73,9 +70,6 @@
     width: 100%;
     object-position: top;
     transform: scale(2);
-
-    @include r.responsive(desktop-large) {
-    }
 
     @include r.responsive(desktop) {
       height: 250px;
@@ -116,9 +110,6 @@
       rgb(0, 0, 0),
       rgb(0, 0, 0)
     );
-
-    @include r.responsive(desktop-large) {
-    }
 
     @include r.responsive(desktop) {
       transform: scale(1.7) translateY(25px);

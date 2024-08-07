@@ -27,11 +27,6 @@ $font-size--header: 65px;
     margin: 25px;
     text-decoration: none;
 
-    @include r.responsive(desktop-large) {
-      // width: 14vw;
-      // height: 14vw;
-    }
-
     @include r.responsive(desktop) {
       width: 14vw;
       height: 14vw;
@@ -91,11 +86,6 @@ $font-size--header: 65px;
       height: 125px;
       transform: skew(-10deg, 0deg);
 
-      @include r.responsive(desktop-large) {
-        // width: 7vw;
-        // height: 9vw;
-      }
-
       @include r.responsive(desktop) {
         width: 7vw;
         height: 9vw;
@@ -125,11 +115,6 @@ $font-size--header: 65px;
     &-img--second {
       width: 170px;
       height: 135px;
-
-      @include r.responsive(desktop-large) {
-        // width: 12vw;
-        // height: 9vw;
-      }
 
       @include r.responsive(desktop) {
         width: 12vw;
@@ -161,11 +146,6 @@ $font-size--header: 65px;
       width: 150px;
       height: 170px;
       transform: skew(15deg, 355deg);
-
-      @include r.responsive(desktop-large) {
-        // width: 10vw;
-        // height: 12vw;
-      }
 
       @include r.responsive(desktop) {
         width: 10vw;
@@ -200,10 +180,6 @@ $font-size--header: 65px;
       margin: 0;
       text-transform: uppercase;
       color: white;
-
-      @include r.responsive(desktop-large) {
-        // font-size: 4vw;
-      }
 
       @include r.responsive(desktop) {
         font-size: 4vw;
@@ -250,11 +226,6 @@ $font-size--header: 65px;
     width: 350px;
     height: 350px;
     border-radius: 3vw;
-
-    @include r.responsive(desktop-large) {
-      // width: 24vw;
-      // height: 24vw;
-    }
 
     @include r.responsive(desktop) {
       width: 24vw;

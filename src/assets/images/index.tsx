@@ -4,6 +4,7 @@ import logo_Meal_market_logo_with_title from './ecoMealMarketLogo.png';
 import logo_Gift_box_logo_with_title from './giftBox.png';
 import chip_it_family_logo from './CheapItFamilyLogo.png';
 import green_planet from './GreenPlanet.png';
+import move_up_arrow from './MoveUpArrow.png';
 
 
 export {
@@ -12,5 +13,6 @@ export {
     logo_Meal_market_logo_with_title,
     logo_Gift_box_logo_with_title,
     chip_it_family_logo,
+    move_up_arrow,
     green_planet
 }

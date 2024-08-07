@@ -1,9 +1,9 @@
 import { ContactUsForm } from './ContactUsForm/ContactUsForm'
-import { MooveUpArrow } from './MooveUpArrow/MooveUpArrow'
+import { MoveUpArrow } from './MoveUpArrow/MoveUpArrow'
 import { LanguageSwitch } from './LanguageSwitch/LanguageSwitch'
 
 export {
     ContactUsForm,
-    MooveUpArrow,
+    MoveUpArrow,
     LanguageSwitch
 }

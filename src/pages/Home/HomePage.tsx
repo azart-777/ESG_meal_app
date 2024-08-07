@@ -1,4 +1,5 @@
 import { ContactUsForm } from '../../components';
+import { MooveUpArrow } from '../../components';
 import TreeInfoComponent from '../../components/TreeInfoComponent/TreeInfoComponent';
 import { IconCardComponent } from '../../components/IconCardComponent/IconCardComponent';
 import {Header} from "../../components/Header/Header";
@@ -10,6 +11,8 @@ const Home = () => {
             <TreeInfoComponent />
             <IconCardComponent/>
             <ContactUsForm />
+
+            <MooveUpArrow />
         </>
     );
 };

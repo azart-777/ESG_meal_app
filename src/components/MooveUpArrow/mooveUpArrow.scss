@@ -30,11 +30,11 @@ html {
   }
 }
 
-.is-show-btn {
+.arrow-button--showed {
   opacity: 1;
   transition: 0.4s;
 
-  &_hide {
+  &--hidden {
     opacity: 0;
   }
 }

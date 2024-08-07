@@ -2,16 +2,16 @@ import React, { useEffect, useRef } from "react";
 import "./mooveUpArrow.scss";
 import mooveUpArrowIcon from "../../assets/images/mooveUpArrow.png";
 
-export default function MooveUpArrow() {
+export const MooveUpArrow:  React.FC = () => {
   const scrollBtnRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
       if (scrollBtnRef.current) {
         if (window.scrollY > 700) {
-          scrollBtnRef.current.classList.remove("is-show-btn_hide");
+          scrollBtnRef.current.classList.remove("arrow-button--showed--hidden");
         } else {
-          scrollBtnRef.current.classList.add("is-show-btn_hide");
+          scrollBtnRef.current.classList.add("arrow-button--showed--hidden");
         }
       }
     };
@@ -30,7 +30,7 @@ export default function MooveUpArrow() {
   return (
     <div
       id="moove-up-arrow"
-      className="is-show-btn is-show-btn_hide"
+      className="arrow-button--showed arrow-button--hidden"
       ref={scrollBtnRef}
       onClick={handleClick}
     >

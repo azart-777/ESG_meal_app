@@ -1,5 +1,5 @@
 import { ContactUsForm } from '../../components';
-import MooveUpArrow from '../../components/MooveUpArrow/MooveUpArrow';
+import { MooveUpArrow } from '../../components';
 import TreeInfoComponent from '../../components/TreeInfoComponent/TreeInfoComponent';
 
 const Home = () => {

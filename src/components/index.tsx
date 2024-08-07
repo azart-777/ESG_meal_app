@@ -1,3 +1,3 @@
 import { ContactUsForm } from './ContactUsForm/ContactUsForm'
-
-export { ContactUsForm }
+import { MooveUpArrow } from './MooveUpArrow/MooveUpArrow'
+export { ContactUsForm, MooveUpArrow}

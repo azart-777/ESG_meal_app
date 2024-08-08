@@ -29,8 +29,8 @@ export const MoveUpArrow:  React.FC = () => {
 
   return (
     <div
-      id="move-up-arrow move-up-arrow--hidden"
-      className="move-up-arrow"
+      id="move-up-arrow"
+      className="move-up-arrow move-up-arrow--hidden"
       ref={scrollBtnRef}
       onClick={handleClick}
     >

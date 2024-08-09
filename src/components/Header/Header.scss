@@ -1,3 +1,5 @@
+@use './../../shared/styles/mixins/responsive' as r;
+
 .header {
   position: relative;
   display: flex;
@@ -9,8 +11,40 @@
     margin-bottom: 60px;
     z-index: 30;
 
+    @include r.responsive(phone) {
+      margin-top: 25px;
+    }
+
+    @include r.responsive(phone-large) {
+      margin-top: 20px;
+    }
+
+    @include r.responsive(tablet) {
+      margin-top: 25px;
+    }
+
+    @include r.responsive(tablet-large) {
+      margin-top: 25px;
+    }
+
     &-image {
-      height: 110px;
+      height: 95px;
+
+      @include r.responsive(phone) {
+        height: 75px;
+      }
+
+      @include r.responsive(phone-large) {
+        height: 75px;
+      }
+
+      @include r.responsive(tablet) {
+        height: 85px;
+      }
+
+      @include r.responsive(tablet-large) {
+        height: 85px;
+      }
     }
 
     &-container {
@@ -20,12 +54,39 @@
     &-planet {
       position: absolute;
       top: -400px;
-      left: calc(100% - 383px);
+      left: calc(100% - 364px);
       z-index: 20;
 
       &-image {
         height: 630px;
         transform: rotate(230deg); filter: brightness(60%);
+      }
+
+      @include r.responsive(phone-large) {
+        top: -150px;
+        left: calc(100% - 199px);
+
+        &-image {
+          height: 300px;
+        }
+      }
+
+      @include r.responsive(tablet) {
+        top: -215px;
+        left: calc(100% - 253px);
+
+        &-image {
+          height: 400px;
+        }
+      }
+
+      @include r.responsive(tablet-large) {
+        top: -290px;
+        left: calc(100% - 305px);
+
+        &-image {
+          height: 500px;
+        }
       }
     }
 
@@ -36,5 +97,22 @@
     right: 0;
     margin-top: 20px;
     margin-right: 20px;
+    z-index: 30;
+
+
+    @include r.responsive(phone) {
+      margin-right: 0;
+    }
+    @include r.responsive(phone-large) {
+      margin-right: 10px;
+    }
+
+    @include r.responsive(tablet) {
+      margin-right: 15px;
+    }
+
+    @include r.responsive(tablet-large) {
+      margin-right: 15px;
+    }
   }
 }

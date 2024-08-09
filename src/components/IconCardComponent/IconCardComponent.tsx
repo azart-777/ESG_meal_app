@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./IconCard/IconCard";
-import './IconCard/iconCardStyle.scss'
+import './IconCard/IconCardStyle.scss'
 import { Container } from "@mui/material";
 import { useTranslation } from "react-i18next";
 

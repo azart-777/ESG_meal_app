@@ -92,7 +92,6 @@ $font-size--info: 16px;
     top: -100px;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 3px #041505c7, -1px -1px 3px rgb(205, 205, 205);
@@ -289,7 +288,6 @@ $font-size--info: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     flex-direction: column;
 
     @include r.responsive(desktop) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../IconCard/iconCardStyle.scss';
+import '../IconCard/IconCardStyle.scss';
 
 interface CardProps {
   text: string;

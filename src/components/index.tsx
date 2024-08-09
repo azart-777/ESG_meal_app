@@ -1,6 +1,8 @@
 import { ContactUsForm } from './ContactUsForm/ContactUsForm'
-import { MooveUpArrow } from './MooveUpArrow/MooveUpArrow'
+import { MoveUpArrow } from './MoveUpArrow/MoveUpArrow'
+import { LanguageSwitch } from './LanguageSwitch/LanguageSwitch'
 import { PromotionalBanner } from './PromotionalBanner/PromotionalBanner'
 import { EarthImage } from './EarthImage/EarthImage'
 
-export { ContactUsForm, MooveUpArrow, PromotionalBanner, EarthImage }
+export { ContactUsForm, MoveUpArrow, PromotionalBanner, EarthImage,
+    LanguageSwitch }

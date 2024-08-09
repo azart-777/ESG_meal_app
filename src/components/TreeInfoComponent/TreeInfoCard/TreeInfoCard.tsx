@@ -1,5 +1,5 @@
 import React from 'react';
-import './treeInfoCard.scss';
+import './TreeInfoCard.scss';
 import { useTranslation } from 'react-i18next';
 
 type Title = {

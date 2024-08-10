@@ -1,6 +1,6 @@
 import React from "react";
 import TreeInfoCard from "./TreeInfoCard/TreeInfoCard";
-import "./treeInfoComponent.scss";
+import "./TreeInfoComponent.scss";
 import { card1, card2, card3 } from "./treeInfoData";
 import treeImage from "../../assets/images/arrows.png";
 import giftBox from "../../assets/images/giftBox.png";

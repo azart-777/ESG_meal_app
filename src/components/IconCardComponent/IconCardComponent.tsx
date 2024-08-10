@@ -3,7 +3,7 @@ import Card from "./IconCard/IconCard";
 import { Container } from "@mui/material";
 import { card1, card2, card3 } from "./IconCardData";
 
-const IconCardComponent: React.FC = () => {
+export const IconCardComponent: React.FC = () => {
   return (
     <Container maxWidth="xl">
       <div className='icon-card__list'>
@@ -14,6 +14,4 @@ const IconCardComponent: React.FC = () => {
     </Container>
   );
 };
-
-export default IconCardComponent;
 

@@ -1,8 +1,6 @@
 import React from 'react';
-import './iconCardStyle.scss';
+import './IconCardStyle.scss';
 import { useTranslation } from 'react-i18next';
-
-// Визначення типів пропсів
 interface CardProps {
   icon: string;
   textArray: string[];

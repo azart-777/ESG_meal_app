@@ -1,0 +1,28 @@
+$flag-container-shadow-color: #00FF007F;
+
+.language-switch {
+  &__menu-item {
+      display: flex;
+      align-items: center;
+  }
+  &__language-text {
+    margin-left: 8px;
+  }
+}
+
+div.language-switch {
+  &__flag {
+    width: 48px;
+    height: 48px;
+  }
+
+  &__popper {
+    margin-top: 5px !important;
+  }
+}
+
+.language-switch__container {
+  .language-switch__flag-btn {
+    box-shadow: inset -3px -3px 7px $flag-container-shadow-color;
+  }
+}

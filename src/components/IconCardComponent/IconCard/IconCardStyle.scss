@@ -1,0 +1,234 @@
+@use "./../../../shared/styles/mixins/responsive.scss" as r;
+@use "./../../../shared/styles/variables/colors.scss" as colors;
+
+$background-img-variant1: url(../../../assets/images/paintStainCheapIT.png);
+$background-img-variant2: url(../../../assets/images/paintStainEcoMeal.png);
+$background-img-variant3: url(../../../assets/images/paintStainMealCount.png);
+
+.scroll-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px auto;
+
+  @include r.responsive(desktop-large) {
+  }
+
+  @include r.responsive(desktop) {
+    justify-content: space-between;
+  }
+
+  @include r.responsive(tablet-large) {
+    justify-content: space-between;
+  }
+
+  @include r.responsive(tablet) {
+    justify-content: space-between;
+  }
+
+  @include r.responsive(phone-large) {
+    justify-content: space-between;
+  }
+
+  @include r.responsive(phone) {
+    justify-content: space-between;
+  }
+
+  &.variant-1 {
+    .fixed-icon {
+      order: 1;
+      display: flex;
+      justify-content: left;
+
+      img {
+        @include r.responsive(tablet-large) {
+          width: 17vw;
+        }
+
+        @include r.responsive(tablet) {
+          width: 17vw;
+        }
+
+        @include r.responsive(phone-large) {
+          width: 17vw;
+        }
+
+        @include r.responsive(phone) {
+          width: 14vw;
+        }
+      }
+    }
+
+    .scroll-cards {
+      order: 2;
+
+      .card__text {
+        background-image: $background-img-variant1;
+
+        p {
+          margin-top: 40px;
+          transform: rotate(7deg);
+        }
+      }
+    }
+  }
+
+  &.variant-2 {
+    .fixed-icon {
+      order: 2;
+      display: flex;
+      justify-content: end;
+
+      img {
+        @include r.responsive(tablet-large) {
+          width: 17vw;
+        }
+
+        @include r.responsive(tablet) {
+          width: 17vw;
+        }
+
+        @include r.responsive(phone-large) {
+          width: 17vw;
+        }
+
+        @include r.responsive(phone) {
+          width: 17vw;
+        }
+      }
+    }
+
+    .scroll-cards {
+      order: 1;
+
+      .card__text {
+        background-image: $background-img-variant2;
+
+        p {
+          transform: rotate(-5deg);
+        }
+      }
+    }
+  }
+
+  &.variant-3 {
+    .fixed-icon {
+      order: 1;
+      display: flex;
+      justify-content: left;
+
+      img {
+        @include r.responsive(tablet-large) {
+          width: 14vw;
+        }
+
+        @include r.responsive(tablet) {
+          width: 14vw;
+        }
+
+        @include r.responsive(phone-large) {
+          width: 14vw;
+        }
+
+        @include r.responsive(phone) {
+          width: 11vw;
+        }
+      }
+    }
+
+    .scroll-cards {
+      order: 2;
+
+      .card__text {
+        background-image: $background-img-variant3;
+
+        p {
+          transform: rotate(8deg);
+        }
+      }
+    }
+  }
+
+  .fixed-icon {
+    margin: 50px 0;
+    position: sticky;
+    top: 50px;
+    align-self: flex-start;
+  }
+
+  .scroll-cards {
+    .card__text {
+      width: 800px;
+      height: 400px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin-bottom: 35px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: relative;
+      background-size: cover;
+
+      @include r.responsive(desktop) {
+        width: 70vw;
+        height: 35vw;
+      }
+
+      @include r.responsive(tablet-large) {
+        width: 70vw;
+        height: 35vw;
+      }
+
+      @include r.responsive(tablet) {
+        width: 70vw;
+        height: 35vw;
+      }
+
+      @include r.responsive(phone-large) {
+        width: 70vw;
+        height: 35vw;
+        background-size: contain;
+      }
+
+      @include r.responsive(phone) {
+        width: 70vw;
+        height: 35vw;
+        background-size: contain;
+      }
+
+      p {
+        width: 600px;
+        font-size: 18px;
+        margin-left: 45px;
+        text-align: center;
+        text-align: center;
+
+        @include r.responsive(desktop) {
+          width: 54vw;
+        }
+
+        @include r.responsive(tablet-large) {
+          width: 54vw;
+        }
+
+        @include r.responsive(tablet) {
+          width: 54vw;
+          margin-left: 20px;
+          font-size: 16px;
+        }
+
+        @include r.responsive(phone-large) {
+          width: 54vw;
+          margin-left: 20px;
+          font-size: 14px;
+        }
+
+        @include r.responsive(phone) {
+          width: 56vw;
+          margin-left: 20px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

@@ -11,9 +11,6 @@ $background-img-variant3: url(../../../assets/images/paintStainMealCount.png);
   justify-content: space-evenly;
   margin: 80px auto;
 
-  @include r.responsive(desktop-large) {
-  }
-
   @include r.responsive(desktop) {
     justify-content: space-between;
   }

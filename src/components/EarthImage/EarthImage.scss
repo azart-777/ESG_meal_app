@@ -40,28 +40,28 @@
     position: absolute;
     top: 0;
     z-index: 400;
-    transform: scale(1.7) rotate(7deg) translateY(-50px);
+    // transform: scale(1.7) rotate(7deg) translateY(-50px);
     opacity: 0.8;
 
-    @include r.responsive(desktop) {
-      transform: scale(1.7) rotate(10deg) translateY(-110px);
-    }
+    // @include r.responsive(desktop) {
+    //   transform: scale(1.7) rotate(10deg) translateY(-110px);
+    // }
 
-    @include r.responsive(tablet-large) {
-      transform: scale(1.7) rotate(10deg) translateY(-65px);
-    }
+    // @include r.responsive(tablet-large) {
+    //   transform: scale(1.7) rotate(10deg) translateY(-65px);
+    // }
 
-    @include r.responsive(tablet) {
-      transform: scale(1.7) rotate(10deg) translateY(-65px);
-    }
+    // @include r.responsive(tablet) {
+    //   transform: scale(1.7) rotate(10deg) translateY(-65px);
+    // }
 
-    @include r.responsive(phone-large) {
-      transform: scale(2) rotate(10deg) translateY(-15px);
-    }
+    // @include r.responsive(phone-large) {
+    //   transform: scale(2) rotate(10deg) translateY(-15px);
+    // }
 
-    @include r.responsive(phone) {
-      transform: scale(2) rotate(10deg) translateY(-15px);
-    }
+    // @include r.responsive(phone) {
+    //   transform: scale(2) rotate(10deg) translateY(-15px);
+    // }
   }
 
   &__earth-img {
@@ -69,38 +69,38 @@
     height: 350px;
     width: 100%;
     object-position: top;
-    transform: scale(2);
+    // transform: scale(2);
 
-    @include r.responsive(desktop) {
-      height: 250px;
-    }
+    // @include r.responsive(desktop) {
+    //   height: 250px;
+    // }
 
-    @include r.responsive(tablet-large) {
-      height: 250px;
-      transform: scale(1.7);
-    }
+    // @include r.responsive(tablet-large) {
+    //   height: 250px;
+    //   transform: scale(1.7);
+    // }
 
-    @include r.responsive(tablet) {
-      height: 250px;
-      transform: scale(1.7);
-    }
+    // @include r.responsive(tablet) {
+    //   height: 250px;
+    //   transform: scale(1.7);
+    // }
 
-    @include r.responsive(phone-large) {
-      height: 200px;
-      transform: scale(1.7);
-    }
+    // @include r.responsive(phone-large) {
+    //   height: 200px;
+    //   transform: scale(1.7);
+    // }
 
-    @include r.responsive(phone) {
-      height: 200px;
-      transform: scale(1.7);
-    }
+    // @include r.responsive(phone) {
+    //   height: 200px;
+    //   transform: scale(1.7);
+    // }
   }
 
   &__shadow {
     width: 100%;
     height: 100%;
     position: absolute;
-    transform: scale(1.7) translateY(25px);
+    // transform: scale(1.7) translateY(25px);
     background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0),
@@ -111,24 +111,24 @@
       rgb(0, 0, 0)
     );
 
-    @include r.responsive(desktop) {
-      transform: scale(1.7) translateY(25px);
-    }
+    // @include r.responsive(desktop) {
+    //   transform: scale(1.7) translateY(25px);
+    // }
 
-    @include r.responsive(tablet-large) {
-      transform: scale(1.7) translateY(10px);
-    }
+    // @include r.responsive(tablet-large) {
+    //   transform: scale(1.7) translateY(10px);
+    // }
 
-    @include r.responsive(tablet) {
-      transform: scale(1.4) translateY(10px);
-    }
+    // @include r.responsive(tablet) {
+    //   transform: scale(1.4) translateY(10px);
+    // }
 
-    @include r.responsive(phone-large) {
-      transform: scale(1.4) translateY(10px);
-    }
+    // @include r.responsive(phone-large) {
+    //   transform: scale(1.4) translateY(10px);
+    // }
 
-    @include r.responsive(phone) {
-      transform: scale(1.4) translateY(10px);
-    }
+    // @include r.responsive(phone) {
+    //   transform: scale(1.4) translateY(10px);
+    // }
   }
 }

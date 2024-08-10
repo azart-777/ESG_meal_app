@@ -1,151 +1,234 @@
-@use './../../../shared/styles/mixins/responsive.scss' as r;
-@use './../../../shared/styles/variables/colors.scss' as colors;
+@use "./../../../shared/styles/mixins/responsive.scss" as r;
+@use "./../../../shared/styles/variables/colors.scss" as colors;
 
-$background-card-first: darken(colors.$green-gradient,60%);
-$background-card-second: darken(colors.$green-gradient,35%);
-$background-card-third:darken(colors.$green-gradient,60%);
-$background-card-all: linear-gradient(to right, $background-card-first, $background-card-second, $background-card-third);
+$background-img-variant1: url(../../../assets/images/paintStainCheapIT.png);
+$background-img-variant2: url(../../../assets/images/paintStainEcoMeal.png);
+$background-img-variant3: url(../../../assets/images/paintStainMealCount.png);
 
-$border-card-first: darken(colors.$green-gradient,10%);
-$border-card-second: darken(colors.$green-gradient,40%);
-$border-card-third:darken(colors.$green-gradient,80%);
-$border-card-fourth:darken(colors.$green-gradient,10%);
-$border-card-all: linear-gradient(to right, $border-card-first, $border-card-second, $border-card-third, $border-card-fourth);
-
-$background-img-first: darken(colors.$green-gradient, 45%);
-$background-img-second: (colors.$black-transparent);
-
-$background-img: radial-gradient(closest-side, $background-img-first, $background-img-second);
-
-
-.icon-card__list {
+.scroll-section {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  justify-content: space-evenly;
+  margin: 80px auto;
 
-.card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: var(--image-first);
-  margin: 30px 0;
-  width: 90%;
+  @include r.responsive(desktop-large) {
+  }
+
+  @include r.responsive(desktop) {
+    justify-content: space-between;
+  }
+
+  @include r.responsive(tablet-large) {
+    justify-content: space-between;
+  }
 
   @include r.responsive(tablet) {
-    flex-direction: column;
+    justify-content: space-between;
   }
+
   @include r.responsive(phone-large) {
-    flex-direction: column;
+    justify-content: space-between;
   }
+
   @include r.responsive(phone) {
-    flex-direction: column;
+    justify-content: space-between;
   }
 
-  &__image-container {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
+  &.variant-1 {
+    .fixed-icon {
+      order: 1;
+      display: flex;
+      justify-content: left;
 
-    @include r.responsive(tablet) {
-      margin-right: 0;
-      margin-bottom: 20px;
+      img {
+        @include r.responsive(tablet-large) {
+          width: 17vw;
+        }
+
+        @include r.responsive(tablet) {
+          width: 17vw;
+        }
+
+        @include r.responsive(phone-large) {
+          width: 17vw;
+        }
+
+        @include r.responsive(phone) {
+          width: 14vw;
+        }
+      }
     }
-    @include r.responsive(phone-large) {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
-    @include r.responsive(phone) {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
-  }
 
-  &__background-image {
-    position: absolute;
-    top: -20px;
-    left: -35px;
-    width: 140%;
-    height: 140%;
-    background: $background-img;
-  }
+    .scroll-cards {
+      order: 2;
 
-  &__image {
-    position: relative;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+      .card__text {
+        background-image: $background-img-variant1;
 
-    img {
-      height: 130px;
-      width: 130px;
+        p {
+          margin-top: 40px;
+          transform: rotate(7deg);
+        }
+      }
     }
   }
 
-  &__text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-    padding: 20px;
-    box-sizing: border-box;
-    position: relative;
-    border-radius: 40px;
-    color: #fff;
-    z-index: 1;
-    min-width: 0;
-    word-wrap: break-word;
-    max-width: 60%;
-    min-height: 250px;
+  &.variant-2 {
+    .fixed-icon {
+      order: 2;
+      display: flex;
+      justify-content: end;
 
-    @include r.responsive(tablet) {
-      max-width: 100%;
+      img {
+        @include r.responsive(tablet-large) {
+          width: 17vw;
+        }
+
+        @include r.responsive(tablet) {
+          width: 17vw;
+        }
+
+        @include r.responsive(phone-large) {
+          width: 17vw;
+        }
+
+        @include r.responsive(phone) {
+          width: 17vw;
+        }
+      }
     }
-    @include r.responsive(phone-large) {
-      max-width: 100%;
-    }
-    @include r.responsive(phone) {
-      max-width: 100%;
+
+    .scroll-cards {
+      order: 1;
+
+      .card__text {
+        background-image: $background-img-variant2;
+
+        p {
+          transform: rotate(-5deg);
+        }
+      }
     }
   }
 
-  &__text-border {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: $background-card-all;
-    border-radius: 40px;
-    z-index: -1;
+  &.variant-3 {
+    .fixed-icon {
+      order: 1;
+      display: flex;
+      justify-content: left;
+
+      img {
+        @include r.responsive(tablet-large) {
+          width: 14vw;
+        }
+
+        @include r.responsive(tablet) {
+          width: 14vw;
+        }
+
+        @include r.responsive(phone-large) {
+          width: 14vw;
+        }
+
+        @include r.responsive(phone) {
+          width: 11vw;
+        }
+      }
+    }
+
+    .scroll-cards {
+      order: 2;
+
+      .card__text {
+        background-image: $background-img-variant3;
+
+        p {
+          transform: rotate(8deg);
+        }
+      }
+    }
   }
 
-  &__text::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -2;
-    border-radius: 40px;
-    margin: -2px; 
-    background: $border-card-all;
+  .fixed-icon {
+    margin: 50px 0;
+    position: sticky;
+    top: 50px;
+    align-self: flex-start;
   }
 
-  &.card_image-first {
-    flex-direction: row-reverse;
+  .scroll-cards {
+    .card__text {
+      width: 800px;
+      height: 400px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin-bottom: 35px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: relative;
+      background-size: cover;
 
-    @include r.responsive(tablet) {
-      flex-direction: column;
-    }
-    @include r.responsive(phone-large) {
-      flex-direction: column;
-    }
-    @include r.responsive(phone) {
-      flex-direction: column;
+      @include r.responsive(desktop) {
+        width: 70vw;
+        height: 35vw;
+      }
+
+      @include r.responsive(tablet-large) {
+        width: 70vw;
+        height: 35vw;
+      }
+
+      @include r.responsive(tablet) {
+        width: 70vw;
+        height: 35vw;
+      }
+
+      @include r.responsive(phone-large) {
+        width: 70vw;
+        height: 35vw;
+        background-size: contain;
+      }
+
+      @include r.responsive(phone) {
+        width: 70vw;
+        height: 35vw;
+        background-size: contain;
+      }
+
+      p {
+        width: 600px;
+        font-size: 18px;
+        margin-left: 45px;
+        text-align: center;
+        text-align: center;
+
+        @include r.responsive(desktop) {
+          width: 54vw;
+        }
+
+        @include r.responsive(tablet-large) {
+          width: 54vw;
+        }
+
+        @include r.responsive(tablet) {
+          width: 54vw;
+          margin-left: 20px;
+          font-size: 16px;
+        }
+
+        @include r.responsive(phone-large) {
+          width: 54vw;
+          margin-left: 20px;
+          font-size: 14px;
+        }
+
+        @include r.responsive(phone) {
+          width: 56vw;
+          margin-left: 20px;
+          font-size: 12px;
+        }
+      }
     }
   }
 }

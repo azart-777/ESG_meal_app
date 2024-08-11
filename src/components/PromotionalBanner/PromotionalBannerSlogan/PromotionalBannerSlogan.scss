@@ -8,12 +8,14 @@ $text-color--accent: colors.$app-accent;
 $font-size--header: 36px;
 
 h2 {
+  @include n.no-user-text-selection;
   font-size: $font-size--header;
   font-weight: 700;
   line-height: 44px;
   text-transform: uppercase;
   text-align: center;
-  margin: 0;
+  margin: 0; 
+  padding: 0 15px;
   padding-top: 100px; //Тимчасово
 
   @include r.responsive(tablet-large) {

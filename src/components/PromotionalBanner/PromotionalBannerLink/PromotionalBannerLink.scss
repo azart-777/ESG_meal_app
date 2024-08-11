@@ -8,11 +8,13 @@ $text-color--accent: colors.$app-accent;
 $font-size--header: 65px;
 
 .promotional-banner {
+  @include n.no-user-text-selection;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-top: 50px;
+  position: relative;
 
   &__link {
     display: flex;
@@ -21,7 +23,7 @@ $font-size--header: 65px;
     flex-direction: column;
     width: 200px;
     height: 200px;
-    border-radius: 2vw;
+    border-radius: 40px;
     position: relative;
     text-align: center;
     margin: 25px;
@@ -33,20 +35,20 @@ $font-size--header: 65px;
     }
 
     @include r.responsive(tablet-large) {
-      width: 15vw;
-      height: 15vw;
+      width: 14vw;
+      height: 14vw;
       margin: 12px;
     }
 
     @include r.responsive(tablet) {
-      width: 20vw;
-      height: 20vw;
+      width: 15vw;
+      height: 15vw;
       margin: 10px;
     }
 
     @include r.responsive(phone-large) {
-      width: 20vw;
-      height: 20vw;
+      width: 15vw;
+      height: 15vw;
       margin: 4px;
     }
 
@@ -63,7 +65,7 @@ $font-size--header: 65px;
       left: 2px;
       right: 2px;
       bottom: 2px;
-      border-radius: 2vw;
+      border-radius: 40px;
       padding: 1.7px;
       background: linear-gradient(
         90deg,
@@ -79,12 +81,35 @@ $font-size--header: 65px;
       -webkit-mask-composite: xor;
       mask-composite: exclude;
       pointer-events: none;
+
+      @include r.responsive(desktop) {
+        border-radius: 2vw;
+      }
+
+      @include r.responsive(tablet-large) {
+        border-radius: 2vw;
+      }
+
+      @include r.responsive(tablet) {
+        border-radius: 2vw;
+      }
+
+      @include r.responsive(phone-large) {
+        border-radius: 2.5vw;
+      }
+
+      @include r.responsive(phone) {
+        border-radius: 2.5vw;
+      }
     }
 
     &-img--first {
       width: 100px;
       height: 125px;
       transform: skew(-10deg, 0deg);
+      user-select: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
 
       @include r.responsive(desktop) {
         width: 7vw;
@@ -92,8 +117,8 @@ $font-size--header: 65px;
       }
 
       @include r.responsive(tablet-large) {
-        width: 8vw;
-        height: 10vw;
+        width: 7vw;
+        height: 9vw;
       }
 
       @include r.responsive(tablet) {
@@ -102,8 +127,8 @@ $font-size--header: 65px;
       }
 
       @include r.responsive(phone-large) {
-        width: 9vw;
-        height: 11vw;
+        width: 8vw;
+        height: 10vw;
       }
 
       @include r.responsive(phone) {
@@ -115,6 +140,9 @@ $font-size--header: 65px;
     &-img--second {
       width: 170px;
       height: 135px;
+      user-select: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
 
       @include r.responsive(desktop) {
         width: 12vw;
@@ -122,8 +150,8 @@ $font-size--header: 65px;
       }
 
       @include r.responsive(tablet-large) {
-        width: 13vw;
-        height: 10vw;
+        width: 12vw;
+        height: 9vw;
       }
 
       @include r.responsive(tablet) {
@@ -132,8 +160,8 @@ $font-size--header: 65px;
       }
 
       @include r.responsive(phone-large) {
-        width: 16vw;
-        height: 13vw;
+        width: 13vw;
+        height: 10vw;
       }
 
       @include r.responsive(phone) {
@@ -146,6 +174,9 @@ $font-size--header: 65px;
       width: 150px;
       height: 170px;
       transform: skew(15deg, 355deg);
+      user-select: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
 
       @include r.responsive(desktop) {
         width: 10vw;
@@ -153,8 +184,8 @@ $font-size--header: 65px;
       }
 
       @include r.responsive(tablet-large) {
-        width: 11vw;
-        height: 13vw;
+        width: 10vw;
+        height: 12vw;
       }
 
       @include r.responsive(tablet) {
@@ -163,8 +194,8 @@ $font-size--header: 65px;
       }
 
       @include r.responsive(phone-large) {
-        width: 14vw;
-        height: 17vw;
+        width: 11vw;
+        height: 13vw;
       }
 
       @include r.responsive(phone) {
@@ -209,6 +240,7 @@ $font-size--header: 65px;
 
   &__link:first-child {
     transform: skew(10deg, 0deg);
+
     &::before {
       background: linear-gradient(
         115deg,
@@ -217,7 +249,7 @@ $font-size--header: 65px;
         rgba(0, 255, 0, 0),
         rgba(0, 255, 0, 0),
         rgba(0, 255, 0, 0),
-        rgba(0, 255, 0, 0.8),
+        rgba(0, 255, 0, 0.8)
       );
     }
   }
@@ -225,7 +257,7 @@ $font-size--header: 65px;
   &__link:nth-child(2) {
     width: 350px;
     height: 350px;
-    border-radius: 3vw;
+    border-radius: 40px;
 
     @include r.responsive(desktop) {
       width: 24vw;
@@ -233,18 +265,18 @@ $font-size--header: 65px;
     }
 
     @include r.responsive(tablet-large) {
-      width: 25vw;
-      height: 25vw;
+      width: 23vw;
+      height: 23vw;
     }
 
     @include r.responsive(tablet) {
-      width: 30vw;
-      height: 30vw;
+      width: 27vw;
+      height: 27vw;
     }
 
     @include r.responsive(phone-large) {
-      width: 30vw;
-      height: 30vw;
+      width: 27vw;
+      height: 27vw;
     }
 
     @include r.responsive(phone) {
@@ -253,13 +285,34 @@ $font-size--header: 65px;
     }
 
     &::before {
-      border-radius: 3vw;
+      border-radius: 40px;
+
+      @include r.responsive(desktop) {
+        border-radius: 2.5vw;
+      }
+
+      @include r.responsive(tablet-large) {
+        border-radius: 2.5vw;
+      }
+
+      @include r.responsive(tablet) {
+        border-radius: 2.5vw;
+      }
+
+      @include r.responsive(phone-large) {
+        border-radius: 3vw;
+      }
+
+      @include r.responsive(phone) {
+        border-radius: 3vw;
+      }
     }
   }
 
   &__link:last-child {
     transform: skew(-10deg, 0deg);
-    &::before {      
+
+    &::before {
       background: linear-gradient(
         65deg,
         rgba(0, 255, 0, 0.8),

@@ -2,7 +2,7 @@ import { ContactUsForm } from '../../components';
 import TreeInfoComponent from '../../components/TreeInfoComponent/TreeInfoComponent';
 import { Header } from "../../components/Header/Header";
 import { PromotionalBanner } from '../../components';
-import { EarthImage } from '../../components';
+// import { EarthImage } from '../../components'; {/*Переписав компоненту, в PromotionalBanner*/}
 import { IconCardComponent } from '../../components';
 import { MoveUpArrow } from '../../components';
 
@@ -11,7 +11,7 @@ const Home = () => {
         <>
             <Header />
             <PromotionalBanner/>
-            <EarthImage />
+            {/* <EarthImage /> */} {/*Переписав компоненту, в PromotionalBanner*/}
             <TreeInfoComponent />
             <IconCardComponent />
             <ContactUsForm />

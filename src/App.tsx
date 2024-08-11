@@ -13,9 +13,9 @@ function App() {
         <LanguageProvider>
             <ThemeProvider theme={theme}>
                 <CssBaseline />
-                <Container   maxWidth='xl'>
+                {/* <Container   maxWidth='xl'> */}
                     <Home />
-                </Container>
+                {/* </Container> */}
             </ThemeProvider>
         </LanguageProvider>
     </div>

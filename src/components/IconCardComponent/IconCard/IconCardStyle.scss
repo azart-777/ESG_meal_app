@@ -1,11 +1,14 @@
-@use "./../../../shared/styles/mixins/responsive.scss" as r;
-@use "./../../../shared/styles/variables/colors.scss" as colors;
+@use "./../../../shared/styles/mixins/no-user-text-selection" as n;
+@use "./../../../shared/styles/mixins/responsive" as r;
+@use "./../../../shared/styles/variables/colors" as colors;
+@use "./../../../shared/styles/variables/fonts" as fonts;
 
 $background-img-variant1: url(../../../assets/images/paintStainCheapIT.png);
 $background-img-variant2: url(../../../assets/images/paintStainEcoMeal.png);
 $background-img-variant3: url(../../../assets/images/paintStainMealCount.png);
 
 .scroll-section {
+  @include n.no-user-text-selection;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -38,6 +41,10 @@ $background-img-variant3: url(../../../assets/images/paintStainMealCount.png);
       justify-content: left;
 
       img {
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-touch-callout: none;
+
         @include r.responsive(tablet-large) {
           width: 17vw;
         }
@@ -77,6 +84,10 @@ $background-img-variant3: url(../../../assets/images/paintStainMealCount.png);
       justify-content: end;
 
       img {
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-touch-callout: none;
+
         @include r.responsive(tablet-large) {
           width: 17vw;
         }
@@ -115,6 +126,10 @@ $background-img-variant3: url(../../../assets/images/paintStainMealCount.png);
       justify-content: left;
 
       img {
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-touch-callout: none;
+
         @include r.responsive(tablet-large) {
           width: 14vw;
         }

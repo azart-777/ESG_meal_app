@@ -1,0 +1,198 @@
+@use './../../../shared/styles/mixins/responsive.scss' as r;
+
+footer {
+  position: relative;
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    position: relative;
+    z-index: 1;
+    
+    .social-media {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0; 
+
+      @include r.responsive(phone) {
+        position: absolute;
+        top: 260px;
+        left: 440px;
+        width: 0%;
+        height: 30%;
+        z-index: 0;
+        rotate: 90deg;
+            }
+      @include r.responsive(phone-large) {
+        position: absolute;
+        top: 260px;
+        left: 440px;
+        width: 0%;
+        height: 30%;
+        z-index: 0;
+        rotate: 90deg;
+            }
+      @include r.responsive(tablet) {
+        position: absolute;
+        top: 260px;
+        left: 440px;
+        width: 0%;
+        height: 30%;
+        z-index: 0;
+        rotate: 90deg;
+            }
+      @include r.responsive(tablet-large) {
+        position: absolute;
+        top: 260px;
+        left: 440px;
+        width: 0%;
+        height: 30%;
+        z-index: 0;
+        rotate: 90deg;
+            }
+    }
+
+    .footer-background-container {
+      position: absolute;
+      top: 0;
+      left: 120px;
+      width: 90%;
+      height: 100%;
+      z-index: 0;
+
+      @include r.responsive(desktop) {
+      width: 87%;
+      }
+      @include r.responsive(tablet-large) {
+      left: 0;
+      width: 100%;
+      }
+      @include r.responsive(tablet) {
+      left: 0;
+      width: 100%;
+      }
+      @include r.responsive(phone-large) {
+      left: 0;
+      width: 100%;
+      }
+      @include r.responsive(phone) {
+      left: 0;
+      width: 100%;
+      }
+ 
+      img {
+        width: 100%;
+        height: 400px;
+      }
+    }
+
+    .footer-text-container {
+      display: flex;
+      justify-content: center; 
+      position: relative;
+      margin-left: 150px;
+      z-index: 2;
+
+      @include r.responsive(tablet-large) {
+      margin: 0 0 150px 0;
+    }
+    
+    
+      ul {
+        list-style-type: none;
+        padding-top: 40px;
+      }
+      li {
+        padding: 10px 0;
+      }
+
+      .title-footer {
+        font-weight: bold;
+        color: white;
+      }
+
+      .PP-detail {
+        font-style: italic;
+        padding: 0;
+      }
+    }
+
+    .footerList-first{
+      display: flex;
+    }
+    .footerList-second{
+      display: flex;
+
+      @include r.responsive(desktop) {
+        display: block;
+        padding-top: 40px;
+        ul{
+          padding-top: 0;
+        }
+      }
+      @include r.responsive(tablet-large) {
+        display: block;
+        padding-top: 40px;
+        ul{
+          padding-top: 0;
+        }
+      }
+      @include r.responsive(tablet) {
+        display: block;
+        padding-top: 40px;
+          ul{
+            padding-top: 0;
+          }
+      }
+      @include r.responsive(phone-large) {
+        display: block;
+        padding-top: 40px;
+        ul{
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.create-by-container {
+  width: 360px;
+  color: green;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-create-by {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 50px;
+
+  img {
+    width: 150px;
+  } 
+}
+
+
+
+
+

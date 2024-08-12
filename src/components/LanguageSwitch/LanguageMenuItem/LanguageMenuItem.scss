@@ -1,0 +1,9 @@
+@use "./../../../shared/styles/variables/colors" as colors;
+
+.MuiMenuItem-root {
+  &.language-switch {
+    &__menu-item {
+      color: colors.$white-text;
+    }
+  }
+}

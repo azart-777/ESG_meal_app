@@ -1,0 +1,40 @@
+@use "./../../../shared/styles/mixins/no-user-text-selection" as n;
+@use "./../../../shared/styles/mixins/responsive" as r;
+@use "./../../../shared/styles/variables/colors" as colors;
+@use "./../../../shared/styles/variables/fonts" as fonts;
+
+$text-color--accent: colors.$app-accent;
+
+$font-size--header: 36px;
+
+h2 {
+  @include n.no-user-text-selection;
+  font-size: $font-size--header;
+  font-weight: 700;
+  line-height: 44px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0; 
+  padding: 0 15px;
+  padding-top: 100px; //Тимчасово
+
+  @include r.responsive(tablet-large) {
+    font-size: 32px;
+  }
+
+  @include r.responsive(tablet) {
+    font-size: 32px;
+  }
+
+  @include r.responsive(phone-large) {
+    font-size: 28px;
+  }
+
+  @include r.responsive(phone) {
+    font-size: 28px;
+  }
+
+  span {
+    color: $text-color--accent;
+  }
+}

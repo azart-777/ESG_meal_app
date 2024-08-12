@@ -5,6 +5,12 @@ import logo_Gift_box_logo_with_title from './giftBox.png';
 import logo_Sonik_technology from './sonikTechnology.png';
 import logo_Sun_footer from './Sun base.png';
 import green_brush_background from './greenBrush.png';
+import chip_it_family_logo from './CheapItFamilyLogo.png';
+import green_planet from './GreenPlanet.png';
+import move_up_arrow from './MoveUpArrow.png';
+import Earth_image_in_main_banner from "./earth.png";
+import Green_smoke_in_main_banner from "./green_smoke.png";
+import logo_Cheap_IT_in_main_banner from "./cheapItLogo.png"
 
 
 export {
@@ -14,5 +20,11 @@ export {
     logo_Gift_box_logo_with_title,
     logo_Sonik_technology,
     logo_Sun_footer,
-    green_brush_background
+    green_brush_background,
+    chip_it_family_logo,
+    move_up_arrow,
+    green_planet,
+    Earth_image_in_main_banner,
+    Green_smoke_in_main_banner,
+    logo_Cheap_IT_in_main_banner
 }

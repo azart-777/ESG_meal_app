@@ -6,7 +6,7 @@ import treeImage from "../../assets/images/arrows.png";
 import giftBox from "../../assets/images/giftBox.png";
 import { Container } from "@mui/material";
 
-export default function TreeInfoComponent() {
+export function TreeInfoComponent() {
   return (
     <Container className={"mb-3xl"}>
       <div className={"info-tree"}>

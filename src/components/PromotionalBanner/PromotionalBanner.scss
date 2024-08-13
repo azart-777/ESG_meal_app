@@ -109,6 +109,7 @@
       height: 50%;
       position: absolute;
       transform: scale(1.8) translateY(80px);
+      z-index: 400;
       background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0),

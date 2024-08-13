@@ -3,8 +3,12 @@ import "./style/Footer.scss"
 
 import { 
   logo_Sonik_technology,
-  logo_Sun_footer,
-  green_brush_background
+  green_brush_background,
+  icon_Apple,
+  icon_Facebook,
+  icon_Google,
+  icon_Instagram,
+  icon_Web
 } from '../../assets/images/';
 
 const Footer: React.FC = () => {
@@ -12,14 +16,18 @@ const Footer: React.FC = () => {
   return (
     <footer>
 
-
     <div className="footer-container">
 
       <div className="social-media">
-        <img src={logo_Sun_footer} alt="SonikTechnologyLogo" />
+        <div className="social-media-text">Join us</div>
+        <div className="icon-Apple"> <img src={icon_Apple} alt="" /> </div>
+        <div className="icon-Facebook"> <img src={icon_Facebook} alt="" /> </div>
+        <div className="icon-Google"> <img src={icon_Google} alt="" /> </div>
+        <div className="icon-Instagram"> <img src={icon_Instagram} alt="" /> </div>
+        <div className="icon-Web"> <img src={icon_Web} alt="" /> </div>
         </div>
 
-        <div className="footer-background-container">
+         <div className="footer-background-container">
           <img src={green_brush_background} alt="" />
         </div>
           <div className="footer-text-container">
@@ -61,20 +69,16 @@ const Footer: React.FC = () => {
           <li className="title-footer">Media</li>
             <li>Materials for media</li>
         </ul>
-
-
-        </div>
-        
+      </div>
       </div>
       </div>
       
       <div className="footer-create-by">
-        <div className="create-by-container">2024,ALL RIGHT RESERVED</div>
+        <div className="create-by-container">&#169;2024,ALL RIGHT RESERVED</div>
         <div className="create-by-container">MADE IN UKRAINE</div>
         <div><img src={logo_Sonik_technology} alt="SonikTechnologyLogo" />
         </div>
       </div>
-      
 
     </footer>
   );

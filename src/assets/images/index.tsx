@@ -3,7 +3,7 @@ import logo_Meal_count_with_title from './MealCountLogoName.png';
 import logo_Meal_market_logo_with_title from './ecoMealMarketLogo.png';
 import logo_Gift_box_logo_with_title from './giftBox.png';
 import logo_Sonik_technology from './sonikTechnology.png';
-import logo_Sun_footer from './Sun base.png';
+import logo_Sun_footer from './SunBase.png';
 import green_brush_background from './greenBrush.png';
 import chip_it_family_logo from './CheapItFamilyLogo.png';
 import green_planet from './GreenPlanet.png';
@@ -11,6 +11,11 @@ import move_up_arrow from './MoveUpArrow.png';
 import Earth_image_in_main_banner from "./earth.png";
 import Green_smoke_in_main_banner from "./green_smoke.png";
 import logo_Cheap_IT_in_main_banner from "./cheapItLogo.png"
+import icon_Apple from "./socialApple.png"
+import icon_Facebook from "./socialFacebook.png"
+import icon_Google from "./socialGoogle.png"
+import icon_Instagram from "./socialInstagram.png"
+import icon_Web from "./socialWeb.png"
 
 
 export {
@@ -26,5 +31,10 @@ export {
     green_planet,
     Earth_image_in_main_banner,
     Green_smoke_in_main_banner,
-    logo_Cheap_IT_in_main_banner
+    logo_Cheap_IT_in_main_banner,
+    icon_Apple,
+    icon_Facebook,
+    icon_Google,
+    icon_Instagram,
+    icon_Web
 }

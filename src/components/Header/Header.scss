@@ -1,10 +1,12 @@
 @use './../../shared/styles/mixins/responsive' as r;
+@use "./../../shared/styles/mixins/no-user-text-selection" as n;
 
 .header {
   position: relative;
   display: flex;
   justify-content: center;
   overflow: hidden;
+  @include n.no-user-text-selection;
 
   &__logo {
     position: relative;

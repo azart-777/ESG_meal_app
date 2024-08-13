@@ -6,7 +6,7 @@ import { chip_it_family_logo, green_planet } from "../../assets/images";
 export const Header:  React.FC = () => {
     return (
         <>
-            <div className="header">
+            <div className="header mb-md">
                 <div className="header__logo-container">
                     <div className="header__logo-planet">
                         <img className="header__logo-planet-image" src={green_planet}

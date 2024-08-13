@@ -1,16 +1,15 @@
 import React from "react";
 import "./PromotionalBanner.scss";
 import PromotionalBannerSlogan from "./PromotionalBannerSlogan/PromotionalBannerSlogan";
-import PromotionalBannerLink from "./PromotionalBannerLink/PromotionalBannerLink";
-import { Container } from "@mui/material";
+import PromotionalBannerLinks from "./PromotionalBannerLinks/PromotionalBannerLinks";
 import { Earth_image_in_main_banner } from "../../assets/images/index";
 import { Green_smoke_in_main_banner } from "../../assets/images/index";
 
 export const PromotionalBanner: React.FC = () => {
   return (
-    <div className={"main-promotional-banner"}>
+    <div className={"main-promotional-banner mb-xxl"}>
       <PromotionalBannerSlogan />
-      <PromotionalBannerLink />
+      <PromotionalBannerLinks />
       <div className={"banner"}>
         <img
           className={"banner__smoke"}

@@ -5,7 +5,6 @@
 
 .info-tree {
   width: 100%;
-  padding: 100px 0;
   position: relative;
 
   @include n.no-user-text-selection;
@@ -321,13 +320,13 @@
 
   &__gift-box {
     position: relative;
-    padding: 15px;
+    padding: 15px 15px 0;
     border-radius: 100%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 12px 0;
+    margin-top: 12px;
     z-index: 300;
 
     img {

@@ -5,6 +5,7 @@
 
 .main-promotional-banner {
   width: 100%;
+  @include n.no-user-text-selection;
 
   .banner {
     width: 100%;

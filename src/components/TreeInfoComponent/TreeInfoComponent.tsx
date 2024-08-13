@@ -8,7 +8,7 @@ import { Container } from "@mui/material";
 
 export default function TreeInfoComponent() {
   return (
-    <Container>
+    <Container className={"mb-3xl"}>
       <div className={"info-tree"}>
         <div className={"info-tree__section"}>
           <div className={"info-tree__section-card"}>

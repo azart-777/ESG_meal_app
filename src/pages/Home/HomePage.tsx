@@ -8,7 +8,7 @@ import { MoveUpArrow } from '../../components';
 const Home = () => {
     return (
         <>
-            <Header />
+            <Header/>
             <PromotionalBanner/>
             <TreeInfoComponent />
             <IconCardComponent />

@@ -1,3 +1,5 @@
+@use "./../../shared/styles/mixins/no-user-text-selection" as n;
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,6 +11,7 @@ html {
   z-index: 9999;
   cursor: pointer;
   animation: triangle 4s both infinite;
+  @include n.no-user-text-selection;
 
   @keyframes triangle {
     0% {

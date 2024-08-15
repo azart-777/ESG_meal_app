@@ -8,7 +8,8 @@ import move_up_arrow from './MoveUpArrow.png';
 import Earth_image_in_main_banner from "./earth.png";
 import Green_smoke_in_main_banner from "./green_smoke.png";
 import logo_Cheap_IT_in_main_banner from "./cheapItLogo.png"
-
+import Jake_talking_head from './Jake.png' 
+import frame_for_talking_head from './CircleForTalkingHead.png'
 
 export {
     logo_Cheap_it_with_title,
@@ -20,5 +21,7 @@ export {
     green_planet,
     Earth_image_in_main_banner,
     Green_smoke_in_main_banner,
-    logo_Cheap_IT_in_main_banner
+    logo_Cheap_IT_in_main_banner,
+    Jake_talking_head,
+    frame_for_talking_head
 }

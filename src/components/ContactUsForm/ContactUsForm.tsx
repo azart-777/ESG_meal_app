@@ -22,7 +22,7 @@ export const ContactUsForm:  React.FC = () => {
                 const hasError = touched.userSummary && errors.userSummary;
 
                 return (
-                    <Container  maxWidth='md'>
+                    <Container  maxWidth='md' className={"pb-xxl"}>
                     <form className={'contact-us__form'} onSubmit={handleSubmit}>
                         <div className={'contact-us__form-header-container'}>
                             <span>{t("contactUs.contact")} <span>{t("contactUs.us")}</span></span>

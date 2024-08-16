@@ -6,7 +6,7 @@ const PromotionalBannerSlogan: React.FC = () => {
   const { t } = useTranslation(["pages/home-page"]);
 
   return (
-    <div>
+    <div className={"promotional-banner-slogan"}>
       <h2>
         {t("slogan.eat")} <span>{t("slogan.well")}</span>, {t("slogan.spend")}{" "}
         <span>{t("slogan.less")}</span>, {t("slogan.andMake")}{" "}

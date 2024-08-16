@@ -5,7 +5,6 @@
 
 .info-tree {
   width: 100%;
-  padding: 100px 0;
   position: relative;
 
   @include n.no-user-text-selection;
@@ -321,13 +320,13 @@
 
   &__gift-box {
     position: relative;
-    padding: 15px;
+    padding: 15px 15px 0;
     border-radius: 100%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 12px 0;
+    margin-top: 12px;
     z-index: 300;
 
     img {
@@ -365,14 +364,7 @@
       height: 350px;
       border-radius: 50%;
       position: absolute;
-      background: radial-gradient(
-        circle,
-        rgba(13, 126, 15, 0.7),
-        rgba(7, 61, 9, 0.833),
-        rgba(2, 20, 3, 0.7),
-        rgba(1, 12, 2, 0.7),
-        rgba(0, 0, 0, 0.799)
-      );
+      background: radial-gradient(circle, rgb(13 126 15), rgb(7 61 9), rgb(2 20 3 / 46%), rgb(1 12 2 / 0%), rgb(0 0 0 / 0%));
       z-index: -2;
 
       @include r.responsive(desktop) {
@@ -388,9 +380,9 @@
           circle,
           rgba(13, 126, 15, 0.548),
           rgba(7, 61, 9, 0.833),
-          rgba(2, 20, 3, 0.434),
-          rgba(1, 12, 2, 0.4),
-          rgba(0, 0, 0, 0.537)
+          rgba(2, 20, 3, 0),
+          rgba(1, 12, 2,  0),
+          rgba(0, 0, 0, 0)
         );
       }
 
@@ -401,9 +393,9 @@
           circle,
           rgba(13, 126, 15, 0.548),
           rgba(7, 61, 9, 0.833),
-          rgba(2, 20, 3, 0.434),
-          rgba(1, 12, 2, 0.4),
-          rgba(0, 0, 0, 0.537)
+          rgba(2, 20, 3, 0),
+          rgba(1, 12, 2,  0),
+          rgba(0, 0, 0, 0)
         );
       }
     }

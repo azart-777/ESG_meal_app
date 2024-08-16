@@ -1,0 +1,114 @@
+@use "./../../../shared/styles/mixins/no-user-text-selection" as n;
+@use "./../../../shared/styles/mixins/responsive" as r;
+@use "./../../../shared/styles/variables/colors" as colors;
+@use "./../../../shared/styles/variables/fonts" as fonts;
+
+$social-media-background: url("./../../../assets/images/SunBase.png");
+$hover-background-color: colors.$app-accent;
+$text-Join-us: colors.$green-dark;
+$font-size-Join-us: 22px;
+
+
+.social-media {
+  position: absolute;
+  top: 90px;
+  width: 230px;
+  height: 300px;
+  background: $social-media-background;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+
+  @include r.responsive(tablet-large) {
+    rotate: 90deg;
+    top: 365px;
+    right: 35%;
+  }
+
+  @include r.responsive(tablet) {
+    rotate: 90deg;
+    top: 365px;
+    right: 35%;
+  }
+
+  @include r.responsive(phone-large) {
+    rotate: 90deg;
+    top: 365px;
+    right: 30%;
+  }
+
+  @include r.responsive(phone) {
+    rotate: 90deg;
+    top: 250px;
+    right: 40%;
+  }
+
+  .social-media-text {
+    color: $text-Join-us;
+    font-size: $font-size-Join-us;
+    text-transform: uppercase;
+    rotate: 270deg;
+    position: absolute;
+    top: 135px;
+  }
+
+  // Оновлені стилі для іконок
+  .icon-Apple, .icon-Facebook, .icon-Google, .icon-Instagram, .icon-Web {
+    position: absolute;
+    cursor: pointer;
+    padding: 2px;
+    transition: background-color 0.3s ease, border-radius 20s ease;
+    border-radius: 30px; 
+
+    &:hover {
+      background-color: $hover-background-color;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+    @include r.responsive(tablet-large) {
+      rotate: 270deg;
+    }
+
+    @include r.responsive(tablet) {
+      rotate: 270deg;
+    }
+
+    @include r.responsive(phone-large) {
+      rotate: 270deg;
+    }
+
+    @include r.responsive(phone) {
+      rotate: 270deg;
+    }
+  }
+
+  .icon-Apple {
+    bottom: 300px;
+    left: 30px;
+  }
+
+  .icon-Facebook {
+    left: 118px;
+    bottom: 215px;
+  }
+
+  .icon-Google {
+    left: 140px;
+    bottom: 130px;
+  }
+
+  .icon-Instagram {
+    left: 118px;
+    bottom: 40px;
+  }
+
+  .icon-Web {
+    left: 30px;
+    bottom: -40px;
+  }
+}
+

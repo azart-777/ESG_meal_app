@@ -1,9 +1,12 @@
 @use './../../shared/styles/mixins/responsive' as r;
+@use "./../../shared/styles/mixins/no-user-text-selection" as n;
 
 .header {
   position: relative;
   display: flex;
   justify-content: center;
+  overflow: hidden;
+  @include n.no-user-text-selection;
 
   &__logo {
     position: relative;
@@ -13,6 +16,7 @@
 
     @include r.responsive(phone) {
       margin-top: 25px;
+      margin-bottom: 80px;
     }
 
     @include r.responsive(phone-large) {
@@ -53,8 +57,10 @@
 
     &-planet {
       position: absolute;
+      display: flex;
+      justify-content: center;
+      width: 100%;
       top: -400px;
-      left: calc(100% - 364px);
       z-index: 20;
 
       &-image {
@@ -64,7 +70,6 @@
 
       @include r.responsive(phone-large) {
         top: -150px;
-        left: calc(100% - 199px);
 
         &-image {
           height: 300px;
@@ -73,7 +78,6 @@
 
       @include r.responsive(tablet) {
         top: -215px;
-        left: calc(100% - 253px);
 
         &-image {
           height: 400px;
@@ -82,7 +86,6 @@
 
       @include r.responsive(tablet-large) {
         top: -290px;
-        left: calc(100% - 305px);
 
         &-image {
           height: 500px;
@@ -99,9 +102,8 @@
     margin-right: 20px;
     z-index: 30;
 
-
     @include r.responsive(phone) {
-      margin-right: 0;
+      margin-right: 10px;
     }
     @include r.responsive(phone-large) {
       margin-right: 10px;

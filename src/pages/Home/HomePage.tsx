@@ -1,20 +1,20 @@
-import { ContactUsForm } from '../../components';
-import TreeInfoComponent from '../../components/TreeInfoComponent/TreeInfoComponent';
-import Footer from '../../components/Footer/Footer';
-import { Header } from "../../components/Header/Header";
-import { PromotionalBanner } from '../../components';
-import { IconCardComponent } from '../../components';
-import { MoveUpArrow } from '../../components';
+import { ContactUsForm, TreeInfoComponent, Header, PromotionalBanner, IconCardComponent, MoveUpArrow, Footer } from '../../components';
+import './Home.scss';
 
 const Home = () => {
     return (
         <>
-            <Header />
+            <Header/>
             <PromotionalBanner/>
             <TreeInfoComponent />
             <IconCardComponent />
             <ContactUsForm />
             <Footer/>
+                <div className={"home-page__background-container"}>
+                    <TreeInfoComponent />
+                    <IconCardComponent />
+                    <ContactUsForm />
+                </div>
             <MoveUpArrow />
         </>
     );

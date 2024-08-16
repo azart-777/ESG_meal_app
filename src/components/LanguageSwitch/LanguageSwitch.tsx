@@ -20,7 +20,7 @@ export const LanguageSwitch: React.FC = () => {
             <Popper
                 className={'language-switch__popper'}
                 transition
-                disablePortal={true}
+                disablePortal={false}
                 open={open}
                 anchorEl={anchorRef.current}
                 role={undefined}

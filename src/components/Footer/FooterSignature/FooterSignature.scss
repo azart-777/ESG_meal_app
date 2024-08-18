@@ -1,0 +1,32 @@
+@use './../../../shared/styles/mixins/responsive.scss' as r;
+
+.footer-signature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include r.responsive(tablet-large) {
+    margin-top: 200px;
+  }
+  @include r.responsive(tablet) {
+    margin-top: 200px;
+  }
+  @include r.responsive(phone-large) {
+    margin-top: 200px;
+  }
+  @include r.responsive(phone) {
+    margin-top: 200px;
+  }
+
+  &__text {
+    flex: 1;
+    text-align: center;
+    color: green;
+  }
+
+  &__logo {
+    img {
+      height: 100px;
+    }
+  }
+}

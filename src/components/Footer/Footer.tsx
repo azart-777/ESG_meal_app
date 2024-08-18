@@ -1,8 +1,8 @@
 import React from "react";
-import "./FooterSummary/Footer.scss";
-import FooterSignature from "./FooterSummary/FooterSignature";
-import FooterSocialMedia from "./FooterSummary/FooterSocialMedia";
-import FooterList from "./FooterSummary/FooterList";
+import "./Footer.scss";
+import FooterSocialMedia from "./FooterSocialMedia/FooterSocialMedia";
+import FooterList from "./FooterList/FooterList";
+import FooterSignature from "./FooterSignature/FooterSignature";
 import { footerSections } from "./FooterData";
 
 export const Footer: React.FC = () => {

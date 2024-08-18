@@ -6,9 +6,8 @@
 $text-color: colors.$gray-base;
 $hover-text-color: colors.$green-light;
 $title-text: colors.$white-text;
-$font-size-Join-us: 22px;
 
-.footer-text-container {
+.footer-list {
   display: flex;
   justify-content: center;
   position: relative;
@@ -16,7 +15,7 @@ $font-size-Join-us: 22px;
   width: 100%;
   z-index: 1;
 
-  .footerList-background {
+  &__background {
     position: absolute; 
     top: 0;
     left: 120px;
@@ -32,42 +31,23 @@ $font-size-Join-us: 22px;
       height: 100%;
     }
 
-    @include r.responsive(phone-large) {
-        display: none; 
-      }
-    @include r.responsive(phone) {
-        display: none; 
-      }
+    @include r.responsive(phone-large){
+      display: none; 
+    }
+    @include r.responsive(phone){
+      display: none; 
+    }
+    @include r.responsive(tablet) {
+      display: none; 
+    }
+
     @include r.responsive(tablet-large) {
       left: 0;
       width: 100%;
-      }
-    @include r.responsive(tablet) {
-        display: none; 
-      }
-  }
-
-  @include r.responsive(tablet) {
-    background: none;
-
-    &::before, &::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      width: 95%;
-      height: 2px;
-      background-color: green;
-      transform: translateX(-50%);
-    }
-    &::before {
-      top: 0;
-    }
-    &::after {
-      bottom: 0;
     }
   }
 
-  @include r.responsive(phone) {
+  @include r.responsive(phone-large){
     background: none;
     flex-wrap: wrap;
 
@@ -80,16 +60,20 @@ $font-size-Join-us: 22px;
       background-color: green;
       transform: translateX(-50%);
     }
+
     &::before {
       top: 0;
     }
+
     &::after {
       bottom: 0;
     }
-  }
 
-  @include r.responsive(phone-large) {
+  }
+  @include r.responsive(phone){
     background: none;
+    flex-wrap: wrap;
+
     &::before, &::after {
       content: "";
       position: absolute;
@@ -99,9 +83,34 @@ $font-size-Join-us: 22px;
       background-color: green;
       transform: translateX(-50%);
     }
+
     &::before {
       top: 0;
     }
+
+    &::after {
+      bottom: 0;
+    }
+  }
+
+  @include r.responsive(tablet) {
+    background: none;
+    flex-wrap: wrap;
+
+    &::before, &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      width: 95%;
+      height: 2px;
+      background-color: green;
+      transform: translateX(-50%);
+    }
+
+    &::before {
+      top: 0;
+    }
+
     &::after {
       bottom: 0;
     }
@@ -112,72 +121,60 @@ $font-size-Join-us: 22px;
     padding-top: 40px;
   }
 
-  li {
+  &__link {
     padding: 10px 0;
     cursor: pointer;
     color: $text-color;
+
+    &:hover {
+      color: $hover-text-color; 
+    }
   }
 
-  li:hover {
-    color: $hover-text-color; 
-  }
-
-  .title-footer {
+  &__title {
     color: $title-text;
-  }
-  .title-footer:hover {
-    color: $title-text;
-  }
-}
-
-.footerList-content {
-  display: flex;
-}
-
-.footerList-first {
-  display: flex;
-  position: relative; 
-  z-index: 1; 
-  
-  @include r.responsive(desktop) {
-  margin-left: 100px;  }
-  }
-
-.footerList-second {
-  display: flex;
-  position: relative; 
-  z-index: 1; 
-
-  @include r.responsive(desktop) {
-    display: block;
-    padding-top: 40px;
-    ul {
-      padding-top: 0;
+    
+    &:hover {
+      color: $title-text;
     }
   }
 
-  @include r.responsive(tablet-large) {
-    display: block;
-    padding-top: 40px;
-    ul {
-      padding-top: 0;
-    }
+  &__content {
+    display: flex;
   }
 
-  @include r.responsive(tablet) {
-    display: block;
-    padding-top: 40px;
-    ul {
-      padding-top: 0;
-    }
-  }
+  &__column {
+    display: flex;
+    position: relative;
+    z-index: 1;
 
-  @include r.responsive(phone-large) {
-    display: block;
-    padding-top: 40px;
-    ul {
-      padding-top: 0;
+    &--first {
+      @include r.responsive(desktop) {
+        margin-left: 100px;
+      }
+    }
+
+    &--second {
+      @include r.responsive(desktop){
+        display: block;
+        padding-top: 40px;
+      }
+      @include r.responsive(tablet-large){
+        display: block;
+        padding-top: 40px;
+      }
+      @include r.responsive(tablet){
+        display: block;
+        padding-top: 40px;
+      }
+      @include r.responsive(phone-large) {
+        display: block;
+        padding-top: 40px;
+
+        ul {
+          padding-top: 0;
+        }
+      }
     }
   }
 }
-

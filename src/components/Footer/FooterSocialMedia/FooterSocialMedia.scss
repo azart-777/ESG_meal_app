@@ -8,8 +8,7 @@ $hover-background-color: colors.$app-accent;
 $text-Join-us: colors.$green-dark;
 $font-size-Join-us: 22px;
 
-
-.social-media {
+.footer-social-media {
   position: absolute;
   top: 90px;
   width: 230px;
@@ -43,7 +42,7 @@ $font-size-Join-us: 22px;
     right: 40%;
   }
 
-  .social-media-text {
+  &__text {
     color: $text-Join-us;
     font-size: $font-size-Join-us;
     text-transform: uppercase;
@@ -52,8 +51,7 @@ $font-size-Join-us: 22px;
     top: 135px;
   }
 
-  // Оновлені стилі для іконок
-  .icon-Apple, .icon-Facebook, .icon-Google, .icon-Instagram, .icon-Web {
+  &__icon {
     position: absolute;
     cursor: pointer;
     padding: 2px;
@@ -68,7 +66,8 @@ $font-size-Join-us: 22px;
       display: block;
       width: 100%;
       height: auto;
-  }
+    }
+
     @include r.responsive(tablet-large) {
       rotate: 270deg;
     }
@@ -86,29 +85,28 @@ $font-size-Join-us: 22px;
     }
   }
 
-  .icon-Apple {
+  &__icon--apple {
     bottom: 300px;
     left: 30px;
   }
 
-  .icon-Facebook {
+  &__icon--facebook {
     left: 118px;
     bottom: 215px;
   }
 
-  .icon-Google {
+  &__icon--google {
     left: 140px;
     bottom: 130px;
   }
 
-  .icon-Instagram {
+  &__icon--instagram {
     left: 118px;
     bottom: 40px;
   }
 
-  .icon-Web {
+  &__icon--web {
     left: 30px;
     bottom: -40px;
   }
 }
-

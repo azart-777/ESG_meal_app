@@ -5,6 +5,7 @@ import { IconCardComponent } from './IconCardComponent/IconCardComponent'
 import { MoveUpArrow } from './MoveUpArrow/MoveUpArrow'
 import { Header } from './Header/Header'
 import { TreeInfoComponent } from './TreeInfoComponent/TreeInfoComponent'
+import { CircleWithTalkingHead } from './CircleWithTalkingHead/CircleWithTalkingHead';
 import { Footer } from './Footer/Footer'
 
 export {
@@ -12,6 +13,7 @@ export {
     IconCardComponent,
     MoveUpArrow,
     PromotionalBanner,
+    CircleWithTalkingHead,
     LanguageSwitch,
     Header,
     TreeInfoComponent,

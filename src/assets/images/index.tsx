@@ -16,7 +16,8 @@ import icon_Facebook from "./socialFacebook.png"
 import icon_Google from "./socialGoogle.png"
 import icon_Instagram from "./socialInstagram.png"
 import icon_Web from "./socialWeb.png"
-
+import Jake_talking_head from './Jake.png'
+import frame_for_talking_head from './CircleForTalkingHead.png'
 
 export {
     logo_Cheap_it_with_title,
@@ -31,6 +32,8 @@ export {
     green_planet,
     Earth_image_in_main_banner,
     Green_smoke_in_main_banner,
+    Jake_talking_head,
+    frame_for_talking_head,
     logo_Cheap_IT_in_main_banner,
     icon_Apple,
     icon_Facebook,

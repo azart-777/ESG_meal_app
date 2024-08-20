@@ -6,15 +6,12 @@ const Home = () => {
         <>
             <Header/>
             <PromotionalBanner/>
-            <TreeInfoComponent />
-            <IconCardComponent />
-            <ContactUsForm />
+            <div className={"home-page__background-container"}>
+                <TreeInfoComponent />
+                <IconCardComponent />
+                <ContactUsForm />
+            </div>
             <Footer/>
-                <div className={"home-page__background-container"}>
-                    <TreeInfoComponent />
-                    <IconCardComponent />
-                    <ContactUsForm />
-                </div>
             <MoveUpArrow />
         </>
     );

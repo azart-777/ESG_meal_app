@@ -1,4 +1,4 @@
-import { ContactUsForm, TreeInfoComponent, Header, PromotionalBanner, IconCardComponent, MoveUpArrow, CircleWithTalkingHead } from '../../components';
+import { ContactUsForm, TreeInfoComponent, Header, PromotionalBanner, IconCardComponent, MoveUpArrow, CircleWithTalkingHead, Footer } from '../../components';
 import './Home.scss';
 
 const Home = () => {
@@ -12,6 +12,7 @@ const Home = () => {
                 <IconCardComponent />
                 <ContactUsForm />
             </div>
+            <Footer/>
             <MoveUpArrow />
         </>
     );

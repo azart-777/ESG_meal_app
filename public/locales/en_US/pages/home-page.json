@@ -16,7 +16,6 @@
       "cardText3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis odit quas dicta. Quasi, doloribus. Ullam quod architecto adipisci aliquid eligendi aspernatur, maiores enim, nobis saepe natus, sunt neque iure sit eius eveniet aperiam fugit tempora id perspiciatis! Amet nobis, totam quam ad soluta quod cupiditate fugit sit deleniti, explicabo alias?"
     }
   },
-
   "contactUs": {
     "contact": "contact",
     "us": "us",
@@ -127,5 +126,32 @@
     "less": "less",
     "andMake": "and make",
     "yourPlanetSmile": "your planet smile"
+  },
+  
+  "footer": {
+    "menu": "Menu",
+    "home": "Home",
+    "forClient": "For Client",
+    "forBusiness": "For Business",
+    "ourPartners": "Our Partners",
+    "aboutUs": "About Us",
+    "support": "Support",
+    "contactUs": "Contact Us",
+    "faqClients": "FAQ clients",
+    "faqBusiness": "FAQ business",
+    "faqPartners": "FAQ partners",
+    "agreement": "Agreement",
+    "privacyPolicy": "Privacy Policy",
+    "business": "Business",
+    "clients": "Clients",
+    "partners": "Partners",
+    "termsAndConditions": "Terms & Conditions",
+    "map": "Map",
+    "ukraine": "Ukraine",
+    "priceAndSubscriptions": "Price & Subscriptions",
+    "subscriptionsPlans": "Subscriptions plans",
+    "media": "Media",
+    "materialsForMedia": "Materials for media"
   }
+
 }

@@ -16,7 +16,6 @@
       "cardText3": "Текст для картки 3"
     }
   },
-  
   "contactUs": {
     "contact": "Звяжіться із",
     "us": "нами",
@@ -127,5 +126,32 @@
     "less": "менше",
     "andMake": "зроби",
     "yourPlanetSmile": "свою планету щасливою"
-  }
+  },
+
+  "footer": {
+    "menu": "Меню",
+    "home": "Головна",
+    "forClient": "Для клієнтів",
+    "forBusiness": "Для бізнесу",
+    "ourPartners": "Наші партнери",
+    "aboutUs": "Про нас",
+    "support": "Підтримка",
+    "contactUs": "Зв'яжіться з нами",
+    "faqClients": "Питання клієнтів",
+    "faqBusiness": "Питання бізнесу",
+    "faqPartners": "Питання партнерів",
+    "agreement": "Угода",
+    "privacyPolicy": "Політика конфіденційності",
+    "business": "Бізнес",
+    "clients": "Клієнти",
+    "partners": "Партнери",
+    "termsAndConditions": "Умови та положення",
+    "map": "Карта",
+    "ukraine": "Україна",
+    "priceAndSubscriptions": "Ціни та підписки",
+    "subscriptionsPlans": "Плани підписки",
+    "media": "Медіа",
+    "materialsForMedia": "Матеріали для медіа"
+}
+
 }

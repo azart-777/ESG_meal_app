@@ -1,0 +1,9 @@
+footer {
+  position: relative;
+  .footer-container {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    z-index: 1;
+  }
+}

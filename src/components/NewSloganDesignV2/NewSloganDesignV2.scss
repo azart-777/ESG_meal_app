@@ -1,0 +1,71 @@
+@use "./../../shared/styles/mixins/no-user-text-selection" as n;
+@use "./../../shared/styles/mixins/responsive" as r;
+@use "./../../shared/styles/variables/colors" as colors;
+@use "./../../shared/styles/variables/fonts" as fonts;
+
+$text-color--accent: colors.$app-accent;
+$text-color--accent--new: #9BF201;
+
+$font-size--header: 80px;
+
+.new-slogan-design {
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+  h2 {
+    @include n.no-user-text-selection;
+    font-size: $font-size--header;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0 25px;
+    color: $text-color--accent--new;
+
+    @include r.responsive(desktop) {
+      font-size: 70px;
+    }
+
+    @include r.responsive(tablet-large) {
+      font-size: 52px;
+    }
+
+    @include r.responsive(tablet) {
+      font-size: 42px;
+    }
+
+    @include r.responsive(phone-large) {
+      font-size: 28px;
+    }
+
+    @include r.responsive(phone) {
+      font-size: 26px;
+    }
+
+    span {
+        background-color: #000000;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: rgb(115 114 114 / 34%) 1px 3px 3px;
+
+        @include r.responsive(tablet-large) {
+            text-shadow: rgb(115 114 114 / 34%) 1px 2px 2px;
+          }
+      
+        @include r.responsive(tablet) {
+            text-shadow: rgb(115 114 114 / 34%) 1px 2px 2px;
+          }
+      
+          @include r.responsive(phone-large) {
+            text-shadow: rgb(115 114 114 / 34%) 1px 1px 1px;
+          }
+      
+          @include r.responsive(phone) {
+            text-shadow: rgb(115 114 114 / 34%) 1px 1px 1px;
+          }
+    }
+  }
+
+}

@@ -1,6 +1,7 @@
 import { ContactUsForm } from './ContactUsForm/ContactUsForm'
 import { LanguageSwitch } from './LanguageSwitch/LanguageSwitch'
 import { PromotionalBanner } from './PromotionalBanner/PromotionalBanner'
+import { NewSloganDesignV2 } from './NewSloganDesignV2/NewSloganDesignV2'
 import { IconCardComponent } from './IconCardComponent/IconCardComponent'
 import { MoveUpArrow } from './MoveUpArrow/MoveUpArrow'
 import { Header } from './Header/Header'
@@ -17,5 +18,6 @@ export {
     LanguageSwitch,
     Header,
     TreeInfoComponent,
-    Footer
+    Footer,
+    NewSloganDesignV2
 }

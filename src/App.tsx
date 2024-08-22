@@ -4,7 +4,7 @@ import { LanguageProvider } from "./shared/hooks/useLanguage";
 
 import "./App.scss";
 import "./assets/fonts/fonts.scss";
-import Home from "./pages/Home/HomePage";
+import {Home , HomeTwo} from "./pages/";
 import theme from "./theme";
 
 function App() {
@@ -13,7 +13,8 @@ function App() {
       <LanguageProvider>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          <Home />
+          {/*<Home />*/}
+          <HomeTwo />
         </ThemeProvider>
       </LanguageProvider>
     </div>

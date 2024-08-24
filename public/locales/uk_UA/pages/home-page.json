@@ -138,6 +138,12 @@
     "planetSmile": "планету щасливою"
   },
 
+  "welcomeText": {
+    "WelcomeToThe": "Ласкаво просимо до",
+    "CheapItFamily": "Cheap-It family",
+    "todayWeBuildingTomorrow!": "сьогодні будуємо завтра!"
+  },
+
   "footer": {
     "menu": "Меню",
     "home": "Головна",

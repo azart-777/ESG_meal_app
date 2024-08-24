@@ -136,6 +136,12 @@
     "makeYour": "make your",
     "planetSmile": "planet smile"
   },
+
+  "welcomeText": {
+    "WelcomeToThe": "Welcome to the",
+    "CheapItFamily": "Cheap-It family",
+    "todayWeBuildingTomorrow!": "today we building tomorrow!"
+  },
   
   "footer": {
     "menu": "Menu",

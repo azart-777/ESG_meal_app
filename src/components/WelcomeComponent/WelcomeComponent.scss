@@ -1,0 +1,88 @@
+@use "./../../shared/styles/mixins/no-user-text-selection" as n;
+@use "./../../shared/styles/mixins/responsive" as r;
+@use "./../../shared/styles/variables/colors" as colors;
+@use "./../../shared/styles/variables/fonts" as fonts;
+
+$text-color--accent--new: #9bf201;
+
+.welcome-container {
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+  line-height: normal;
+
+  &__welcoming-text {
+    font-size: 80px;
+    margin: 0;
+
+    @include r.responsive(desktop) {
+      font-size: 70px;
+    }
+
+    @include r.responsive(tablet-large) {
+      font-size: 52px;
+    }
+
+    @include r.responsive(tablet) {
+      font-size: 42px;
+    }
+
+    @include r.responsive(phone-large) {
+      font-size: 28px;
+    }
+
+    @include r.responsive(phone) {
+      font-size: 26px;
+    }
+
+    span {
+      color: $text-color--accent--new;
+    }
+  }
+
+  &__border {
+    width: 70%;
+    height: 2px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #111111, #9bf201, #111111);
+  }
+
+  &__short-slogan {
+    font-size: 100px;
+    margin: 0;
+    box-shadow: 0 20px 20px #111111;
+    position: relative;
+    z-index: 100;
+
+    @include r.responsive(desktop) {
+      font-size: 80px;
+    }
+
+    @include r.responsive(tablet-large) {
+      font-size: 58px;
+    }
+
+    @include r.responsive(tablet) {
+      font-size: 48px;
+    }
+
+    @include r.responsive(phone-large) {
+      font-size: 34px;
+    }
+
+    @include r.responsive(phone) {
+      font-size: 32px;
+    }
+  }
+
+  &__hands-with-planet {
+    position: relative;
+    z-index: 20;
+    margin: 0 auto;
+    max-width: 1400px;
+
+    img {
+      width: 90%;
+    }
+  }
+}

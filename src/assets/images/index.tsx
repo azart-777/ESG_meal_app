@@ -19,6 +19,8 @@ import icon_Web from "./socialWeb.png"
 import Jake_talking_head from './Jake.png'
 import frame_for_talking_head from './CircleForTalkingHead.png'
 import hands_with_planet_welcome from './hands-with-planet_welcome.png'
+import header_light_ellipse from './HeaderLightEllipse.png'
+import new_logo_arrows from './NewLogoArrows.png'
 
 export {
     logo_Cheap_it_with_title,
@@ -41,5 +43,7 @@ export {
     icon_Google,
     icon_Instagram,
     icon_Web,
+    header_light_ellipse,
+    new_logo_arrows,
     hands_with_planet_welcome
 }

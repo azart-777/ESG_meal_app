@@ -1,10 +1,10 @@
-import { Header, NewSloganDesignV2, MoveUpArrow, CircleWithTalkingHead, Footer, WelcomeComponent } from '../../components';
+import { NewSloganDesignV2, MoveUpArrow, CircleWithTalkingHead, Footer, WelcomeComponent, NewHeaderDesignV2 } from '../../components';
 import './HomeTwo.scss';
 
 const HomeTwo = () => {
     return (
         <>
-            <Header/>
+            <NewHeaderDesignV2/>
             <NewSloganDesignV2/>
             <WelcomeComponent />
             <CircleWithTalkingHead />

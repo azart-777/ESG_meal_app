@@ -18,6 +18,7 @@ import icon_Instagram from "./socialInstagram.png"
 import icon_Web from "./socialWeb.png"
 import Jake_talking_head from './Jake.png'
 import frame_for_talking_head from './CircleForTalkingHead.png'
+import hands_with_planet_welcome from './hands-with-planet_welcome.png'
 import header_light_ellipse from './HeaderLightEllipse.png'
 import new_logo_arrows from './NewLogoArrows.png'
 
@@ -43,5 +44,6 @@ export {
     icon_Instagram,
     icon_Web,
     header_light_ellipse,
-    new_logo_arrows
+    new_logo_arrows,
+    hands_with_planet_welcome
 }

@@ -8,6 +8,7 @@ import { Header } from './Header/Header'
 import { TreeInfoComponent } from './TreeInfoComponent/TreeInfoComponent'
 import { CircleWithTalkingHead } from './CircleWithTalkingHead/CircleWithTalkingHead';
 import { Footer } from './Footer/Footer'
+import { WelcomeComponent } from './WelcomeComponent/WelcomeComponent'
 import { NewHeaderDesignV2 } from './NewHeaderDesignV2/NewHeaderDesignV2'
 
 export {
@@ -21,5 +22,6 @@ export {
     TreeInfoComponent,
     Footer,
     NewSloganDesignV2,
-    NewHeaderDesignV2
+    NewHeaderDesignV2,
+    WelcomeComponent
 }

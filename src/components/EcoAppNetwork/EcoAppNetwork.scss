@@ -1,31 +1,47 @@
-.earth-app-network {
+.eco-app-network {
   display: flex;
-  flex-direction: column; /* Stacks elements vertically */
-  align-items: center; /* Centers elements horizontally */
-  padding: 20px;
-  background-color: #f0f0f0; // Optional background color
+  flex-direction: column;
+  align-items: center;
 
-  .apps {
+  .eco-app-network__apps-container {
     display: flex;
-    justify-content: center; /* Aligns app icons horizontally in the center */
-    gap: 15px; /* Space between app icons */
-    margin-bottom: 20px; /* Space between the app icons and the globe */
+    gap: 250px;
+    position: relative; // Додаємо relative для позиціонування всередині
+  }
 
-    img {
-      width: 100px; /* Adjust the width to control icon size */
-      height: auto;
-      transition: transform 0.3s;
+  .eco-app-network__app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-      &:hover {
-        transform: scale(1.1); /* Hover effect */
-      }
+    .eco-app-network__app-image {
+      max-width: 100%;
     }
   }
 
-  .globe {
-    img {
-      width: 200px; /* Adjust the size of the globe image */
-      height: auto;
+  .eco-app-network__app--meal-count {
+    position: relative;
+    top: 250px;
+    width: 150px;
+  }
+
+  .eco-app-network__app--cheap-it {
+    position: relative;
+    top: 0;
+    width: 200px;
+  }
+
+  .eco-app-network__app--eco-meal {
+    position: relative;
+    top: 250px;
+    width: 150px;
+  }
+
+  .eco-app-network__globe {
+    margin-top: 100px;
+
+    .eco-app-network__globe-image {
+      max-width: 600px;
     }
   }
 }

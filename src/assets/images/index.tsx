@@ -18,6 +18,9 @@ import icon_Instagram from "./socialInstagram.png"
 import icon_Web from "./socialWeb.png"
 import Jake_talking_head from './Jake.png'
 import frame_for_talking_head from './CircleForTalkingHead.png'
+import hands_with_planet_welcome from './hands-with-planet_welcome.png'
+import header_light_ellipse from './HeaderLightEllipse.png'
+import new_logo_arrows from './NewLogoArrows.png'
 import Earth_phone from './phone_Earth.png'
 import meal_count_phone from './phone_left .png'
 import cheap_it_phone from './phone_center.png'
@@ -46,6 +49,9 @@ export {
     icon_Google,
     icon_Instagram,
     icon_Web,
+    hands_with_planet_welcome,
+    header_light_ellipse,
+    new_logo_arrows,
     Earth_phone,
     meal_count_phone,
     cheap_it_phone,

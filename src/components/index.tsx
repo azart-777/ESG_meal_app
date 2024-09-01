@@ -7,8 +7,9 @@ import { MoveUpArrow } from './MoveUpArrow/MoveUpArrow';
 import { Header } from './Header/Header';
 import { TreeInfoComponent } from './TreeInfoComponent/TreeInfoComponent';
 import { CircleWithTalkingHead } from './CircleWithTalkingHead/CircleWithTalkingHead';
-import { Footer } from './Footer/Footer';
-import { EcoAppNetwork } from './EcoAppNetwork/EcoAppNetwork'; 
+import { Footer } from './Footer/Footer'
+import { WelcomeComponent } from './WelcomeComponent/WelcomeComponent'
+import { NewHeaderDesignV2 } from './NewHeaderDesignV2/NewHeaderDesignV2'
 
 export {
     ContactUsForm,
@@ -20,6 +21,5 @@ export {
     Header,
     TreeInfoComponent,
     Footer,
-    NewSloganDesignV2,
-    EcoAppNetwork
-};
+    NewSloganDesignV2
+}

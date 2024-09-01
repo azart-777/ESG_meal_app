@@ -18,6 +18,12 @@ import icon_Instagram from "./socialInstagram.png"
 import icon_Web from "./socialWeb.png"
 import Jake_talking_head from './Jake.png'
 import frame_for_talking_head from './CircleForTalkingHead.png'
+import Earth_phone from './phone_Earth.png'
+import meal_count_phone from './phone_left .png'
+import cheap_it_phone from './phone_center.png'
+import eco_meal_phone from './phone_right.png'
+
+
 
 export {
     logo_Cheap_it_with_title,
@@ -39,5 +45,9 @@ export {
     icon_Facebook,
     icon_Google,
     icon_Instagram,
-    icon_Web
+    icon_Web,
+    Earth_phone,
+    meal_count_phone,
+    cheap_it_phone,
+    eco_meal_phone
 }

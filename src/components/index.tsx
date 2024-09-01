@@ -1,13 +1,14 @@
-import { ContactUsForm } from './ContactUsForm/ContactUsForm'
-import { LanguageSwitch } from './LanguageSwitch/LanguageSwitch'
-import { PromotionalBanner } from './PromotionalBanner/PromotionalBanner'
-import { NewSloganDesignV2 } from './NewSloganDesignV2/NewSloganDesignV2'
-import { IconCardComponent } from './IconCardComponent/IconCardComponent'
-import { MoveUpArrow } from './MoveUpArrow/MoveUpArrow'
-import { Header } from './Header/Header'
-import { TreeInfoComponent } from './TreeInfoComponent/TreeInfoComponent'
+import { ContactUsForm } from './ContactUsForm/ContactUsForm';
+import { LanguageSwitch } from './LanguageSwitch/LanguageSwitch';
+import { PromotionalBanner } from './PromotionalBanner/PromotionalBanner';
+import { NewSloganDesignV2 } from './NewSloganDesignV2/NewSloganDesignV2';
+import { IconCardComponent } from './IconCardComponent/IconCardComponent';
+import { MoveUpArrow } from './MoveUpArrow/MoveUpArrow';
+import { Header } from './Header/Header';
+import { TreeInfoComponent } from './TreeInfoComponent/TreeInfoComponent';
 import { CircleWithTalkingHead } from './CircleWithTalkingHead/CircleWithTalkingHead';
-import { Footer } from './Footer/Footer'
+import { Footer } from './Footer/Footer';
+import { EcoAppNetwork } from './EcoAppNetwork/EcoAppNetwork'; 
 
 export {
     ContactUsForm,
@@ -19,5 +20,6 @@ export {
     Header,
     TreeInfoComponent,
     Footer,
-    NewSloganDesignV2
-}
+    NewSloganDesignV2,
+    EcoAppNetwork
+};

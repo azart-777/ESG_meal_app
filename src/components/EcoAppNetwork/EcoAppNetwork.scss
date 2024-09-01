@@ -1,0 +1,31 @@
+.earth-app-network {
+  display: flex;
+  flex-direction: column; /* Stacks elements vertically */
+  align-items: center; /* Centers elements horizontally */
+  padding: 20px;
+  background-color: #f0f0f0; // Optional background color
+
+  .apps {
+    display: flex;
+    justify-content: center; /* Aligns app icons horizontally in the center */
+    gap: 15px; /* Space between app icons */
+    margin-bottom: 20px; /* Space between the app icons and the globe */
+
+    img {
+      width: 100px; /* Adjust the width to control icon size */
+      height: auto;
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.1); /* Hover effect */
+      }
+    }
+  }
+
+  .globe {
+    img {
+      width: 200px; /* Adjust the size of the globe image */
+      height: auto;
+    }
+  }
+}

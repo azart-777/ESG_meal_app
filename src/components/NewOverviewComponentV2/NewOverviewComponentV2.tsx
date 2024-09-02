@@ -7,7 +7,7 @@ export const NewOverviewComponentV2: React.FC = () => {
     <>
         <div className='overview-component'>
             <div className='overview-component__background'>
-                <img src={image_with_phones_overview_component} alt="" />
+                <img src={image_with_phones_overview_component} alt="three phones with the logos of the CheapIT Family company, on a green background" />
             </div>
         </div>
     </>

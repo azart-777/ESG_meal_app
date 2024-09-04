@@ -14,7 +14,7 @@ export const EcoAppNetwork: React.FC = () => {
         <div className="eco-app-network__app eco-app-network__app--meal-count">
           <img 
             className="eco-app-network__app-image" 
-            src={meal_count_phone} 
+            src={meal_count_phone}
             alt="Meal count" 
           />
         </div>

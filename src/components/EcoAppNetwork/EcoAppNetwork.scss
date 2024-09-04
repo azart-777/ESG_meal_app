@@ -1,12 +1,20 @@
+@use "./../../shared/styles/mixins/responsive" as r;
+
 .eco-app-network {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+
 
   .eco-app-network__apps-container {
     display: flex;
     gap: 250px;
-    position: relative; // Додаємо relative для позиціонування всередині
+    position: relative;
+
+    @include r.responsive(tablet-large) {
+      gap: 150px;
+      }
   }
 
   .eco-app-network__app {

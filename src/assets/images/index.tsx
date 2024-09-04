@@ -21,6 +21,7 @@ import frame_for_talking_head from './CircleForTalkingHead.png'
 import hands_with_planet_welcome from './hands-with-planet_welcome.png'
 import header_light_ellipse from './HeaderLightEllipse.png'
 import new_logo_arrows from './NewLogoArrows.png'
+import image_with_phones_overview_component from "../../assets/images/OverviewComponent.png"
 
 export {
     logo_Cheap_it_with_title,
@@ -45,5 +46,6 @@ export {
     icon_Web,
     header_light_ellipse,
     new_logo_arrows,
-    hands_with_planet_welcome
+    hands_with_planet_welcome,
+    image_with_phones_overview_component
 }

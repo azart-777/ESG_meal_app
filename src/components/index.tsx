@@ -10,6 +10,7 @@ import { CircleWithTalkingHead } from './CircleWithTalkingHead/CircleWithTalking
 import { Footer } from './Footer/Footer'
 import { WelcomeComponent } from './WelcomeComponent/WelcomeComponent'
 import { NewHeaderDesignV2 } from './NewHeaderDesignV2/NewHeaderDesignV2'
+import { NewOverviewComponentV2 } from './NewOverviewComponentV2/NewOverviewComponentV2';
 
 export {
     ContactUsForm,
@@ -23,5 +24,6 @@ export {
     Footer,
     NewSloganDesignV2,
     NewHeaderDesignV2,
-    WelcomeComponent
+    WelcomeComponent,
+    NewOverviewComponentV2
 }

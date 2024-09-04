@@ -1,4 +1,4 @@
-import { NewSloganDesignV2, MoveUpArrow, CircleWithTalkingHead, Footer, WelcomeComponent, NewHeaderDesignV2 } from '../../components';
+import { NewSloganDesignV2, MoveUpArrow, CircleWithTalkingHead, Footer, WelcomeComponent, NewHeaderDesignV2, NewOverviewComponentV2 } from '../../components';
 import './HomeTwo.scss';
 
 const HomeTwo = () => {
@@ -6,6 +6,7 @@ const HomeTwo = () => {
         <>
             <NewHeaderDesignV2/>
             <NewSloganDesignV2/>
+            <NewOverviewComponentV2 />
             <WelcomeComponent />
             <CircleWithTalkingHead />
             <Footer/>

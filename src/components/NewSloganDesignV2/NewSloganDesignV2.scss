@@ -4,7 +4,6 @@
 @use "./../../shared/styles/variables/fonts" as fonts;
 
 $text-color--accent: colors.$app-accent;
-$text-color--accent--new: #9bf201;
 
 $font-size--header: 80px;
 
@@ -21,7 +20,7 @@ $font-size--header: 80px;
     text-align: center;
     margin: 0;
     padding: 0 25px;
-    color: $text-color--accent--new;
+    color: $text-color--accent;
 
     @include r.responsive(desktop) {
       font-size: 70px;

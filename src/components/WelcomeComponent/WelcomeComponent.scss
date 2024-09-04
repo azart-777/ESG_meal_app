@@ -3,7 +3,7 @@
 @use "./../../shared/styles/variables/colors" as colors;
 @use "./../../shared/styles/variables/fonts" as fonts;
 
-$text-color--accent--new: #9bf201;
+$text-color--accent: colors.$app-accent;
 
 .welcome-container {
   width: 100%;
@@ -36,7 +36,7 @@ $text-color--accent--new: #9bf201;
     }
 
     span {
-      color: $text-color--accent--new;
+      color: $text-color--accent;
     }
   }
 
@@ -44,7 +44,7 @@ $text-color--accent--new: #9bf201;
     width: 70%;
     height: 2px;
     margin: 0 auto;
-    background: linear-gradient(to right, #111111, #9bf201, #111111);
+    background: linear-gradient(to right, #111111, #00FF00D8, #111111);
   }
 
   &__short-slogan {

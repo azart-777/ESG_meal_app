@@ -11,6 +11,7 @@ import { Footer } from './Footer/Footer'
 import { WelcomeComponent } from './WelcomeComponent/WelcomeComponent'
 import { NewHeaderDesignV2 } from './NewHeaderDesignV2/NewHeaderDesignV2'
 import { NewOverviewComponentV2 } from './NewOverviewComponentV2/NewOverviewComponentV2';
+import { EcoAppNetwork } from './EcoAppNetwork/EcoAppNetwork';
 
 export {
     ContactUsForm,
@@ -25,5 +26,6 @@ export {
     NewSloganDesignV2,
     NewHeaderDesignV2,
     WelcomeComponent,
-    NewOverviewComponentV2
+    NewOverviewComponentV2,
+    EcoAppNetwork
 }

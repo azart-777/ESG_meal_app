@@ -38,8 +38,8 @@ export const EcoAppNetwork: React.FC = () => {
           className="eco-app-network__globe-image" 
           src={Earth_phone} 
           alt="Earth" 
-        />
-      </div>
+        />        
+      </div >
     </div>
   );
 };

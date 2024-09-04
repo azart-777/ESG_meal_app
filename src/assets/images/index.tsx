@@ -55,5 +55,5 @@ export {
     Earth_phone,
     meal_count_phone,
     cheap_it_phone,
-    eco_meal_phone
+    eco_meal_phone,
 }

@@ -7,7 +7,7 @@
   
 
 
-  .eco-app-network__apps-container {
+  &__apps-container {
     display: flex;
     gap: 250px;
     position: relative;
@@ -17,38 +17,38 @@
       }
   }
 
-  .eco-app-network__app {
+  &__app {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .eco-app-network__app-image {
+    &__app-image {
       max-width: 100%;
     }
   }
 
-  .eco-app-network__app--meal-count {
+  &__app--meal-count {
     position: relative;
     top: 250px;
     width: 150px;
   }
 
-  .eco-app-network__app--cheap-it {
+  &__app--cheap-it {
     position: relative;
     top: 0;
     width: 200px;
   }
 
-  .eco-app-network__app--eco-meal {
+  &__app--eco-meal {
     position: relative;
     top: 250px;
     width: 150px;
   }
 
-  .eco-app-network__globe {
+  &__globe {
     margin-top: 100px;
 
-    .eco-app-network__globe-image {
+    &__globe-image {
       max-width: 600px;
     }
   }

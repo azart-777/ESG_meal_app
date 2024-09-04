@@ -1,8 +1,6 @@
-// import { NewSloganDesignV2, MoveUpArrow, CircleWithTalkingHead, Footer, WelcomeComponent, NewHeaderDesignV2 } from '../../components';
-import { NewSloganDesignV2, MoveUpArrow, CircleWithTalkingHead, Footer} from '../../components';
+import { NewSloganDesignV2, MoveUpArrow, CircleWithTalkingHead, Footer, WelcomeComponent, NewHeaderDesignV2 } from '../../components';
+import { AnimationCircuit } from '../../components/EcoAppNetwork/AnimationCircuit/AnimationCircuit';
 import { EcoAppNetwork } from '../../components/EcoAppNetwork/EcoAppNetwork';
-import { NewHeaderDesignV2 } from '../../components/NewHeaderDesignV2/NewHeaderDesignV2';
-import { WelcomeComponent } from '../../components/WelcomeComponent/WelcomeComponent';
 import './HomeTwo.scss';
 
 const HomeTwo = () => {
@@ -13,6 +11,7 @@ const HomeTwo = () => {
             <WelcomeComponent/>
             <CircleWithTalkingHead />
             <EcoAppNetwork/>
+            <AnimationCircuit/>
             <Footer/>
             <MoveUpArrow />
         </>

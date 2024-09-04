@@ -21,5 +21,7 @@ export {
     Header,
     TreeInfoComponent,
     Footer,
-    NewSloganDesignV2
+    NewSloganDesignV2,
+    WelcomeComponent,
+    NewHeaderDesignV2
 }

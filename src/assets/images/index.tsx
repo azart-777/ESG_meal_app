@@ -50,12 +50,12 @@ export {
     icon_Google,
     icon_Instagram,
     icon_Web,
-    hands_with_planet_welcome,
     header_light_ellipse,
     new_logo_arrows,
     Earth_phone,
     meal_count_phone,
     cheap_it_phone,
     eco_meal_phone,
+    hands_with_planet_welcome,
     image_with_phones_overview_component
 }

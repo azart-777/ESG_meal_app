@@ -22,6 +22,12 @@ import hands_with_planet_welcome from './hands-with-planet_welcome.png'
 import header_light_ellipse from './HeaderLightEllipse.png'
 import new_logo_arrows from './NewLogoArrows.png'
 import image_with_phones_overview_component from "../../assets/images/OverviewComponent.png"
+import Earth_phone from './phone_Earth.png'
+import meal_count_phone from './phone_left .png'
+import cheap_it_phone from './phone_center.png'
+import eco_meal_phone from './phone_right.png'
+
+
 
 export {
     logo_Cheap_it_with_title,
@@ -46,6 +52,10 @@ export {
     icon_Web,
     header_light_ellipse,
     new_logo_arrows,
+    Earth_phone,
+    meal_count_phone,
+    cheap_it_phone,
+    eco_meal_phone,
     hands_with_planet_welcome,
     image_with_phones_overview_component
 }

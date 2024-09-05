@@ -1,0 +1,55 @@
+@use "./../../shared/styles/mixins/responsive" as r;
+
+.eco-app-network {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+
+  &__apps-container {
+    display: flex;
+    gap: 250px;
+    position: relative;
+
+    @include r.responsive(tablet-large) {
+      gap: 150px;
+      }
+  }
+
+  &__app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__app-image {
+      max-width: 100%;
+    }
+  }
+
+  &__app--meal-count {
+    position: relative;
+    top: 250px;
+    width: 150px;
+  }
+
+  &__app--cheap-it {
+    position: relative;
+    top: 0;
+    width: 200px;
+  }
+
+  &__app--eco-meal {
+    position: relative;
+    top: 250px;
+    width: 150px;
+  }
+
+  &__globe {
+    margin-top: 100px;
+
+    &__globe-image {
+      max-width: 600px;
+    }
+  }
+}

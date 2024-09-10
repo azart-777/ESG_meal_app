@@ -142,7 +142,67 @@
     "CheapItFamily": "Cheap-It family",
     "todayWeBuildingTomorrow!": "today we building tomorrow!"
   },
-  
+
+  "cheapITDescription": {
+    "we": "We",
+    "wantedToCreateSomething": "wanted to create something",
+    "unique1": "unique",
+    "hungry": "Hungry",
+    "saveThePlanet": "Save the Planet",
+    "exploreAWorldOf": "Explore a world of",
+    "deliciousness": "deliciousness",
+    "discover": "Discover",
+    "unique2": "unique",
+    "cuisines": "cuisines",
+    "andLocal": "and local",
+    "favourites": "favourites",
+    "justFromYourPhone": "just from your phone",
+    "save": "Save",
+    "time": "time",
+    "and": "and",
+    "money": "money",
+    "forYouNext": "for you next",
+    "adventure": "adventure",
+    "enjoy": "Enjoy",
+    "highQuality": "high-quality",
+    "foodFinds": "food finds"
+  },
+
+  "mealCountDescription": {
+    "somethingTruly": "Something truly",
+    "important": "important",
+    "doYouWantToEatWell": "Do you want to eat well",
+    "withoutSpendingExtra": "without spending extra",
+    "saveThePlanet": "Save the planet",
+    "save": "Save",
+    "time": "time",
+    "onCooking": "on cooking",
+    "saveYour": "Save your",
+    "money": "money",
+    "saveThe": "Save the",
+    "environment": "Environment",
+    "discover": "Discover",
+    "newDishes": "new dishes"
+  },
+
+  "ecoMealMarketDescription": {
+    "something": "Something",
+    "thatWillTruly": "that will truly",
+    "changeTheWorld": "change the World",
+    "doYouHaveABusiness": "Do you have a business",
+    "doYouProduceFood": "Do you produce food",
+    "saveThePlanet": "Save the planet",
+    "cutThe": "Cut the",
+    "losses": "losses",
+    "by": "by",
+    "reduction": "Reduction",
+    "ofFoodWasteInProduction": "of food waste in production",
+    "noMoney": "No money",
+    "is": "is",
+    "thrown": "thrown",
+    "intoTheTrash": "into the trash"
+  },
+
   "footer": {
     "menu": "Menu",
     "home": "Home",
@@ -168,5 +228,4 @@
     "media": "Media",
     "materialsForMedia": "Materials for media"
   }
-
 }

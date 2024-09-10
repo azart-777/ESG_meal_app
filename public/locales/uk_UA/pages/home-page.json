@@ -127,7 +127,6 @@
     "andMake": "зроби",
     "yourPlanetSmile": "свою планету щасливою"
   },
-
   "newSlogan": {
     "eat": "їж",
     "well": "добре",
@@ -137,11 +136,68 @@
     "makeYour": "зроби свою",
     "planetSmile": "планету щасливою"
   },
-
   "welcomeText": {
     "WelcomeToThe": "Ласкаво просимо до",
     "CheapItFamily": "Cheap-It family",
     "todayWeBuildingTomorrow!": "сьогодні будуємо завтра!"
+  },
+  "cheapITDescription": {
+    "we": "Ми",
+    "wantedToCreateSomething": "хотіли створити щось",
+    "unique1": "унікальне",
+    "hungry": "Голодний",
+    "saveThePlanet": "Рятуй Планету",
+    "exploreAWorldOf": "Досліджуй світ",
+    "deliciousness": "страв",
+    "discover": "Відкривай",
+    "unique2": "виняткові",
+    "cuisines": "кухні",
+    "andLocal": "та місцеві",
+    "favourites": "улюблені страви",
+    "justFromYourPhone": "прямо з твого телефону",
+    "save": "Збережи",
+    "time": "час",
+    "and": "та",
+    "money": "гроші",
+    "forYouNext": "для твоєї наступної",
+    "adventure": "пригоди",
+    "enjoy": "Насолоджуйся",
+    "highQuality": "високоякісними",
+    "foodFinds": "продуктами"
+  },
+
+  "mealCountDescription": {
+    "somethingTruly": "Щось дійсно",
+    "important": "важливе",
+    "doYouWantToEatWell": "Маєш бажання добре їсти",
+    "withoutSpendingExtra": "не витрачаючи зайвого",
+    "saveThePlanet": "Рятуй планету",
+    "save": "Збережи",
+    "time": "час",
+    "onCooking": "на приготуванні",
+    "saveYour": "Збережи свої",
+    "money": "гроші",
+    "saveThe": "Збережи",
+    "environment": "довкілля",
+    "discover": "Відкривай",
+    "newDishes": "нові страви"
+  },
+  "ecoMealMarketDescription": {
+    "something": "Щось",
+    "thatWillTruly": "що дійсно",
+    "changeTheWorld": "змінить Світ",
+    "doYouHaveABusiness": "Маєш бізнес",
+    "doYouProduceFood": "Виробляєш продукти харчування",
+    "saveThePlanet": "Рятуй планету",
+    "cutThe": "Зменшуй",
+    "losses": "втрати",
+    "by": "шляхом",
+    "reduction": "скорочення",
+    "ofFoodWasteInProduction": "харчових відходів у виробництві",
+    "noMoney": "Жодних грошей",
+    "is": "не",
+    "thrown": "викинуто",
+    "intoTheTrash": "в смітник"
   },
 
   "footer": {
@@ -168,6 +224,5 @@
     "subscriptionsPlans": "Плани підписки",
     "media": "Медіа",
     "materialsForMedia": "Матеріали для медіа"
-}
-
+  }
 }

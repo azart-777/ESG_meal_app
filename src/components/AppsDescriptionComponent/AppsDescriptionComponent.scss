@@ -11,13 +11,13 @@
     top: 900px;
 
     @include r.responsive(desktop) {
-      top: 850px;
+      top: 720px;
     }
 
     @include r.responsive(tablet-large) {
       height: 900px;
-      top: 750px;
-      left: -25px;
+      top: 680px;
+      left: -35px;
     }
 
     @include r.responsive(tablet) {

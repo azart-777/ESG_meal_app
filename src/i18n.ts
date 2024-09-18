@@ -14,7 +14,8 @@ i18n
         detection: {
             order: ['localStorage', 'navigator'],
             caches: ['localStorage'],
-        }
+        },
+        ns: ['pages/home-page']
     });
 
 

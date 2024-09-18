@@ -2,7 +2,7 @@ import React from "react";
 import "./EcoMealMarketDescriptionComponent.scss";
 import { eco_meal_market_message } from "../../../assets/images/index";
 import { new_eco_meal_market_logo_with_name } from "../../../assets/images/index";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 
 export const EcoMealMarketDescriptionComponent: React.FC = () => {
   const { t } = useTranslation(["pages/home-page"]);
@@ -11,9 +11,12 @@ export const EcoMealMarketDescriptionComponent: React.FC = () => {
     <>
       <div className="eco-meal-market-description">
         <h2 className="eco-meal-market-description__section-title">
-          «<span>{t("ecoMealMarketDescription.something")}</span>,{" "}
-          {t("ecoMealMarketDescription.thatWillTruly")}{" "}
-          <span>{t("ecoMealMarketDescription.changeTheWorld")}!</span>»
+          &laquo;
+          <Trans
+            i18nKey="ecoMealMarketDescription.slogan"
+            components={{ span: <span /> }}
+          />
+          &raquo;
         </h2>
         <div className="eco-meal-market-description__info-block">
           <div className="eco-meal-market-description__info-block-section">
@@ -28,26 +31,27 @@ export const EcoMealMarketDescriptionComponent: React.FC = () => {
               alt=""
             />
             <p className="eco-meal-market-description__info-block-section-caption">
-              {t("ecoMealMarketDescription.doYouHaveABusiness")}? <br />
-              {t("ecoMealMarketDescription.doYouProduceFood")}??? <br />
-              {t("ecoMealMarketDescription.saveThePlanet")}!
+              <Trans i18nKey="ecoMealMarketDescription.message" />
             </p>
           </div>
           <ul className="eco-meal-market-description__info-block-list">
             <li>
-              {t("ecoMealMarketDescription.cutThe")}{" "}
-              <span>{t("ecoMealMarketDescription.losses")}</span>{" "}
-              {t("ecoMealMarketDescription.by")} <span>~10%</span>
+              <Trans
+                i18nKey="ecoMealMarketDescription.sentence1"
+                components={{ span: <span /> }}
+              />
             </li>
             <li>
-              <span>{t("ecoMealMarketDescription.reduction")}</span>{" "}
-              {t("ecoMealMarketDescription.ofFoodWasteInProduction")}
+              <Trans
+                i18nKey="ecoMealMarketDescription.sentence2"
+                components={{ span: <span /> }}
+              />
             </li>
             <li>
-              <span>{t("ecoMealMarketDescription.noMoney")}</span>{" "}
-              {t("ecoMealMarketDescription.is")}{" "}
-              <span>{t("ecoMealMarketDescription.thrown")}</span>{" "}
-              {t("ecoMealMarketDescription.intoTheTrash")}
+              <Trans
+                i18nKey="ecoMealMarketDescription.sentence3"
+                components={{ span: <span /> }}
+              />
             </li>
           </ul>
         </div>

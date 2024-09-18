@@ -162,6 +162,7 @@ $text-color--accent: colors.$app-accent;
         color: colors.$app-accent;
         text-align: center;
         font-size: 24px;
+        font-family: 'LC Chalk';
 
         @include r.responsive(desktop) {
           top: 40px;

@@ -164,10 +164,11 @@ $text-color--accent: colors.$app-accent;
       &-caption {
         position: absolute;
         top: -65px;
-        left: 595px;
+        left: 580px;
         color: colors.$app-accent;
         text-align: center;
         font-size: 24px;
+        font-family: 'LC Chalk';
 
         @include r.responsive(desktop) {
           top: 40px;

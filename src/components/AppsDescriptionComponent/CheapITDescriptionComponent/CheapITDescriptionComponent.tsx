@@ -2,7 +2,7 @@ import React from "react";
 import "./CheapITDescriptionComponent.scss";
 import { new_cheap_it_logo_with_name } from "../../../assets/images/index";
 import { cheap_it_message } from "../../../assets/images/index";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 
 export const CheapITDescriptionComponent: React.FC = () => {
   const { t } = useTranslation(["pages/home-page"]);
@@ -11,9 +11,12 @@ export const CheapITDescriptionComponent: React.FC = () => {
     <>
       <div className="cheap-it-description">
         <h2 className="cheap-it-description__section-title">
-          «<span>{t("cheapITDescription.we")}</span>{" "}
-          {t("cheapITDescription.wantedToCreateSomething")}{" "}
-          <span>{t("cheapITDescription.unique1")}!</span>»
+          &laquo;
+          <Trans
+            i18nKey="cheapITDescription.slogan"
+            components={{ span: <span /> }}
+          />
+          &raquo;
         </h2>
         <div className="cheap-it-description__info-block">
           <div className="cheap-it-description__info-block-section">
@@ -28,35 +31,33 @@ export const CheapITDescriptionComponent: React.FC = () => {
               alt=""
             />
             <p className="cheap-it-description__info-block-section-caption">
-              {t("cheapITDescription.hungry")}??? <br />
-              {t("cheapITDescription.saveThePlanet")}!
+              <Trans i18nKey="cheapITDescription.message" />
             </p>
           </div>
           <ul className="cheap-it-description__info-block-list">
             <li>
-              {t("cheapITDescription.exploreAWorldOf")}{" "}
-              <span>{t("cheapITDescription.deliciousness")}</span>{" "}
+              <Trans
+                i18nKey="cheapITDescription.sentence1"
+                components={{ span: <span /> }}
+              />
             </li>
             <li>
-              <span>{t("cheapITDescription.discover")}</span>{" "}
-              {t("cheapITDescription.unique2")}{" "}
-              <span>{t("cheapITDescription.cuisines")}</span>{" "}
-              {t("cheapITDescription.andLocal")}{" "}
-              <span>{t("cheapITDescription.favourites")}</span>{" "}
-              {t("cheapITDescription.justFromYourPhone")}
+              <Trans
+                i18nKey="cheapITDescription.sentence2"
+                components={{ span: <span /> }}
+              />
             </li>
             <li>
-              {t("cheapITDescription.save")}{" "}
-              <span>{t("cheapITDescription.time")}</span>{" "}
-              {t("cheapITDescription.and")}{" "}
-              <span>{t("cheapITDescription.money")}</span>{" "}
-              {t("cheapITDescription.forYouNext")}{" "}
-              <span>{t("cheapITDescription.adventure")}</span>
+              <Trans
+                i18nKey="cheapITDescription.sentence3"
+                components={{ span: <span /> }}
+              />
             </li>
             <li>
-              {t("cheapITDescription.enjoy")}{" "}
-              <span>{t("cheapITDescription.highQuality")}</span>{" "}
-              {t("cheapITDescription.foodFinds")}
+              <Trans
+                i18nKey="cheapITDescription.sentence4"
+                components={{ span: <span /> }}
+              />
             </li>
           </ul>
         </div>

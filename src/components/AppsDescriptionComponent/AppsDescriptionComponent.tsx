@@ -3,7 +3,7 @@ import "./AppsDescriptionComponent.scss";
 import { CheapITDescriptionComponent } from "./CheapITDescriptionComponent/CheapITDescriptionComponent";
 import { MealCountDescriptionComponent } from "./MealCountDescriptionComponent/MealCountDescriptionComponent";
 import { EcoMealMarketDescriptionComponent } from "./EcoMealMarketDescriptionComponent/EcoMealMarketDescriptionComponent";
-import vector663 from "../../assets/images/Vector667.png"; //Тимчасовий імпорт, поки не має правильного зображення
+import vector663 from "../../assets/images/Vector667.png"; //TODO: Тимчасовий імпорт, поки не має правильного зображення
 export const AppsDescriptionComponent: React.FC = () => {
   return (
     <>

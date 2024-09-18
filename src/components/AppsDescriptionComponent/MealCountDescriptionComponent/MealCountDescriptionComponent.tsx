@@ -2,7 +2,7 @@ import React from "react";
 import "./MealCountDescriptionComponent.scss";
 import { meal_count_message } from "../../../assets/images/index";
 import { new_meal_count_logo_with_name } from "../../../assets/images/index";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 
 export const MealCountDescriptionComponent: React.FC = () => {
   const { t } = useTranslation(["pages/home-page"]);
@@ -11,8 +11,12 @@ export const MealCountDescriptionComponent: React.FC = () => {
     <>
       <div className="meal-count-description">
         <h2 className="meal-count-description__section-title">
-          «{t("mealCountDescription.somethingTruly")}{" "}
-          <span>{t("mealCountDescription.important")}!</span>»
+          &laquo;
+          <Trans
+            i18nKey="mealCountDescription.slogan"
+            components={{ span: <span /> }}
+          />
+          &raquo;
         </h2>
         <div className="meal-count-description__info-block">
           <div className="meal-count-description__info-block-section">
@@ -27,30 +31,33 @@ export const MealCountDescriptionComponent: React.FC = () => {
               alt=""
             />
             <p className="meal-count-description__info-block-section-caption">
-              {t("mealCountDescription.doYouWantToEatWell")}
-              <br />
-              {t("mealCountDescription.withoutSpendingExtra")}???
-              <br />
-              {t("mealCountDescription.saveThePlanet")}!
+              <Trans i18nKey="mealCountDescription.message" />
             </p>
           </div>
           <ul className="meal-count-description__info-block-list">
             <li>
-              {t("mealCountDescription.save")}{" "}
-              <span>{t("mealCountDescription.time")}</span>{" "}
-              {t("mealCountDescription.onCooking")}
+              <Trans
+                i18nKey="mealCountDescription.sentence1"
+                components={{ span: <span /> }}
+              />
             </li>
             <li>
-              {t("mealCountDescription.saveYour")}{" "}
-              <span>{t("mealCountDescription.money")}</span>
+              <Trans
+                i18nKey="mealCountDescription.sentence2"
+                components={{ span: <span /> }}
+              />
             </li>
             <li>
-              {t("mealCountDescription.saveThe")}{" "}
-              <span>{t("mealCountDescription.environment")}</span>
+              <Trans
+                i18nKey="mealCountDescription.sentence3"
+                components={{ span: <span /> }}
+              />
             </li>
             <li>
-              <span>{t("mealCountDescription.discover")}</span>{" "}
-              {t("mealCountDescription.newDishes")}
+              <Trans
+                i18nKey="mealCountDescription.sentence4"
+                components={{ span: <span /> }}
+              />
             </li>
           </ul>
         </div>

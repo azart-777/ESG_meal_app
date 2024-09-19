@@ -4,8 +4,10 @@ import {
   Earth_phone,
   meal_count_phone,
   cheap_it_phone,
-  eco_meal_phone
+  eco_meal_phone,
+  network_lines_center
 } from '../../assets/images/';
+import Firefly from './Firefly/Firefly';
 
 export const EcoAppNetwork: React.FC = () => {
   return (
@@ -17,6 +19,11 @@ export const EcoAppNetwork: React.FC = () => {
             src={meal_count_phone}
             alt="Meal count" 
           />
+          <img 
+            className="eco-app-network__network_lines_left" 
+            src={network_lines_center} 
+            alt="network_lines_left" 
+          />
         </div>
         <div className="eco-app-network__app eco-app-network__app--cheap-it">
           <img 
@@ -24,12 +31,23 @@ export const EcoAppNetwork: React.FC = () => {
             src={cheap_it_phone} 
             alt="Cheap it" 
           />
+          <img 
+            className="eco-app-network__network_lines_center" 
+            src={network_lines_center} 
+            alt="network_lines_center" 
+          />
+            <Firefly/>
         </div>
         <div className="eco-app-network__app eco-app-network__app--eco-meal">
           <img 
             className="eco-app-network__app-image" 
             src={eco_meal_phone} 
             alt="Eco meal" 
+          />
+          <img 
+            className="eco-app-network__network_lines_right" 
+            src={network_lines_center} 
+            alt="network_lines_right" 
           />
         </div>
       </div>

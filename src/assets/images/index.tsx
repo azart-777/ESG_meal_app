@@ -26,6 +26,7 @@ import Earth_phone from './phone_Earth.png'
 import meal_count_phone from './phone_left .png'
 import cheap_it_phone from './phone_center.png'
 import eco_meal_phone from './phone_right.png'
+import network_lines_center from './network_lines_center.png'
 
 
 
@@ -57,5 +58,6 @@ export {
     cheap_it_phone,
     eco_meal_phone,
     hands_with_planet_welcome,
-    image_with_phones_overview_component
+    image_with_phones_overview_component,
+    network_lines_center
 }

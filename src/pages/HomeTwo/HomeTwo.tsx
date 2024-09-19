@@ -20,6 +20,7 @@ const HomeTwo = () => {
             <WelcomeComponent />
             <CircleWithTalkingHead />
             <EcoAppNetwork/>
+            <ContactUsForm/>
             <Footer/>
             <MoveUpArrow />
         </>

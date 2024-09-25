@@ -119,14 +119,14 @@
       ]
     }
   },
-  "slogan": {
-    "eat": "Eat",
-    "well": "well",
-    "spend": "spend",
-    "less": "less",
-    "andMake": "and make",
-    "yourPlanetSmile": "your planet smile"
+  "mainSlogan": {
+    "slogan": "EAT WELL, SPEND LESS, <br /> AND <br /> MAKE YOUR PLANET SMILE"
   },
+
+  "welcomeText": {
+    "text": "Welcome to the Cheap-It Family!"
+  },
+  
   "newSlogan": {
     "eat": "Eat",
     "well": "well",
@@ -135,12 +135,6 @@
     "and": "and",
     "makeYour": "make your",
     "planetSmile": "planet smile"
-  },
-
-  "welcomeText": {
-    "WelcomeToThe": "Welcome to the",
-    "CheapItFamily": "Cheap-It family",
-    "todayWeBuildingTomorrow!": "today we building tomorrow!"
   },
 
   "cheapITDescription": {

@@ -1,17 +1,31 @@
-@use "./../../shared/styles/mixins/no-user-text-selection" as n;
-
 html {
   scroll-behavior: smooth;
 }
 
 #move-up-arrow {
+  width: clamp(75px, 6vw, 100px);
+  aspect-ratio: 1 / 1;
+  background-image: url("../../assets/images/moveUpArrow/move_up_arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   position: fixed;
   bottom: 50px;
-  right: 50px;
-  z-index: 9999;
+  right: 10px;
+  z-index: 200;
   cursor: pointer;
   animation: triangle 4s both infinite;
-  @include n.no-user-text-selection;
+  transition: background-image 0.5s ease, opacity 0.4s ease; 
+  opacity: 1;
+
+  &:hover {
+    background-image: url("../../assets/images/moveUpArrow/move_up_arrow_color.png");
+  }
+
+  &.move-up-arrow--hidden {
+    opacity: 0; 
+    pointer-events: none; 
+  }
 
   @keyframes triangle {
     0% {
@@ -26,18 +40,5 @@ html {
       transform: translateY(0px);
     }
   }
-
-  img {
-    width: 43px;
-    height: 100px;
-  }
 }
 
-.move-up-arrow {
-  opacity: 1;
-  transition: 0.4s;
-
-  &--hidden {
-    opacity: 0;
-  }
-}

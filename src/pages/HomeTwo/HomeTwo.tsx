@@ -1,3 +1,4 @@
+import { Container } from '@mui/material';
 import {
     NewSloganDesignV2,
     MoveUpArrow,
@@ -15,15 +16,17 @@ import './HomeTwo.scss';
 const HomeTwo = () => {
     return (
         <>
-            <NewHeaderDesignV2/>
-            <NewSloganDesignV2/>
-            <NewOverviewComponentV2 />
-            <WelcomeComponent />
-            <AppsDescriptionComponent />
-            <CircleWithTalkingHead />
-            <EcoAppNetwork/>
-            <Footer/>
-            <MoveUpArrow />
+            <Container maxWidth="xl">
+                <NewHeaderDesignV2 />
+                <NewSloganDesignV2 />
+                <NewOverviewComponentV2 />
+                <WelcomeComponent />
+                <AppsDescriptionComponent />
+                <CircleWithTalkingHead />
+                <EcoAppNetwork />
+                <Footer />
+                <MoveUpArrow />
+            </Container>
         </>
     );
 };

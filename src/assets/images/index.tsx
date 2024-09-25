@@ -7,7 +7,6 @@ import logo_Sun_footer from './SunBase.png';
 import green_brush_background from './greenBrush.png';
 import chip_it_family_logo from './CheapItFamilyLogo.png';
 import green_planet from './GreenPlanet.png';
-import move_up_arrow from './MoveUpArrow.png';
 import Earth_image_in_main_banner from "./earth.png";
 import Green_smoke_in_main_banner from "./green_smoke.png";
 import logo_Cheap_IT_in_main_banner from "./cheapItLogo.png"
@@ -18,10 +17,8 @@ import icon_Instagram from "./socialInstagram.png"
 import icon_Web from "./socialWeb.png"
 import Jake_talking_head from './Jake.png'
 import frame_for_talking_head from './CircleForTalkingHead.png'
-import hands_with_planet_welcome from './hands-with-planet_welcome.png'
 import header_light_ellipse from './HeaderLightEllipse.png'
 import new_logo_arrows from './NewLogoArrows.png'
-import image_with_phones_overview_component from "../../assets/images/OverviewComponent.png"
 import Earth_phone from './phone_Earth.png'
 import meal_count_phone from './phone_left .png'
 import cheap_it_phone from './phone_center.png'
@@ -33,7 +30,10 @@ import new_cheap_it_logo_with_name from './new_cheap_it_logo_with_name.png'
 import new_meal_count_logo_with_name from './new_meal_count_logo_with_name.png'
 import new_eco_meal_market_logo_with_name from './new_eco_meal_market_logo_with_name.png'
 
-
+// New imports from folders
+import image_with_phones_overview_component from './overviewComponent/image_with_phones.png'
+import hands_with_planet_welcome_component from './welcomeComponent/hands_with_Earth.png'
+import move_up_arrow from './moveUpArrow/move_up_arrow.png'
 
 export {
     logo_Cheap_it_with_title,
@@ -44,7 +44,6 @@ export {
     logo_Sun_footer,
     green_brush_background,
     chip_it_family_logo,
-    move_up_arrow,
     green_planet,
     Earth_image_in_main_banner,
     Green_smoke_in_main_banner,
@@ -62,12 +61,13 @@ export {
     meal_count_phone,
     cheap_it_phone,
     eco_meal_phone,
-    hands_with_planet_welcome,
-    image_with_phones_overview_component,
     cheap_it_message,
     meal_count_message,
     eco_meal_market_message,
     new_cheap_it_logo_with_name,
     new_meal_count_logo_with_name,
-    new_eco_meal_market_logo_with_name
+    new_eco_meal_market_logo_with_name,
+    image_with_phones_overview_component,
+    hands_with_planet_welcome_component,
+    move_up_arrow
 }

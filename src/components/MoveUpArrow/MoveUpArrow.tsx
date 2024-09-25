@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./MoveUpArrow.scss";
-import { move_up_arrow } from "../../assets/images";
 
-export const MoveUpArrow:  React.FC = () => {
+export const MoveUpArrow: React.FC = () => {
   const scrollBtnRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -33,8 +32,6 @@ export const MoveUpArrow:  React.FC = () => {
       className="move-up-arrow move-up-arrow--hidden"
       ref={scrollBtnRef}
       onClick={handleClick}
-    >
-      <img src={move_up_arrow} alt="move up arrow icon" />
-    </div>
+    ></div>
   );
-}
+};

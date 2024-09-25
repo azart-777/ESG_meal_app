@@ -119,14 +119,14 @@
       ]
     }
   },
-  "slogan": {
-    "eat": "їж",
-    "well": "добре",
-    "spend": "витрачай",
-    "less": "менше",
-    "andMake": "зроби",
-    "yourPlanetSmile": "свою планету щасливою"
+  "mainSlogan": {
+    "slogan": "їж добре, витрачай менше, <br /> та <br /> роби планету щасливою"
   },
+
+  "welcomeText": {
+    "text": "Ласкаво просимо до Cheap-It Family!"
+  },
+  
   "newSlogan": {
     "eat": "їж",
     "well": "добре",
@@ -136,11 +136,7 @@
     "makeYour": "зроби свою",
     "planetSmile": "планету щасливою"
   },
-  "welcomeText": {
-    "WelcomeToThe": "Ласкаво просимо до",
-    "CheapItFamily": "Cheap-It family",
-    "todayWeBuildingTomorrow!": "сьогодні будуємо завтра!"
-  },
+  
   "cheapITDescription": {
     "slogan": "<span>Ми</span> хотіли створити щось <span>унікальне!</span>",
     "message": "Голодний??? <br /> Збережи планету!",

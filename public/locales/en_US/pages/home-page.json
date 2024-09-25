@@ -142,7 +142,33 @@
     "CheapItFamily": "Cheap-It family",
     "todayWeBuildingTomorrow!": "today we building tomorrow!"
   },
-  
+
+  "cheapITDescription": {
+    "slogan": "<span>We</span> wanted to create something <span>unique!</span>",
+    "message": "Hungry??? <br /> Save the Planet!",
+    "sentence1": "Explore a world of <span>deliciousness</span>",
+    "sentence2": "<span>Discover</span> unique <span>cuisines</span> and local <span>favourites</span> just from your phone",
+    "sentence3": "Save <span>time</span> and <span>money</span> for you next <span>adventure</span>",
+    "sentence4": "Enjoy <span>high-quality</span> food finds"
+  },
+
+  "mealCountDescription": {
+    "slogan": "<span>Something</span> truly <span>important!</span>",
+    "message": "Do you want to eat well <br /> without spending extra??? <br /> Save the planet!",
+    "sentence1": "Save <span>time</span> on cooking",
+    "sentence2": "Save your <span>money</span>",
+    "sentence3": "Save the <span>Environment</span>",
+    "sentence4": "<span>Discover</span> new dishes"
+  },
+
+  "ecoMealMarketDescription": {
+    "slogan": "<span>Something</span> that will truly <span>change the World</span>",
+    "message": "Do you have a business? <br /> do you produce food??? <br /> Save the planet!",
+    "sentence1": "Cut the <span>losses</span> by <span>~ 10%</span>",
+    "sentence2": "<span>Reduction</span> of food waste in production",
+    "sentence3": "<span>No money</span> is <span>thrown</span> into the trash"
+  },
+
   "footer": {
     "menu": "Menu",
     "home": "Home",
@@ -168,5 +194,4 @@
     "media": "Media",
     "materialsForMedia": "Materials for media"
   }
-
 }

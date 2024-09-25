@@ -127,7 +127,6 @@
     "andMake": "зроби",
     "yourPlanetSmile": "свою планету щасливою"
   },
-
   "newSlogan": {
     "eat": "їж",
     "well": "добре",
@@ -137,13 +136,34 @@
     "makeYour": "зроби свою",
     "planetSmile": "планету щасливою"
   },
-
   "welcomeText": {
     "WelcomeToThe": "Ласкаво просимо до",
     "CheapItFamily": "Cheap-It family",
     "todayWeBuildingTomorrow!": "сьогодні будуємо завтра!"
   },
-
+  "cheapITDescription": {
+    "slogan": "<span>Ми</span> хотіли створити щось <span>унікальне!</span>",
+    "message": "Голодний??? <br /> Збережи планету!",
+    "sentence1": "Відкрий світ <span>смачних страв</span>",
+    "sentence2": "<span>Відкрий</span> унікальні <span>кухні</span> та місцеві <span>улюблені страви</span> прямо з твого телефону",
+    "sentence3": "Збережи <span>час</span> та <span>гроші</span> для наступної <span>подорожі</span>",
+    "sentence4": "Насолоджуйся <span>високоякісною</span> їжею"
+  },
+  "mealCountDescription": {
+    "slogan": "<span>Щось</span> дійсно <span>важливе!</span>",
+    "message": "Хочете їсти смачно <br /> не витрачаючи зайвого??? <br /> Збережіть планету!",
+    "sentence1": "Зберігайте <span>час</span> на приготування їжі",
+    "sentence2": "Зберігайте свої <span>гроші</span>",
+    "sentence3": "Збережіть <span>довкілля</span>",
+    "sentence4": "<span>Відкрийте</span> нові страви"
+  },
+  "ecoMealMarketDescription": {
+    "slogan": "<span>Щось</span>, що дійсно <span>змінить світ</span>",
+    "message": "У вас є бізнес? <br /> Ви виробляєте їжу??? <br /> Збережіть планету!",
+    "sentence1": "Скоротіть <span>втрати</span> на <span>~ 10%</span>",
+    "sentence2": "<span>Скорочення</span> харчових відходів у виробництві",
+    "sentence3": "<span>Жодних грошей</span> не <span>викинуто</span> у смітник"
+  },
   "footer": {
     "menu": "Меню",
     "home": "Головна",
@@ -168,6 +188,5 @@
     "subscriptionsPlans": "Плани підписки",
     "media": "Медіа",
     "materialsForMedia": "Матеріали для медіа"
-}
-
+  }
 }

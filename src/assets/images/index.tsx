@@ -26,6 +26,12 @@ import Earth_phone from './phone_Earth.png'
 import meal_count_phone from './phone_left .png'
 import cheap_it_phone from './phone_center.png'
 import eco_meal_phone from './phone_right.png'
+import cheap_it_message from './cheap_it_message.png'
+import meal_count_message from './meal_count_message.png'
+import eco_meal_market_message from './eco_meal_market_message.png'
+import new_cheap_it_logo_with_name from './new_cheap_it_logo_with_name.png'
+import new_meal_count_logo_with_name from './new_meal_count_logo_with_name.png'
+import new_eco_meal_market_logo_with_name from './new_eco_meal_market_logo_with_name.png'
 
 
 
@@ -57,5 +63,11 @@ export {
     cheap_it_phone,
     eco_meal_phone,
     hands_with_planet_welcome,
-    image_with_phones_overview_component
+    image_with_phones_overview_component,
+    cheap_it_message,
+    meal_count_message,
+    eco_meal_market_message,
+    new_cheap_it_logo_with_name,
+    new_meal_count_logo_with_name,
+    new_eco_meal_market_logo_with_name
 }

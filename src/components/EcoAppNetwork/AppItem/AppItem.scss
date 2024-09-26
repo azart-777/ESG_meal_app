@@ -1,0 +1,47 @@
+.eco-app-network {
+  &__app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    &--meal-count {
+      position: relative;
+      top: 400px;
+      z-index: 10;
+    }
+
+    &--cheap-it {
+      position: relative;
+      top: 0;
+    }
+
+    &--eco-meal {
+      position: relative;
+      top: 400px;
+    }
+  }
+
+  &__network_lines_left {
+    position: absolute;
+    top: 290px;
+    left: 90px;
+    rotate: -40deg;
+    transform: scaleX(-1);
+    z-index: -1;
+  }
+
+  &__network_lines_center {
+    position: absolute;
+    top: 500px;
+    z-index: -1;
+  }
+
+  &__network_lines_right {
+    position: absolute;
+    top: 260px;
+    right: 110px;
+    rotate: 40deg;
+    z-index: -1;
+  }
+}

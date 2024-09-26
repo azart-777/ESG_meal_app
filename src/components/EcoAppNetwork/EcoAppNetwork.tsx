@@ -7,49 +7,37 @@ import {
   eco_meal_phone,
   network_lines_center
 } from '../../assets/images/';
-import Firefly from './Firefly/Firefly';
+import AppItem from './AppItem/AppItem';
+import Firefly from './NetworkAnimation/Firefly';
 
 export const EcoAppNetwork: React.FC = () => {
   return (
     <div className="eco-app-network">
       <div className="eco-app-network__apps-container">
-        <div className="eco-app-network__app eco-app-network__app--meal-count">
-          <img 
-            className="eco-app-network__app-image" 
-            src={meal_count_phone}
-            alt="Meal count" 
-          />
-          <img 
-            className="eco-app-network__network_lines_left" 
-            src={network_lines_center} 
-            alt="network_lines_left" 
-          />
-        </div>
-        <div className="eco-app-network__app eco-app-network__app--cheap-it">
-          <img 
-            className="eco-app-network__app-image" 
-            src={cheap_it_phone} 
-            alt="Cheap it" 
-          />
-          <img 
-            className="eco-app-network__network_lines_center" 
-            src={network_lines_center} 
-            alt="network_lines_center" 
-          />
-            <Firefly/>
-        </div>
-        <div className="eco-app-network__app eco-app-network__app--eco-meal">
-          <img 
-            className="eco-app-network__app-image" 
-            src={eco_meal_phone} 
-            alt="Eco meal" 
-          />
-          <img 
-            className="eco-app-network__network_lines_right" 
-            src={network_lines_center} 
-            alt="network_lines_right" 
-          />
-        </div>
+        <AppItem 
+          appImageSrc={meal_count_phone}
+          appImageAlt="Meal count"
+          linesImageSrc={network_lines_center}
+          linesImageAlt="network_lines_left"
+          appClass="eco-app-network__app--meal-count"
+          linesClass="eco-app-network__network_lines_left"
+        />
+        <AppItem 
+          appImageSrc={cheap_it_phone}
+          appImageAlt="Cheap it"
+          linesImageSrc={network_lines_center}
+          linesImageAlt="network_lines_center"
+          appClass="eco-app-network__app--cheap-it"
+          linesClass="eco-app-network__network_lines_center"
+        />
+        <AppItem 
+          appImageSrc={eco_meal_phone}
+          appImageAlt="Eco meal"
+          linesImageSrc={network_lines_center}
+          linesImageAlt="network_lines_right"
+          appClass="eco-app-network__app--eco-meal"
+          linesClass="eco-app-network__network_lines_right"
+        />
       </div>
       <div className="eco-app-network__globe">
         <img 
@@ -57,7 +45,8 @@ export const EcoAppNetwork: React.FC = () => {
           src={Earth_phone} 
           alt="Earth" 
         />        
-      </div >
+      </div>
+      <Firefly/>
     </div>
   );
 };

@@ -9,76 +9,16 @@
     display: flex;
     gap: 300px;
     position: relative;
-    z-index: 10;
+    z-index: 5;
 
-    @include r.responsive(tablet-large) {
-      gap: 150px;
-    }
-  }
-
-  &__app {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
-    &__app-image {
-      max-width: 100%;
-    }
-
-  }
-
-  &__app--meal-count {
-    position: relative;
-    top: 250px;
-    width: 150px;
-    z-index: 10;
-  }
-
-  &__app--cheap-it {
-    position: relative;
-    top: 0;
-    width: 200px;
-  }
-
-  &__app--eco-meal {
-    position: relative;
-    top: 250px;
-    width: 150px;
+    // @include r.responsive(tablet-large) {
+    //   gap: 150px;
+    // }
   }
 
   &__globe {
-    margin-top: 200px;
-    z-index: 10;
+    margin-top: 130px;
+    z-index: 5;
 
-    &__globe-image {
-      max-width: 600px;
-    }
-  }
-
-  &__network_lines_left {
-    position: absolute;
-    top: 210px;
-    left: 30px;
-    width: 310px;
-    rotate: -30deg;
-    transform: scaleX(-1);
-    z-index: -1;
-  }
-
-  &__network_lines_center {
-    position: absolute;
-    top: 410px;
-    width: 310px;
-    z-index: -1;
-  }
-
-  &__network_lines_right {
-    position: absolute;
-    top: 210px;
-    right: 30px;
-    width: 310px;
-    rotate: 30deg;
-    z-index: -1;
   }
 }

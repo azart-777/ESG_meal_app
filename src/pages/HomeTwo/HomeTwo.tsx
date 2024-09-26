@@ -9,6 +9,7 @@ import {
     EcoAppNetwork,
     ContactUsForm
 } from '../../components';
+import LightingLines from '../../components/EcoAppNetwork/NetworkAnimation/LightingLines';
 import './HomeTwo.scss';
 
 const HomeTwo = () => {
@@ -18,8 +19,9 @@ const HomeTwo = () => {
             <NewSloganDesignV2/>
             <NewOverviewComponentV2 />
             <WelcomeComponent />
-            <CircleWithTalkingHead />
+            {/* <CircleWithTalkingHead /> */}
             <EcoAppNetwork/>
+            <LightingLines/>
             <ContactUsForm/>
             <Footer/>
             <MoveUpArrow />

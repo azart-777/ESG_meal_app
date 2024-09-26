@@ -23,9 +23,9 @@ import header_light_ellipse from './HeaderLightEllipse.png'
 import new_logo_arrows from './NewLogoArrows.png'
 import image_with_phones_overview_component from "../../assets/images/OverviewComponent.png"
 import Earth_phone from './phone_Earth.png'
-import meal_count_phone from './phone_left .png'
-import cheap_it_phone from './phone_center.png'
-import eco_meal_phone from './phone_right.png'
+import meal_count_phone from './Phone meal count.png'
+import cheap_it_phone from './Phone cheap it.png'
+import eco_meal_phone from './Phone eco meal.png'
 import network_lines_center from './network_lines_center.png'
 
 

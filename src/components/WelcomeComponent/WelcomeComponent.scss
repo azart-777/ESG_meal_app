@@ -7,7 +7,6 @@ $font-size-h3-responsive: clamp(24px, 4vw + 1rem, fonts.$font-size-h2);
 
 .welcome-container {
   width: 100%;
-  padding-bottom: clamp(20px, 3vw, 50px);
   @include n.no-user-text-selection;
 
   &__text {
@@ -16,7 +15,7 @@ $font-size-h3-responsive: clamp(24px, 4vw + 1rem, fonts.$font-size-h2);
     font-family: "Montserrat";
     text-align: center;
     line-height: normal;
-    margin: 0 0 clamp(20px, 3vw, 50px);
+    margin-bottom: clamp(20px, 3vw, 50px);
     background: colors.$text-secondary-gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -38,13 +37,15 @@ $font-size-h3-responsive: clamp(24px, 4vw + 1rem, fonts.$font-size-h2);
     position: relative;
 
     img {
-      max-width: 1110px;
       max-width: clamp(300px, 50vw, 1110px);
       width: 100%;
       height: auto;
       display: block;
       margin: 0 auto;
       z-index: 1;
+      user-select: none;
+        -webkit-user-drag: none;
+        -webkit-touch-callout: none;
     }
 
     &::after {

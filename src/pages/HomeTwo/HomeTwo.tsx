@@ -5,11 +5,11 @@ import {
     CircleWithTalkingHead,
     Footer,
     WelcomeComponent,
+    CompanyCards,
     NewHeaderDesignV2,
     NewOverviewComponentV2,
     EcoAppNetwork,
-    ContactUsForm,
-    AppsDescriptionComponent
+    ContactUsForm
 } from '../../components';
 import './HomeTwo.scss';
 
@@ -21,8 +21,8 @@ const HomeTwo = () => {
                 <NewSloganDesignV2 />
                 <NewOverviewComponentV2 />
                 <WelcomeComponent />
-                <AppsDescriptionComponent />
-                <CircleWithTalkingHead />
+                <CompanyCards />
+                {/* <CircleWithTalkingHead /> */}
                 <EcoAppNetwork />
                 <Footer />
                 <MoveUpArrow />

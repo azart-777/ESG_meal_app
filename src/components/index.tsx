@@ -12,7 +12,7 @@ import { WelcomeComponent } from './WelcomeComponent/WelcomeComponent'
 import { NewHeaderDesignV2 } from './NewHeaderDesignV2/NewHeaderDesignV2'
 import { NewOverviewComponentV2 } from './NewOverviewComponentV2/NewOverviewComponentV2';
 import { EcoAppNetwork } from './EcoAppNetwork/EcoAppNetwork';
-import { AppsDescriptionComponent } from './AppsDescriptionComponent/AppsDescriptionComponent';
+import { CompanyCards } from './CompanyCards/CompanyCards';
 
 export {
     ContactUsForm,
@@ -29,5 +29,5 @@ export {
     WelcomeComponent,
     NewOverviewComponentV2,
     EcoAppNetwork,
-    AppsDescriptionComponent
+    CompanyCards
 }

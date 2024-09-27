@@ -1,9 +1,104 @@
-footer {
-  position: relative;
-  .footer-container {
+@use "./../../shared/styles/mixins/responsive" as r;
+
+.footer {
+  &__container {
     display: flex;
-    justify-content: start;
-    position: relative;
-    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    border-top: 1px solid #444;
+
+    @include r.responsive(tablet) {
+      justify-content: center;
+      flex-direction: column;
+    }
+    @include r.responsive(phone-large) {
+      justify-content: center;
+      flex-direction: column;
+    }
+    @include r.responsive(phone) {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    gap: 30px;
+    font-size: 14px;
+
+    @include r.responsive(tablet) {
+      width: 100%;
+      order: 2;
+      text-align: center;
+      justify-content: space-between;
+    }
+    @include r.responsive(phone-large) {
+      width: 100%;
+      order: 2;
+      text-align: center;
+      justify-content: space-between;
+    }
+    @include r.responsive(phone) {
+      width: 100%;
+      order: 2;
+      text-align: center;
+      justify-content: space-between;
+    }
+
+
+    p {
+      display: flex;
+      align-items: center;
+      font-family: "Montserrat";
+      font-size: 16px;
+
+      @include r.responsive(tablet) {
+        font-size: 12px;
+        width: 15%;
+      }
+      @include r.responsive(phone-large) {
+        font-size: 12px;
+        width: 20%;
+      }
+      @include r.responsive(phone) {
+        font-size: 12px;
+        width: 25%;
+      }
+
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 20px;
+
+    @include r.responsive(tablet) {
+      order: 1;
+    }
+    @include r.responsive(phone-large) {
+      order: 1;
+    }
+    @include r.responsive(phone) {
+      order: 1;
+    }
+
+
+    a {
+      display: flex;
+
+      .footer__icon {
+        width: 24px;
+        height: 24px;
+        transition: transform 0.3s;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
   }
 }

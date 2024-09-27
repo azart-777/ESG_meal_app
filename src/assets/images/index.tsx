@@ -34,6 +34,9 @@ import new_eco_meal_market_logo_with_name from './new_eco_meal_market_logo_with_
 import image_with_phones_overview_component from './overviewComponent/image_with_phones.png'
 import hands_with_planet_welcome_component from './welcomeComponent/hands_with_Earth.png'
 import move_up_arrow from './moveUpArrow/move_up_arrow.png'
+import cheap_it_logo from './logo/cheap_it.png'
+import meal_count_logo from './logo/meal_count.png'
+import eco_meal_market from './logo/eco_meal_market.png'
 
 export {
     logo_Cheap_it_with_title,
@@ -69,5 +72,8 @@ export {
     new_eco_meal_market_logo_with_name,
     image_with_phones_overview_component,
     hands_with_planet_welcome_component,
-    move_up_arrow
+    move_up_arrow,
+    cheap_it_logo,
+    meal_count_logo,
+    eco_meal_market
 }

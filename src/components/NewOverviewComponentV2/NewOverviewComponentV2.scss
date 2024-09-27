@@ -8,6 +8,9 @@
     display: block;
     margin: 0 auto;
     z-index: 1;
+    user-select: none;
+        -webkit-user-drag: none;
+        -webkit-touch-callout: none;
   }
 
   &::before {

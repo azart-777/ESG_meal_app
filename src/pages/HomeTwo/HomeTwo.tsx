@@ -5,6 +5,7 @@ import {
     CircleWithTalkingHead,
     Footer,
     WelcomeComponent,
+    CompanyCards,
     NewHeaderDesignV2,
     NewOverviewComponentV2,
     EcoAppNetwork,
@@ -21,8 +22,9 @@ const HomeTwo = () => {
                 <NewSloganDesignV2 />
                 <NewOverviewComponentV2 />
                 <WelcomeComponent />
+                <CompanyCards />
                 <AppsDescriptionComponent />
-                <CircleWithTalkingHead />
+                {/* <CircleWithTalkingHead /> */}
                 <EcoAppNetwork />
                 <Footer />
                 <MoveUpArrow />

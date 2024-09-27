@@ -9,8 +9,7 @@ import {
     NewHeaderDesignV2,
     NewOverviewComponentV2,
     EcoAppNetwork,
-    ContactUsForm,
-    AppsDescriptionComponent
+    ContactUsForm
 } from '../../components';
 import './HomeTwo.scss';
 
@@ -23,7 +22,6 @@ const HomeTwo = () => {
                 <NewOverviewComponentV2 />
                 <WelcomeComponent />
                 <CompanyCards />
-                <AppsDescriptionComponent />
                 {/* <CircleWithTalkingHead /> */}
                 <EcoAppNetwork />
                 <Footer />

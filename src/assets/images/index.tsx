@@ -10,11 +10,12 @@ import green_planet from './GreenPlanet.png';
 import Earth_image_in_main_banner from "./earth.png";
 import Green_smoke_in_main_banner from "./green_smoke.png";
 import logo_Cheap_IT_in_main_banner from "./cheapItLogo.png"
-import icon_Apple from "./socialApple.png"
-import icon_Facebook from "./socialFacebook.png"
-import icon_Google from "./socialGoogle.png"
-import icon_Instagram from "./socialInstagram.png"
-import icon_Web from "./socialWeb.png"
+import icon_Apple from "./footer/Apple.png"
+import icon_Facebook from "./footer/Facebook.png"
+import icon_Google from "./footer/Google.png"
+import icon_Instagram from "./footer/Instagram.png"
+import icon_Linkedin from "./footer/Linkedin.png"
+import icon_map from "./footer/map.png"
 import Jake_talking_head from './Jake.png'
 import frame_for_talking_head from './CircleForTalkingHead.png'
 import header_light_ellipse from './HeaderLightEllipse.png'
@@ -54,7 +55,8 @@ export {
     icon_Facebook,
     icon_Google,
     icon_Instagram,
-    icon_Web,
+    icon_Linkedin,
+    icon_map,
     header_light_ellipse,
     new_logo_arrows,
     Earth_phone,

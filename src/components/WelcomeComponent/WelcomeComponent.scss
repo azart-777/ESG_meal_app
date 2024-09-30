@@ -44,8 +44,8 @@ $font-size-h3-responsive: clamp(24px, 4vw + 1rem, fonts.$font-size-h2);
       margin: 0 auto;
       z-index: 1;
       user-select: none;
-        -webkit-user-drag: none;
-        -webkit-touch-callout: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
     }
 
     &::after {

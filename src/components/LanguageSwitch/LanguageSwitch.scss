@@ -12,8 +12,13 @@ $flag-container-shadow-color: #00FF007F;
 
 div.language-switch {
   &__flag {
-    width: 48px;
-    height: 48px;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid white;
   }
 
   &__popper {
@@ -22,8 +27,37 @@ div.language-switch {
   }
 }
 
+
+
 .language-switch__container {
   .language-switch__flag-btn {
-    box-shadow: inset -3px -3px 7px $flag-container-shadow-color;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; // округлість кнопки
+    background-color: #000; // темний фон для контрасту
+
+    .language-switch__flag { 
+      color: #00FF00; // початковий колір тексту
+      animation: pulseText 3s infinite; // додана анімація для тексту
+    }
+  }
+}
+
+// Keyframes для пульсування тексту
+@keyframes pulseText {
+  0% {
+    color: #00FF00; // яскраво-зелений колір
+    text-shadow: 0 0 10px #00FF00; // додаткове світіння
+  }
+  50% {
+    color: rgba(0, 255, 0, 0.5); // напівпрозорий зелений
+    text-shadow: 0 0 20px rgba(0, 255, 0, 0.3); // слабший ефект світіння
+  }
+  100% {
+    color: #00FF00; // повернення до яскраво-зеленого
+    text-shadow: 0 0 10px #00FF00; // повернення до початкового стану
   }
 }

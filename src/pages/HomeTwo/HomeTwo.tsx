@@ -1,29 +1,31 @@
 import { Container } from '@mui/material';
 import {
-    NewSloganDesignV2,
+    // NewSloganDesignV2,
     MoveUpArrow,
-    CircleWithTalkingHead,
+    // CircleWithTalkingHead,
     Footer,
-    WelcomeComponent,
+    // WelcomeComponent,
     CompanyCards,
     NewHeaderDesignV2,
-    NewOverviewComponentV2,
-    EcoAppNetwork,
-    ContactUsForm
+    // NewOverviewComponentV2,
+    // EcoAppNetwork,
+    // ContactUsForm
 } from '../../components';
 import './HomeTwo.scss';
+import { WeDidIt } from '../../components/WeDidIt/WeDidIt';
 
 const HomeTwo = () => {
     return (
         <>
             <Container maxWidth="xl">
                 <NewHeaderDesignV2 />
-                <NewSloganDesignV2 />
+                {/*<NewSloganDesignV2 />
                 <NewOverviewComponentV2 />
-                <WelcomeComponent />
+                <WelcomeComponent /> */}
                 <CompanyCards />
                 {/* <CircleWithTalkingHead /> */}
-                <EcoAppNetwork />
+                {/* <EcoAppNetwork /> */}
+                <WeDidIt/>
                 <Footer />
                 <MoveUpArrow />
             </Container>

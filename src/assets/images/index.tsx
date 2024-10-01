@@ -38,6 +38,7 @@ import move_up_arrow from './moveUpArrow/move_up_arrow.png'
 import cheap_it_logo from './logo/cheap_it.png'
 import meal_count_logo from './logo/meal_count.png'
 import eco_meal_market from './logo/eco_meal_market.png'
+import cheap_it_family_logo from './logo/header_logo_cheap_it_family.png'
 
 export {
     logo_Cheap_it_with_title,
@@ -77,5 +78,6 @@ export {
     move_up_arrow,
     cheap_it_logo,
     meal_count_logo,
-    eco_meal_market
+    eco_meal_market,
+    cheap_it_family_logo
 }

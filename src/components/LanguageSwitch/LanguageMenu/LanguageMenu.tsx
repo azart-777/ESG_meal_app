@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import { MenuList } from '@mui/material';
 import { LanguageMenuItem } from '../LanguageMenuItem/LanguageMenuItem';
 import { useLanguage } from '../../../shared/hooks/useLanguage';
-import './LanguageMenu.scss'
+import './LanguageMenu.scss';
 
 interface LanguageMenuProps {
     closeMenu: () => void;

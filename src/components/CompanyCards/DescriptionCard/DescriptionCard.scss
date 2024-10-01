@@ -4,7 +4,7 @@
 @use "./../../../shared/styles/variables/fonts" as fonts;
 
 $font-size-h1-responsive: clamp(24px, 6vw, fonts.$font-size-h1);
-$font-size-h4-responsive: clamp(16px, 3vw, fonts.$font-size-h4);
+$font-size-h4-responsive: clamp(14px, 3vw, fonts.$font-size-h4);
 $font-size-h5-responsive: clamp(18px, 3vw, fonts.$font-size-h5);
 $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
 

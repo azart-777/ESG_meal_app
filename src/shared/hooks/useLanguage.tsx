@@ -6,7 +6,7 @@ import { Translation } from '../constants';
 interface Language {
     code: string;
     name: string;
-    flag: string;
+    abbreviation: string;
 }
 
 interface LanguageContextProps {
@@ -18,8 +18,8 @@ interface LanguageContextProps {
 const LanguageContext = createContext<LanguageContextProps | undefined>(undefined);
 
 const languages: Language[] = [
-    { code: Translation.Languages.en_US.key, name: Translation.Languages.en_US.languageSwitchMenuItemText, flag: en_US },
-    { code: Translation.Languages.uk_UA.key, name: Translation.Languages.uk_UA.languageSwitchMenuItemText, flag: uk_UA },
+    { code: Translation.Languages.en_US.key, name: Translation.Languages.en_US.languageSwitchMenuItemText, abbreviation: 'ENG' },
+    { code: Translation.Languages.uk_UA.key, name: Translation.Languages.uk_UA.languageSwitchMenuItemText, abbreviation: 'UA' },
 ];
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {

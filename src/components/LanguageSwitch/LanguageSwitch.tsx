@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Box, IconButton, Avatar, Popper, Grow, Paper, ClickAwayListener } from '@mui/material';
+import { Box, IconButton, Popper, Grow, Paper, ClickAwayListener } from '@mui/material';
 import { LanguageMenu } from './LanguageMenu/LanguageMenu';
 import { useLanguage } from '../../shared/hooks/useLanguage';
 import './LanguageSwitch.scss';
@@ -15,7 +15,9 @@ export const LanguageSwitch: React.FC = () => {
     return (
         <Box className={'language-switch__container'}>
             <IconButton className="language-switch__flag-btn" ref={anchorRef} onClick={handleToggle}>
-                <Avatar src={selectedLanguage.flag} className="language-switch__flag" />
+                <div className="language-switch__flag">
+                    {selectedLanguage.code === 'en_US' ? 'ENG' : 'UA'}
+                </div>
             </IconButton>
             <Popper
                 className={'language-switch__popper'}
@@ -24,7 +26,8 @@ export const LanguageSwitch: React.FC = () => {
                 open={open}
                 anchorEl={anchorRef.current}
                 role={undefined}
-                placement={'bottom-end'}>
+                placement={'bottom-end'}
+            >
                 {({ TransitionProps, placement }) => (
                     <Grow
                         {...TransitionProps}
@@ -41,3 +44,4 @@ export const LanguageSwitch: React.FC = () => {
         </Box>
     );
 };
+

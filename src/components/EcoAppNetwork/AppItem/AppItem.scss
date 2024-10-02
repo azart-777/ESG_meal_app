@@ -1,3 +1,5 @@
+@use "./../../../shared/styles/mixins/responsive" as r;
+
 .eco-app-network {
   &__app {
     display: flex;
@@ -29,12 +31,18 @@
     rotate: -40deg;
     transform: scaleX(-1);
     z-index: -1;
+
+    
   }
 
   &__network_lines_center {
     position: absolute;
     top: 500px;
     z-index: -1;
+    &-image {
+
+    width: 10%;
+    }    
   }
 
   &__network_lines_right {
@@ -43,5 +51,20 @@
     right: 110px;
     rotate: 40deg;
     z-index: -1;
+    height: 100%; // Базовий розмір картинки
+    transition: height 0.5s ease; // Додаємо плавність зміни розміру
+
+    @include r.responsive(tablet) {
+      height: 80%;
+    }
+
+    @include r.responsive(phone-large) {
+      height: 60%;
+    }
+
+    @include r.responsive(phone) {
+      height: 50%;
+    }
+
   }
 }

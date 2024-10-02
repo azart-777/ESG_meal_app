@@ -21,10 +21,10 @@ import frame_for_talking_head from './CircleForTalkingHead.png'
 import header_light_ellipse from './HeaderLightEllipse.png'
 import new_logo_arrows from './NewLogoArrows.png'
 import Earth_phone from './phone_Earth.png'
+import meal_count_phone from './Phone eco meal.png'
+import cheap_it_phone from './Phone cheap it.png'
+import eco_meal_phone from './Phone meal count.png'
 import network_lines_center from './network_lines_center.png'
-import meal_count_phone from './phone_left .png'
-import cheap_it_phone from './phone_center.png'
-import eco_meal_phone from './phone_right.png'
 import cheap_it_message from './cheap_it_message.png'
 import meal_count_message from './meal_count_message.png'
 import eco_meal_market_message from './eco_meal_market_message.png'
@@ -68,7 +68,6 @@ export {
     meal_count_phone,
     cheap_it_phone,
     eco_meal_phone,
-    network_lines_center,
     cheap_it_message,
     meal_count_message,
     eco_meal_market_message,
@@ -81,5 +80,6 @@ export {
     cheap_it_logo,
     meal_count_logo,
     eco_meal_market,
-    cheap_it_family_logo
+    cheap_it_family_logo,
+    network_lines_center
 }

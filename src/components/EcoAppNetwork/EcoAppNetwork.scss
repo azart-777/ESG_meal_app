@@ -10,15 +10,14 @@
     gap: 300px;
     position: relative;
     z-index: 5;
-
-    // @include r.responsive(tablet-large) {
-    //   gap: 150px;
-    // }
   }
 
   &__globe {
     margin-top: 130px;
     z-index: 5;
 
+    &-image {
+      width: 100%;
+    }
   }
 }

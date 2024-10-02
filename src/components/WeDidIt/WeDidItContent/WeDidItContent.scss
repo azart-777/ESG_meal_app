@@ -3,7 +3,6 @@
 @use "./../../../shared/styles/variables/colors" as colors;
 @use "./../../../shared/styles/variables/fonts" as fonts;
 
-$font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
 
 
 .we-did-it {
@@ -34,7 +33,7 @@ $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
         display: flex;
         justify-content: center;
         text-align: center;
-        font-size: $font-size-paragraph-responsive;
+        font-size: clamp(12px, 2vw, fonts.$font-size-h6);
         color: colors.$text-white;
     }
 
@@ -54,7 +53,7 @@ $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
     &__card-list {
         display: flex;
         justify-content: center;
-        gap: 100px;
+        gap: 50px;
         @include r.responsive(tablet) {
             justify-content: center;
             flex-direction: column;
@@ -69,32 +68,55 @@ $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
             justify-content: center;
             flex-direction: column;
             align-items: center;
-          }
-      
+          }      
     }
 }
 
 .list-card {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #00dd30;
-    border-radius: 40px;
-    width: 370px;
-    height: 400px;
-    padding: 15px;
+    border-radius: 40px;    
+    width: 100%;
+    padding: 0 clamp(20px, 5vw, 80px);
 
     &__title {
-        padding-top: 30px;
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: clamp(24px, 2vw, fonts.$font-size-h4);
+        font-family: "Inter";
+        font-weight: 400;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        @include r.responsive(tablet) {
+            margin: 50px auto 50px;
+          }
+          @include r.responsive(phone-large) {
+            margin: 50px auto 50px;
+          }
+          @include r.responsive(phone) {
+            margin: 50px auto 50px;
+          }
     }
 
     &__sentences {
-        padding: 30px;
-        margin: 0;
-        gap: 10px;
+        
+        padding-left: 30px;
+        margin-bottom: 50px;
+        @include r.responsive(tablet) {
+            margin: 0 auto 50px;
+          }
+          @include r.responsive(phone-large) {
+            margin: 0 auto 50px;
+          }
+          @include r.responsive(phone) {
+            margin: 0 auto 50px;
+          }        
     }
 
     &__sentence {
-        padding: 8px 0;
-        font-size: 14px; 
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: clamp(18px, 2vw, fonts.$font-size-h6);
     }
 }
+
+

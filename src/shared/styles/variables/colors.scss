@@ -1,7 +1,14 @@
 $base-background-color: #000;
-$base-background-color-v2: #111111;
 $base-white-color: #efefef;
 
+// Main color variables
+$primary-green: #00FF00;
+$accent-green: #059005;
+$text-black: #232228;
+$text-white: #FFFFFF;
+$text-primary-gradient: linear-gradient(96.63deg, #FFFFFF 5.78%, #00FF00 72.85%);
+$text-secondary-gradient: linear-gradient(251.46deg, #FFFFFF 13.67%, #00FF00 124.09%);
+$text-stroke-gradient: linear-gradient(96.63deg, #FFFFFF 5.78%, #00FF00 72.85%);
 
 //Andrii color variables
 $black-text: #232323;

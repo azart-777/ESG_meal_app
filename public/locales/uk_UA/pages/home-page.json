@@ -119,29 +119,42 @@
       ]
     }
   },
-  "slogan": {
-    "eat": "їж",
-    "well": "добре",
-    "spend": "витрачай",
-    "less": "менше",
-    "andMake": "зроби",
-    "yourPlanetSmile": "свою планету щасливою"
-  },
-
-  "newSlogan": {
-    "eat": "їж",
-    "well": "добре",
-    "spend": "витрачай",
-    "less": "менше",
-    "and": "та",
-    "makeYour": "зроби свою",
-    "planetSmile": "планету щасливою"
+  "mainSlogan": {
+    "slogan": "їж добре, витрачай менше, <br /> та <br /> роби планету щасливою"
   },
 
   "welcomeText": {
-    "WelcomeToThe": "Ласкаво просимо до",
-    "CheapItFamily": "Cheap-It family",
-    "todayWeBuildingTomorrow!": "сьогодні будуємо завтра!"
+    "text": "Ласкаво просимо до Cheap-It Family!"
+  },
+  
+  "DescriptionCompanyCards": {
+    "cheapITDescription": {
+      "slogan": "Ми хотіли створити <br /> щось унікальне!",
+      "message": "Зголоднів???  Рятуй Планету!",
+      "sentence1": "Досліджуй світ нових смаків",
+      "sentence2": "Заощаджуй час і гроші для наступних пригод",
+      "sentence3": "Насолоджуйся високоякісними стравами",
+      "sentence4": "Рятуй планету!",
+      "shortDescription": "cheap it - маркетплейс смачних страв за приємними цінами!"
+    },
+    "mealCountDescription": {
+      "slogan": "Щось насправді <br /> важливе!",
+      "message": "Не знаєш що приготувати???  Рятуй планету!",
+      "sentence1": "Персоналізуй свій раціон",
+      "sentence2": "Не витрачай зайві гроші на зайвів калорії",
+      "sentence3": "Насолоджуйся різноманіттям рецептур",
+      "sentence4": "Рятуй планету!",
+      "shortDescription": "Meal Count - особисте меню в твоєму смартфоні!"
+    },
+    "ecoMealMarketDescription": {
+      "slogan": "Щось, що дійсно <br /> змінить Світ!",
+      "message": "Захотілось свіженького??? Рятуй планету!",
+      "sentence1": "Замовляй заздалегідь",
+      "sentence2": "Їж свіже щодня",
+      "sentence3": "Підтримуй місцевого виробника",
+      "sentence4": "Рятуй планету!",
+      "shortDescription": "eco meal market - власна еко ферма в смартфоні!"
+    }
   },
 
   "footer": {
@@ -168,6 +181,5 @@
     "subscriptionsPlans": "Плани підписки",
     "media": "Медіа",
     "materialsForMedia": "Матеріали для медіа"
-}
-
+  }
 }

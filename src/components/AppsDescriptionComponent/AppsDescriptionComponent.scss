@@ -1,0 +1,41 @@
+@use "./../../shared/styles/mixins/no-user-text-selection" as n;
+@use "./../../shared/styles/mixins/responsive" as r;
+
+.apps-description-component {
+  position: relative;
+  @include n.no-user-text-selection;
+
+  &__vector {
+    height: 1100px;
+    position: absolute;
+    top: 900px;
+
+    @include r.responsive(desktop) {
+      top: 720px;
+    }
+
+    @include r.responsive(tablet-large) {
+      height: 900px;
+      top: 680px;
+      left: -35px;
+    }
+
+    @include r.responsive(tablet) {
+      height: 700px;
+      top: 650px;
+      left: -50px;
+    }
+
+    @include r.responsive(phone-large) {
+      height: 500px;
+      top: 500px;
+      left: -50px;
+    }
+
+    @include r.responsive(phone) {
+      height: 500px;
+      top: 400px;
+      left: -50px;
+    }
+  }
+}

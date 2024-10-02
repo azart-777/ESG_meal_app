@@ -7,28 +7,39 @@ import logo_Sun_footer from './SunBase.png';
 import green_brush_background from './greenBrush.png';
 import chip_it_family_logo from './CheapItFamilyLogo.png';
 import green_planet from './GreenPlanet.png';
-import move_up_arrow from './MoveUpArrow.png';
 import Earth_image_in_main_banner from "./earth.png";
 import Green_smoke_in_main_banner from "./green_smoke.png";
 import logo_Cheap_IT_in_main_banner from "./cheapItLogo.png"
-import icon_Apple from "./socialApple.png"
-import icon_Facebook from "./socialFacebook.png"
-import icon_Google from "./socialGoogle.png"
-import icon_Instagram from "./socialInstagram.png"
-import icon_Web from "./socialWeb.png"
+import icon_Apple from "./footer/Apple.png"
+import icon_Facebook from "./footer/Facebook.png"
+import icon_Google from "./footer/Google.png"
+import icon_Instagram from "./footer/Instagram.png"
+import icon_Linkedin from "./footer/Linkedin.png"
+import icon_map from "./footer/map.png"
 import Jake_talking_head from './Jake.png'
 import frame_for_talking_head from './CircleForTalkingHead.png'
-import hands_with_planet_welcome from './hands-with-planet_welcome.png'
 import header_light_ellipse from './HeaderLightEllipse.png'
 import new_logo_arrows from './NewLogoArrows.png'
-import image_with_phones_overview_component from "../../assets/images/OverviewComponent.png"
 import Earth_phone from './phone_Earth.png'
-import meal_count_phone from './Phone meal count.png'
-import cheap_it_phone from './Phone cheap it.png'
-import eco_meal_phone from './Phone eco meal.png'
 import network_lines_center from './network_lines_center.png'
+import meal_count_phone from './phone_left .png'
+import cheap_it_phone from './phone_center.png'
+import eco_meal_phone from './phone_right.png'
+import cheap_it_message from './cheap_it_message.png'
+import meal_count_message from './meal_count_message.png'
+import eco_meal_market_message from './eco_meal_market_message.png'
+import new_cheap_it_logo_with_name from './new_cheap_it_logo_with_name.png'
+import new_meal_count_logo_with_name from './new_meal_count_logo_with_name.png'
+import new_eco_meal_market_logo_with_name from './new_eco_meal_market_logo_with_name.png'
 
-
+// New imports from folders
+import image_with_phones_overview_component from './overviewComponent/image_with_phones.png'
+import hands_with_planet_welcome_component from './welcomeComponent/hands_with_Earth.png'
+import move_up_arrow from './moveUpArrow/move_up_arrow.png'
+import cheap_it_logo from './logo/cheap_it.png'
+import meal_count_logo from './logo/meal_count.png'
+import eco_meal_market from './logo/eco_meal_market.png'
+import cheap_it_family_logo from './logo/header_logo_cheap_it_family.png'
 
 export {
     logo_Cheap_it_with_title,
@@ -39,7 +50,6 @@ export {
     logo_Sun_footer,
     green_brush_background,
     chip_it_family_logo,
-    move_up_arrow,
     green_planet,
     Earth_image_in_main_banner,
     Green_smoke_in_main_banner,
@@ -50,14 +60,26 @@ export {
     icon_Facebook,
     icon_Google,
     icon_Instagram,
-    icon_Web,
+    icon_Linkedin,
+    icon_map,
     header_light_ellipse,
     new_logo_arrows,
     Earth_phone,
     meal_count_phone,
     cheap_it_phone,
     eco_meal_phone,
-    hands_with_planet_welcome,
+    network_lines_center,
+    cheap_it_message,
+    meal_count_message,
+    eco_meal_market_message,
+    new_cheap_it_logo_with_name,
+    new_meal_count_logo_with_name,
+    new_eco_meal_market_logo_with_name,
     image_with_phones_overview_component,
-    network_lines_center
+    hands_with_planet_welcome_component,
+    move_up_arrow,
+    cheap_it_logo,
+    meal_count_logo,
+    eco_meal_market,
+    cheap_it_family_logo
 }

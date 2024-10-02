@@ -1,9 +1,11 @@
+import { Container } from '@mui/material';
 import {
     NewSloganDesignV2,
     MoveUpArrow,
     CircleWithTalkingHead,
     Footer,
     WelcomeComponent,
+    CompanyCards,
     NewHeaderDesignV2,
     NewOverviewComponentV2,
     EcoAppNetwork,
@@ -15,16 +17,17 @@ import './HomeTwo.scss';
 const HomeTwo = () => {
     return (
         <>
-            <NewHeaderDesignV2/>
-            <NewSloganDesignV2/>
-            <NewOverviewComponentV2 />
-            <WelcomeComponent />
-            {/* <CircleWithTalkingHead /> */}
-            <EcoAppNetwork/>
-            <LightingLines/>
-            <ContactUsForm/>
-            <Footer/>
-            <MoveUpArrow />
+            <Container maxWidth="xl">
+                <NewHeaderDesignV2 />
+                <NewSloganDesignV2 />
+                <NewOverviewComponentV2 />
+                <WelcomeComponent />
+                <CompanyCards />
+                {/* <CircleWithTalkingHead /> */}
+                <EcoAppNetwork />
+                <Footer />
+                <MoveUpArrow />
+            </Container>
         </>
     );
 };

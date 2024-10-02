@@ -1,10 +1,14 @@
 @use './../../shared/styles/mixins/responsive' as r;
 @use "./../../shared/styles/mixins/no-user-text-selection" as n;
 @use "./../../shared/styles/variables/colors" as colors;
+@use "./../../shared/styles/variables/fonts" as fonts;
 
-$text-color--accent: colors.$app-accent;
+$text-color--accent: colors.$primary-green;
+$font-size-h6-responsive: clamp(20px, 3vw, fonts.$font-size-h6);
+$font-size-paragraph-responsive: clamp(16px, 3vw, fonts.$font-size-paragraph);
 
 .header {
+  height: clamp(110px, 20vw, 220px);
   position: relative;
   display: flex;
   justify-content: center;
@@ -12,125 +16,36 @@ $text-color--accent: colors.$app-accent;
   @include n.no-user-text-selection;
 
   &__logo {
-    position: relative;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    z-index: 30;
     display: flex;
-
-    @include r.responsive(phone) {
-      margin-top: 25px;
-      margin-bottom: 80px;
-    }
-
-    @include r.responsive(phone-large) {
-      margin-top: 20px;
-    }
-
-    @include r.responsive(tablet) {
-      margin-top: 25px;
-    }
-
-    @include r.responsive(tablet-large) {
-      margin-top: 25px;
-    }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &-image {
-      height: 95px;
-
-      @include r.responsive(phone) {
-        height: 75px;
-      }
-
-      @include r.responsive(phone-large) {
-        height: 75px;
-      }
-
-      @include r.responsive(tablet) {
-        height: 85px;
-      }
-
-      @include r.responsive(tablet-large) {
-        height: 85px;
-      }
+      max-width: clamp(65px, 8vw, 115px);
+      height: clamp(45px, 6vw, 95px);
+      user-select: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
     }
 
     &-text {
-        font-size: 28px;
-        text-transform: uppercase;
-        margin-top: 10px;
-        text-shadow: 0px 8px 0px #0000006e;
-        &:last-child {
-            // color: $text-color--accent;
-            margin-top: 27px;
-            margin-bottom: 0;
-        }
+      font-size: $font-size-paragraph-responsive;
+      font-weight: fonts.$font-weight-semibold;
+      font-family: "Montserrat";
+      text-transform: uppercase;
+
+      span {
+        color: $text-color--accent;
+      }
     }
 
     &-container {
       position: relative;
     }
-
-    &-ellipse {
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      width: 200px;
-      top: -15px;
-      z-index: 20;
-
-      &-image {
-        height: 230px;
-        transform: rotate(360deg); filter: brightness(95%);
-      }
-
-      @include r.responsive(phone-large) {
-        top: -150px;
-
-        &-image {
-          height: 300px;
-        }
-      }
-
-      @include r.responsive(tablet) {
-        top: -215px;
-
-        &-image {
-          height: 400px;
-        }
-      }
-
-      @include r.responsive(tablet-large) {
-        top: -290px;
-
-        &-image {
-          height: 500px;
-        }
-      }
-    }
-
   }
 
   &__language-switch-container {
-    position: absolute;
-    right: 0;
-    margin-top: 20px;
-    margin-right: 20px;
-    z-index: 30;
-
-    @include r.responsive(phone) {
-      margin-right: 10px;
-    }
-    @include r.responsive(phone-large) {
-      margin-right: 10px;
-    }
-
-    @include r.responsive(tablet) {
-      margin-right: 15px;
-    }
-
-    @include r.responsive(tablet-large) {
-      margin-right: 15px;
-    }
+    margin-right: clamp(2px, 1vw, 10px);
   }
 }

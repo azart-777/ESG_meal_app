@@ -119,30 +119,44 @@
       ]
     }
   },
-  "slogan": {
-    "eat": "Eat",
-    "well": "well",
-    "spend": "spend",
-    "less": "less",
-    "andMake": "and make",
-    "yourPlanetSmile": "your planet smile"
-  },
-  "newSlogan": {
-    "eat": "Eat",
-    "well": "well",
-    "spend": "spend",
-    "less": "less",
-    "and": "and",
-    "makeYour": "make your",
-    "planetSmile": "planet smile"
+  "mainSlogan": {
+    "slogan": "EAT WELL, SPEND LESS, <br /> AND <br /> MAKE YOUR PLANET SMILE"
   },
 
   "welcomeText": {
-    "WelcomeToThe": "Welcome to the",
-    "CheapItFamily": "Cheap-It family",
-    "todayWeBuildingTomorrow!": "today we building tomorrow!"
+    "text": "Welcome to the Cheap-It Family!"
   },
-  
+
+  "DescriptionCompanyCards": {
+    "cheapITDescription": {
+      "slogan": "We wanted to create <br /> something unique!",
+      "message": "Feeling hungry??? Save the Planet!",
+      "sentence1": "Discover a world of new flavours",
+      "sentence2": "Save time and money for your next adventure",
+      "sentence3": "Enjoy high quality food",
+      "sentence4": "Save the planet!",
+      "shortDescription": "cheap it - a platform for delicious food at affordable prices!"
+    },
+    "mealCountDescription": {
+      "slogan": "SOMETHING REALLY <br /> IMPORTANT!",
+      "message": "Don't know what to eat??? Save the planet!",
+      "sentence1": "Personalise your ration",
+      "sentence2": "Don't waste money on unnecessary calories",
+      "sentence3": "Enjoy the variety of recipes",
+      "sentence4": "Save the planet!",
+      "shortDescription": "Meal Count - your own menu, right in your smartphone!"
+    },
+    "ecoMealMarketDescription": {
+      "slogan": "Something that will <br /> really change the <br /> world!",
+      "message": "Fancy something fresh??? Save the planet!",
+      "sentence1": "Order in advance",
+      "sentence2": "Eat fresh every day",
+      "sentence3": "Support local producers",
+      "sentence4": "Save the planet!",
+      "shortDescription": "eco meal market - your own eco-farm in your smartphone!"
+    }
+  },
+
   "footer": {
     "menu": "Menu",
     "home": "Home",
@@ -168,5 +182,4 @@
     "media": "Media",
     "materialsForMedia": "Materials for media"
   }
-
 }

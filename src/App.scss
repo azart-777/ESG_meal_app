@@ -2,9 +2,14 @@
 @import "shared/styles/base/global-fonts";
 @import "shared/styles/base/spacings";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  // background-color: colors.$base-background-color;
-  background-color: colors.$base-background-color-v2;
+  background-color: colors.$base-background-color;
   color: colors.$base-white-color;
   height: 100%;
   width: 100%;  

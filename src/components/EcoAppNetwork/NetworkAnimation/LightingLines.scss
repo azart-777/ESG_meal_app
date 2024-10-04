@@ -1,0 +1,14 @@
+.lines-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: black; // Background to highlight the green neon lines
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lighting-line {
+  stroke-linecap: square; // Making the path's start/end points square-like
+  stroke-linejoin: round;
+}

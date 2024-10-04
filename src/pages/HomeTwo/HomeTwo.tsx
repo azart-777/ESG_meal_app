@@ -11,6 +11,7 @@ import {
     // EcoAppNetwork,
     // ContactUsForm
 } from '../../components';
+import LightingLines from '../../components/EcoAppNetwork/NetworkAnimation/LightingLines';
 import './HomeTwo.scss';
 import { WeDidIt } from '../../components/WeDidIt/WeDidIt';
 

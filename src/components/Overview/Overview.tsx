@@ -1,8 +1,8 @@
 import React from "react";
-import "./NewOverviewComponentV2.scss";
+import "./Overview.scss";
 import { image_with_phones_overview_component } from "../../assets/images/index";
 
-export const NewOverviewComponentV2: React.FC = () => {
+export const Overview: React.FC = () => {
   return (
     <>
       <div className="overview-component">

@@ -1,5 +1,4 @@
-export const dataWeDidIt = [
-    {
+export const weDidItData = {
     slogan: "WeDidIt.slogan",
     message: "WeDidIt.message",
     cardBusiness: {
@@ -23,5 +22,4 @@ export const dataWeDidIt = [
         ]
     },
     shortDescription: "WeDidIt.shortDescription"
-}
-];
+};

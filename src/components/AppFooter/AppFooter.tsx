@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.scss";
+import "./AppFooter.scss";
 import { icon_Apple,
   icon_Facebook,
   icon_Google,
@@ -9,7 +9,7 @@ import { icon_Apple,
 } from "../../assets/images";
 
 
-export const Footer: React.FC = () => {
+export const AppFooter: React.FC = () => {
   
   return (
     <footer className="footer">
@@ -43,4 +43,4 @@ export const Footer: React.FC = () => {
 
 };
 
-export default Footer;
+export default AppFooter;

@@ -1,9 +1,9 @@
 import React from "react";
-import "./NewHeaderDesignV2.scss";
+import "./AppHeader.scss";
 import { cheap_it_family_logo } from "../../assets/images";
-import { LanguageSwitchV2 } from "../LanguageSwitchV2/LanguageSwitchV2";
+import { LanguageSwitch } from "../LanguageSwitch/LanguageSwitch";
 
-export const NewHeaderDesignV2: React.FC = () => {
+export const AppHeader: React.FC = () => {
   return (
     <>
       <div className="header">
@@ -20,7 +20,7 @@ export const NewHeaderDesignV2: React.FC = () => {
           </div>
         </div>
         <div className="header__language-switch-container">
-          <LanguageSwitchV2 />
+          <LanguageSwitch />
         </div>
       </div>
     </>

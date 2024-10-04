@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
-import "./MoveUpArrow.scss";
+import "./MoveUp.scss";
 
-export const MoveUpArrow: React.FC = () => {
+export const MoveUp: React.FC = () => {
   const scrollBtnRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

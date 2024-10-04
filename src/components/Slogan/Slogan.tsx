@@ -1,8 +1,8 @@
 import React from 'react'
-import './NewSloganDesignV2.scss';
+import './Slogan.scss';
 import { useTranslation, Trans } from "react-i18next";
 
-export const NewSloganDesignV2: React.FC = () => {
+export const Slogan: React.FC = () => {
   const { t } = useTranslation(["pages/home-page"]);
 
   return (

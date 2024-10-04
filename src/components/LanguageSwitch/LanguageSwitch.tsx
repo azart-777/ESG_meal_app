@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./LanguageSwitchV2.scss";
+import "./LanguageSwitch.scss";
 import { useLanguage } from "../../shared/hooks/useLanguage";
 
-export const LanguageSwitchV2: React.FC = () => {
+export const LanguageSwitch: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [liVisible, setLiVisible] = useState(false);
   const { selectedLanguage, languages, changeLanguage } = useLanguage();

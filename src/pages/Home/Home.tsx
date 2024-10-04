@@ -1,14 +1,14 @@
 import {
     CompanyCards,
-    NewHeaderDesignV2,
-    NewSloganDesignV2,
-    NewOverviewComponentV2,
-    WelcomeComponent,
+    AppHeader,
+    Slogan,
+    Overview,
+    Welcome,
     WeDidIt,
     EcoAppNetwork,
     ContactUsForm,
-    Footer,
-    MoveUpArrow,
+    AppFooter,
+    MoveUp,
 } from '../../components';
 import './Home.scss';
 
@@ -16,16 +16,16 @@ const Home = () => {
     return (
         <>
             <div className={"home-page__container"}>
-                <NewHeaderDesignV2 />
-                <NewSloganDesignV2 />
-                <NewOverviewComponentV2 />
-                <WelcomeComponent />
+                <AppHeader />
+                <Slogan />
+                <Overview />
+                <Welcome />
                 <CompanyCards />
                 <WeDidIt/>
                 {/*<EcoAppNetwork />*/}
                 <ContactUsForm />
-                <Footer />
-                <MoveUpArrow />
+                <MoveUp />
+                <AppFooter />
             </div>
         </>
     );

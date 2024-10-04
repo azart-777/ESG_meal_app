@@ -3,8 +3,6 @@
 @use "./../../../shared/styles/variables/colors" as colors;
 @use "./../../../shared/styles/variables/fonts" as fonts;
 
-
-
 .we-did-it {
     padding: 20px; 
     
@@ -25,7 +23,6 @@
         background: colors.$text-stroke-gradient;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-  
     }
 
     &__message {

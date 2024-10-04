@@ -24,15 +24,18 @@ export const ContactUsSummary: React.FC<ContactUsSummaryProps> = ({ input, meta,
                 {t('contactUs.form.userSummary.question')}
             </div>
             <div className={'form-summary__option-container'}>
-            {summaryOptions.map((container, index) => (
-                <div
-                    key={index}
-                    className={`form-summary__option-item ${input.value === container ? 'selected' : ''}`}
-                    onClick={() => input.onChange(container)}
-                >
-                    {container}
-                </div>
-            ))}
+                <ul>
+                    {summaryOptions.map((container, index) => (
+                        <li
+                            key={index}
+                            className={`form-summary__option-item ${input.value === container ? 'selected' : ''}`}
+                            onClick={() => input.onChange(container)}
+                        >
+                            {container}
+                        </li>
+                    ))}
+                </ul>
+
             </div>
         </div>
     );

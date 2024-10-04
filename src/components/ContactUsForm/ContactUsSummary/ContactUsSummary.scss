@@ -36,14 +36,9 @@ $border-width: 2px;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 150px;
       box-sizing: border-box;
-      padding: 15px;
-      margin: 10px;
       text-align: center;
-      border: $border-width solid $box-border--base;
       cursor: pointer;
-      background: #282c34;
 
       &.selected {
         border-color: $box-border--selected;

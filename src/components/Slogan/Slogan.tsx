@@ -1,10 +1,8 @@
 import React from 'react'
 import './Slogan.scss';
-import { useTranslation, Trans } from "react-i18next";
+import { Trans } from "react-i18next";
 
 export const Slogan: React.FC = () => {
-  const { t } = useTranslation(["pages/home-page"]);
-
   return (
     <div className={"main-slogan"}>
       <h3 className={"main-slogan__text"}>

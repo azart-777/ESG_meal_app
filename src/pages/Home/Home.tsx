@@ -1,19 +1,32 @@
-import { ContactUsForm, TreeInfoComponent, Header, PromotionalBanner, IconCardComponent, MoveUpArrow, CircleWithTalkingHead, Footer } from '../../components';
+import {
+    CompanyCards,
+    NewHeaderDesignV2,
+    NewSloganDesignV2,
+    NewOverviewComponentV2,
+    WelcomeComponent,
+    WeDidIt,
+    EcoAppNetwork,
+    ContactUsForm,
+    Footer,
+    MoveUpArrow,
+} from '../../components';
 import './Home.scss';
 
 const Home = () => {
     return (
         <>
-            <Header/>
-            <PromotionalBanner/>
-            <CircleWithTalkingHead />
-            <div className={"home-page__background-container"}>
-                <TreeInfoComponent />
-                <IconCardComponent />
+            <div className={"home-page__container"}>
+                <NewHeaderDesignV2 />
+                <NewSloganDesignV2 />
+                <NewOverviewComponentV2 />
+                <WelcomeComponent />
+                <CompanyCards />
+                <WeDidIt/>
+                {/*<EcoAppNetwork />*/}
                 <ContactUsForm />
+                <Footer />
+                <MoveUpArrow />
             </div>
-            <Footer/>
-            <MoveUpArrow />
         </>
     );
 };

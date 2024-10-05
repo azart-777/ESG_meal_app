@@ -1,9 +1,11 @@
 import React from "react";
 import "./Welcome.scss";
-import { Trans } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { hands_with_planet_welcome_component } from "../../assets/images/index";
 
 export const Welcome: React.FC = () => {
+  useTranslation(["pages/home-page"]);
+
   return (
     <>
       <div className="welcome-container">

@@ -5,24 +5,24 @@
 
 $backgroud-color: colors.$base-background-color;
 $text-color--accent: colors.$primary-green;
-$font-size-h6-responsive: clamp(20px, 3vw, fonts.$font-size-h6);
-$font-size-paragraph-responsive: clamp(14px, 2vw, fonts.$font-size-paragraph);
+$font-size-toggle-button-responsive: clamp(14px, 2vw, 22px);
 
 .language_menu {
   position: relative;
-  width: clamp(80px, 16vw, 150px);
+  width: clamp(84px, 15vw, 130px);
   display: flex;
   align-items: center;
   justify-content: flex-end;
 
   .toggle {
     position: relative;
-    width: clamp(40px, 5vw, 80px);
+    width: clamp(40px, 7vw, 60px);
     aspect-ratio: 1/1;
     background-color: $backgroud-color;
+    border-radius: 100%;
     z-index: 1;
     cursor: pointer;
-    font-size: $font-size-paragraph-responsive;
+    font-size: $font-size-toggle-button-responsive;
     font-family: "Montserrat";
     font-weight: fonts.$font-weight-semibold;
     border: none;
@@ -36,7 +36,7 @@ $font-size-paragraph-responsive: clamp(14px, 2vw, fonts.$font-size-paragraph);
       position: absolute;
       top: 0;
       left: 0;
-      width: clamp(40px, 5vw, 90px);
+      width: clamp(40px, 7vw, 60px);
       aspect-ratio: 1/1;
       background-size: contain;
       background-repeat: no-repeat;
@@ -93,7 +93,7 @@ $font-size-paragraph-responsive: clamp(14px, 2vw, fonts.$font-size-paragraph);
     list-style: none;
     transition: 0.5s;
     transform: rotate(calc(-128deg / 3 * var(--i)));
-    transform-origin: clamp(70px, 10vw, 120px);
+    transform-origin: clamp(70px, 11vw, 100px);
     scale: 0;
     transition-delay: calc(0.05s * var(--i));
 
@@ -105,14 +105,14 @@ $font-size-paragraph-responsive: clamp(14px, 2vw, fonts.$font-size-paragraph);
     button {
       position: relative;
       transform: rotate(calc(-144deg / -3 * var(--i)));
-      width: clamp(40px, 5vw, 55px);
+      width: clamp(40px, 5vw, 50px);
       aspect-ratio: 1/1;
       display: flex;
       align-items: center;
       justify-content: center;
       border: none;
       background-color: $backgroud-color;
-      font-size: clamp(12px, 2vw, 20px);
+      font-size: clamp(12px, 2vw, 18px);
       font-weight: fonts.$font-weight-medium;
       font-family: "Montserrat";
       color: rgba(0, 255, 0, 0.5);
@@ -126,7 +126,7 @@ $font-size-paragraph-responsive: clamp(14px, 2vw, fonts.$font-size-paragraph);
         position: absolute;
         top: 0;
         left: 0;
-        width: clamp(40px, 5vw, 55px);
+        width: clamp(40px, 5vw, 50px);
         aspect-ratio: 1/1;
         background-size: contain;
         background-repeat: no-repeat;

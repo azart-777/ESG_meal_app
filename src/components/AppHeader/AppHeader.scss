@@ -8,14 +8,17 @@ $font-size-h6-responsive: clamp(20px, 3vw, fonts.$font-size-h6);
 $font-size-paragraph-responsive: clamp(16px, 3vw, fonts.$font-size-paragraph);
 
 .header {
-  height: clamp(110px, 20vw, 220px);
+  height: clamp(110px, 20vw, 180px);
+  padding-bottom: 20px;
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
   overflow: hidden;
   @include n.no-user-text-selection;
 
   &__logo {
+    // margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,5 +50,11 @@ $font-size-paragraph-responsive: clamp(16px, 3vw, fonts.$font-size-paragraph);
 
   &__language-switch-container {
     margin-right: clamp(2px, 1vw, 10px);
+    position: absolute;
+    right: 0;
+    // margin-top: 20px;
+    margin-right: 20px;
+    z-index: 30;
   }
 }
+

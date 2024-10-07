@@ -3,19 +3,21 @@ html {
 }
 
 #move-up-arrow {
-  width: clamp(75px, 6vw, 100px);
-  aspect-ratio: 1 / 1;
+  width: clamp(50px, 6vw, 100px);
+  aspect-ratio: 1/1;
   background-image: url("../../assets/images/moveUpArrow/move_up_arrow.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #282c34d8;
+  border-radius: 100%;
   position: fixed;
-  bottom: 50px;
+  bottom: clamp(170px, 18vw, 180px);
   right: 10px;
   z-index: 200;
   cursor: pointer;
   animation: triangle 4s both infinite;
-  transition: background-image 0.5s ease, opacity 0.4s ease; 
+  transition: background-image 0.5s ease, opacity 0.4s ease;
   opacity: 1;
 
   &:hover {
@@ -41,4 +43,6 @@ html {
     }
   }
 }
+
+
 

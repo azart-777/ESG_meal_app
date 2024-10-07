@@ -28,48 +28,65 @@
     align-items: center;
     width: 70%;
     gap: 30px;
-    font-size: 14px;
+    text-transform: uppercase;
 
     @include r.responsive(tablet) {
       width: 100%;
-      order: 2;
+      order: 1;
       text-align: center;
       justify-content: space-between;
     }
     @include r.responsive(phone-large) {
       width: 100%;
-      order: 2;
+      order: 1;
       text-align: center;
       justify-content: space-between;
     }
     @include r.responsive(phone) {
       width: 100%;
-      order: 2;
+      order: 1;
       text-align: center;
       justify-content: space-between;
     }
+  }
 
+  &__text {
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: 16px;
+    
 
-    p {
-      display: flex;
-      align-items: center;
-      font-family: "Montserrat";
-      font-size: 16px;
-
-      @include r.responsive(tablet) {
-        font-size: 12px;
-        width: 15%;
-      }
-      @include r.responsive(phone-large) {
-        font-size: 12px;
-        width: 20%;
-      }
-      @include r.responsive(phone) {
-        font-size: 12px;
-        width: 25%;
-      }
-
+    @include r.responsive(tablet) {
+      font-size: 12px;
+      width: 15%;
     }
+    @include r.responsive(phone-large) {
+      font-size: 12px;
+      width: 20%;
+    }
+    @include r.responsive(phone) {
+      font-size: 12px;
+      width: 25%;
+    }
+  }
+
+  &__icon-map {
+    padding-right: 10px;
+    padding-bottom: 15px;
+    @include r.responsive(tablet) {
+      padding-right: 0;
+      padding-bottom: 0;
+    }
+    @include r.responsive(phone-large) {
+      padding-right: 0;
+      padding-bottom: 0;
+    }
+    @include r.responsive(phone) {
+      padding-right: 0;
+      padding-bottom: 0;
+    }
+
   }
 
   &__social {
@@ -77,27 +94,37 @@
     gap: 20px;
 
     @include r.responsive(tablet) {
-      order: 1;
+      order: 2;
     }
     @include r.responsive(phone-large) {
-      order: 1;
+      order: 2;
     }
     @include r.responsive(phone) {
-      order: 1;
+      order: 2;
+    }
+  }
+
+  &__link {
+    display: flex;
+
+    @include r.responsive(tablet) {
+      padding-top: 20px;
+    }
+    @include r.responsive(phone-large) {
+      padding-top: 20px;
+    }
+    @include r.responsive(phone) {
+      padding-top: 20px;
     }
 
 
-    a {
-      display: flex;
+    .footer__icon {
+      width: 24px;
+      height: 24px;
+      transition: transform 0.3s;
 
-      .footer__icon {
-        width: 24px;
-        height: 24px;
-        transition: transform 0.3s;
-
-        &:hover {
-          transform: scale(1.2);
-        }
+      &:hover {
+        transform: scale(1.2);
       }
     }
   }

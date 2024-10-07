@@ -37,10 +37,12 @@ $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
   &__content {
     display: flex;
     margin: clamp(30px, 6vw, 150px) 0 clamp(20px, 5vw, 100px);
+    justify-content: space-around;
+    align-items: center;
 
     &-logo {
       img {
-        max-width: clamp(80px, 13vw, 256px);
+        max-width: clamp(60px, 12vw, 256px);
         width: 100%;
         height: auto;
         display: block;
@@ -56,7 +58,7 @@ $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-left: clamp(16px, 10vw, 250px);
+      margin-left: clamp(16px, 8vw, 250px);
 
       &-message {
         font-size: $font-size-h5-responsive;
@@ -101,15 +103,27 @@ $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
   }
 
   &__content {
-    justify-content: space-between;
     &-logo {
-      max-width: clamp(80px, 11vw, 220px);
       order: 2;
+
+      img {
+        max-width: clamp(60px, 11vw, 220px);
+      }
     }
 
     &-details {
       order: 1;
       margin-left: 0px;
+    }
+  }
+}
+
+.description-card-3 {
+  &__content {
+    &-logo {
+      img {
+        max-width: clamp(100px, 18vw, 260px);
+      }
     }
   }
 }

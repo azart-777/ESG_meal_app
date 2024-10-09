@@ -158,24 +158,34 @@
   },
 
   "WeDidIt": {
-    "slogan":"And we did it!",
+    "slogan": "And we did it!",
     "message": "The comprehensive food optimisation system ‘Cheap-It Family’ is an innovative step towards reducing food waste!",
-    "CardBusiness":{
-      "title":"Business",
-      "sentence1":"Data analysis",
-      "sentence2":"Waste reduction by up to 30%",
-      "sentence3":"Optimisation of logistics and storage",
-      "sentence4":"Revenue increase",
-      "sentence5":"Sustainable development promotion"
+    "CardBusiness": {
+      "title": "Business",
+      "sentence1": "Data analysis",
+      "sentence2": "Waste reduction by up to 30%",
+      "sentence3": "Optimisation of logistics and storage",
+      "sentence4": "Revenue increase",
+      "sentence5": "Sustainable development promotion"
     },
-    "CardClient":{
-      "title":"Client",
-      "sentence1":"Fresh and high-quality products",
-      "sentence2":"Less wasteful spending",
-      "sentence3":"More healthy food choices",
-      "sentence4":"Reduced food waste",
-      "sentence5":"Support for sustainable consumption"
+    "CardClient": {
+      "title": "Client",
+      "sentence1": "Fresh and high-quality products",
+      "sentence2": "Less wasteful spending",
+      "sentence3": "More healthy food choices",
+      "sentence4": "Reduced food waste",
+      "sentence5": "Support for sustainable consumption"
     },
     "shortDescription": "cheap-it family - win-win for all!"
+  },
+
+  "EcoAppNetworkComponent": {
+    "altEarthImg": "Planet Earth surrounded by flowers and plants around the edge. Displays green forests and blue oceans."
+  },
+
+  "EcoAppNetworkItems": {
+    "altPhoneMealCountImg": "Smartphone with the Meal Count logo displayed on the screen.",
+    "altPhoneCheapItImg": "Smartphone with the Cheap It logo displayed on the screen.",
+    "altPhoneEcoMealImg": "Smartphone with the Eco Meal Market logo displayed on the screen."
   }
 }

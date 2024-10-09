@@ -1,0 +1,48 @@
+.eco-app-network-tree {
+  position: absolute;
+  top: 0;
+  z-index: -2;
+
+  svg {
+    width: clamp(70px, 22vw, 350px);
+    height: clamp(90px, 35vw, 600px);
+    margin: 0 auto;
+    display: grid;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+  }
+
+  .dot {
+    fill: #15FF11;
+  }
+
+  &--meal {
+    position: absolute;
+    top: clamp(90px, 20vw, 290px);
+    left: clamp(5px, 10vw, 115px);
+    rotate: -40deg;
+    transform: scaleX(-1);
+    z-index: -1;
+  }
+
+  &--cheap {
+    position: absolute;
+    top: clamp(135px, 33vw, 500px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    svg {
+      width: clamp(90px, 22vw, 390px);
+      height: clamp(90px, 35vw, 600px);
+    }
+  }
+
+  &--eco {
+    position: absolute;
+    top: clamp(90px, 20vw, 290px);
+    right: clamp(27px, 10vw, 115px);
+    rotate: 40deg;
+    z-index: -1;
+  }
+}

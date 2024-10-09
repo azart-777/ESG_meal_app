@@ -8,6 +8,7 @@ import { Overview } from './Overview/Overview';
 import { EcoAppNetwork } from './EcoAppNetwork/EcoAppNetwork';
 import { CompanyCards } from './CompanyCards/CompanyCards';
 import { WeDidIt } from './WeDidIt/WeDidIt';
+import { EcoAppNetworkV2 } from './EcoAppNetworkV2/EcoAppNetworkV2'
 
 export {
     ContactUsForm,
@@ -19,5 +20,6 @@ export {
     Overview,
     EcoAppNetwork,
     WeDidIt,
-    CompanyCards
+    CompanyCards,
+    EcoAppNetworkV2
 }

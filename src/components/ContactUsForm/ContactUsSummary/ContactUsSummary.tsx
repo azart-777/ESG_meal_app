@@ -20,11 +20,11 @@ export const ContactUsSummary: React.FC<ContactUsSummaryProps> = ({ input, meta,
 
     return (
         <div className={`form-summary ${hasError ? 'error' : ''}`}>
-            <div className={'form-summary__question-text'}>
+            <div className={'form-summary__question-text mb-sm'}>
                 {t('contactUs.form.userSummary.question')}
             </div>
             <div className={'form-summary__option-container'}>
-                <ul>
+                <ul className={'form-summary__option-item-container'}>
                     {summaryOptions.map((container, index) => (
                         <li
                             key={index}

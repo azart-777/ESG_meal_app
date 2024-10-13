@@ -1,4 +1,3 @@
-// formHelpers.ts
 interface FormValues {
     userName: string;
     userEmail: string;
@@ -11,9 +10,9 @@ export const onSubmit = async (values: FormValues): Promise<void> => {
     // Handle form submission logic here
 };
 
-export const required = (value: string): string | undefined => (value ? undefined : 'Required');
+export const required = (value: string, errorMessage: string): string | undefined => (value ? undefined : errorMessage);
 
-export const validateEmail = (value: string): string | undefined => {
+export const validateEmail = (value: string, errorMessage: string): string | undefined => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(value) ? undefined : 'Invalid email address';
+    return emailRegex.test(value) ? undefined : errorMessage;
 };

@@ -20,19 +20,22 @@ export const ContactUsSummary: React.FC<ContactUsSummaryProps> = ({ input, meta,
 
     return (
         <div className={`form-summary ${hasError ? 'error' : ''}`}>
-            <div className={'form-summary__question-text'}>
+            <div className={'form-summary__question-text mb-sm'}>
                 {t('contactUs.form.userSummary.question')}
             </div>
             <div className={'form-summary__option-container'}>
-            {summaryOptions.map((container, index) => (
-                <div
-                    key={index}
-                    className={`form-summary__option-item ${input.value === container ? 'selected' : ''}`}
-                    onClick={() => input.onChange(container)}
-                >
-                    {container}
-                </div>
-            ))}
+                <ul className={'form-summary__option-item-container'}>
+                    {summaryOptions.map((container, index) => (
+                        <li
+                            key={index}
+                            className={`form-summary__option-item ${input.value === container ? 'selected' : ''}`}
+                            onClick={() => input.onChange(container)}
+                        >
+                            {container}
+                        </li>
+                    ))}
+                </ul>
+
             </div>
         </div>
     );

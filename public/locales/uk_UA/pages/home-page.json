@@ -17,13 +17,12 @@
     }
   },
   "contactUs": {
-    "contact": "Звяжіться із",
-    "us": "нами",
+    "title": "Зв'яжіться з нами",
     "form": {
       "userSummary": {
         "question": "Про що ваше повідомлення?",
         "options": {
-          "1": "я хочу стати партнером ESG MEAL family",
+          "1": "Я хочу стати партнером ESG MEAL family",
           "2": "В мене є пропозиція/порада",
           "3": "Хочу залишити відгук",
           "4": "Хочу працювати з вами",
@@ -160,6 +159,7 @@
   "WeDidIt": {
     "slogan": "І ми це зробили!",
     "message": "Комплексна система оптимізації продуктів харчування «Cheap-It Family» це інноваційний підхід до зменшення продуктових відходів!",
+
     "CardBusiness": {
       "title": "Бізнес",
       "sentence1": "Аналіз даних",
@@ -168,6 +168,7 @@
       "sentence4": "Збільшення прибутків",
       "sentence5": "сприяння сталому розвитку"
     },
+
     "CardClient": {
       "title": "Клієнт",
       "sentence1": "Свіжі та якісні продукти",
@@ -177,6 +178,31 @@
       "sentence5": "Підтримка сталого споживання"
     },
     "shortDescription": "cheap-it family - переваги для кожного!"
+  },
+  "footer": {
+    "menu": "Меню",
+    "home": "Головна",
+    "forClient": "Для клієнтів",
+    "forBusiness": "Для бізнесу",
+    "ourPartners": "Наші партнери",
+    "aboutUs": "Про нас",
+    "support": "Підтримка",
+    "contactUs": "Зв'яжіться з нами",
+    "faqClients": "Питання клієнтів",
+    "faqBusiness": "Питання бізнесу",
+    "faqPartners": "Питання партнерів",
+    "agreement": "Угода",
+    "privacyPolicy": "Політика конфіденційності",
+    "business": "Бізнес",
+    "clients": "Клієнти",
+    "partners": "Партнери",
+    "termsAndConditions": "Умови та положення",
+    "map": "Карта",
+    "ukraine": "Україна",
+    "priceAndSubscriptions": "Ціни та підписки",
+    "subscriptionsPlans": "Плани підписки",
+    "media": "Медіа",
+    "materialsForMedia": "Матеріали для медіа"
   },
 
   "EcoAppNetworkComponent": {

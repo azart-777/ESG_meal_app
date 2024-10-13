@@ -1,5 +1,5 @@
 $space--xs: 40px;
-$space--s: 60px;
+$space--sm: 60px;
 $space--md: 80px;
 $space--l: 100px;
 $space--xl: 120px;
@@ -46,7 +46,7 @@ $space--3xl: 160px;
 
 @include generate-spacing-classes(
     (xs, $space--xs),
-    (s, $space--s),
+    (sm, $space--sm),
     (md, $space--md),
     (l, $space--l),
     (xl, $space--xl),

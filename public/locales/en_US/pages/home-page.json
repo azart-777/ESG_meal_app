@@ -17,8 +17,7 @@
     }
   },
   "contactUs": {
-    "contact": "contact",
-    "us": "us",
+    "title": "contact us",
     "form": {
       "userSummary": {
         "question": "What`s your message about?",
@@ -160,6 +159,7 @@
   "WeDidIt": {
     "slogan": "And we did it!",
     "message": "The comprehensive food optimisation system ‘Cheap-It Family’ is an innovative step towards reducing food waste!",
+
     "CardBusiness": {
       "title": "Business",
       "sentence1": "Data analysis",
@@ -168,6 +168,7 @@
       "sentence4": "Revenue increase",
       "sentence5": "Sustainable development promotion"
     },
+
     "CardClient": {
       "title": "Client",
       "sentence1": "Fresh and high-quality products",
@@ -177,6 +178,31 @@
       "sentence5": "Support for sustainable consumption"
     },
     "shortDescription": "cheap-it family - win-win for all!"
+  },
+  "footer": {
+    "menu": "Menu",
+    "home": "Home",
+    "forClient": "For Client",
+    "forBusiness": "For Business",
+    "ourPartners": "Our Partners",
+    "aboutUs": "About Us",
+    "support": "Support",
+    "contactUs": "Contact Us",
+    "faqClients": "FAQ clients",
+    "faqBusiness": "FAQ business",
+    "faqPartners": "FAQ partners",
+    "agreement": "Agreement",
+    "privacyPolicy": "Privacy Policy",
+    "business": "Business",
+    "clients": "Clients",
+    "partners": "Partners",
+    "termsAndConditions": "Terms & Conditions",
+    "map": "Map",
+    "ukraine": "Ukraine",
+    "priceAndSubscriptions": "Price & Subscriptions",
+    "subscriptionsPlans": "Subscriptions plans",
+    "media": "Media",
+    "materialsForMedia": "Materials for media"
   },
 
   "EcoAppNetworkComponent": {

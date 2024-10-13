@@ -125,7 +125,7 @@
   "welcomeText": {
     "text": "Ласкаво просимо до Cheap-It Family!"
   },
-  
+
   "DescriptionCompanyCards": {
     "cheapITDescription": {
       "slogan": "Ми хотіли створити <br /> щось унікальне!",
@@ -159,6 +159,7 @@
   "WeDidIt": {
     "slogan": "І ми це зробили!",
     "message": "Комплексна система оптимізації продуктів харчування «Cheap-It Family» це інноваційний підхід до зменшення продуктових відходів!",
+
     "CardBusiness": {
       "title": "Бізнес",
       "sentence1": "Аналіз даних",
@@ -167,6 +168,7 @@
       "sentence4": "Збільшення прибутків",
       "sentence5": "сприяння сталому розвитку"
     },
+
     "CardClient": {
       "title": "Клієнт",
       "sentence1": "Свіжі та якісні продукти",
@@ -201,5 +203,15 @@
     "subscriptionsPlans": "Плани підписки",
     "media": "Медіа",
     "materialsForMedia": "Матеріали для медіа"
+  },
+
+  "EcoAppNetworkComponent": {
+    "altEarthImg": "Планета Земля, оточена квітами і рослинами по краю. Відображає зелені ліси та сині океани."
+  },
+
+  "EcoAppNetworkItems": {
+    "altPhoneMealCountImg": "Смартфон із зображенням логотипу Meal Count на екрані.",
+    "altPhoneCheapItImg": "Смартфон із зображенням логотипу Cheap It на екрані.",
+    "altPhoneEcoMealImg": "Смартфон із зображенням логотипу Eco Meal Market на екрані."
   }
 }

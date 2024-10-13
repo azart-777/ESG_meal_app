@@ -159,6 +159,7 @@
   "WeDidIt": {
     "slogan": "And we did it!",
     "message": "The comprehensive food optimisation system ‘Cheap-It Family’ is an innovative step towards reducing food waste!",
+
     "CardBusiness": {
       "title": "Business",
       "sentence1": "Data analysis",
@@ -167,6 +168,7 @@
       "sentence4": "Revenue increase",
       "sentence5": "Sustainable development promotion"
     },
+
     "CardClient": {
       "title": "Client",
       "sentence1": "Fresh and high-quality products",
@@ -201,5 +203,15 @@
     "subscriptionsPlans": "Subscriptions plans",
     "media": "Media",
     "materialsForMedia": "Materials for media"
+  },
+
+  "EcoAppNetworkComponent": {
+    "altEarthImg": "Planet Earth surrounded by flowers and plants around the edge. Displays green forests and blue oceans."
+  },
+
+  "EcoAppNetworkItems": {
+    "altPhoneMealCountImg": "Smartphone with the Meal Count logo displayed on the screen.",
+    "altPhoneCheapItImg": "Smartphone with the Cheap It logo displayed on the screen.",
+    "altPhoneEcoMealImg": "Smartphone with the Eco Meal Market logo displayed on the screen."
   }
 }

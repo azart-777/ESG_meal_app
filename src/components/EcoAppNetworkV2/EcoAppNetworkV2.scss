@@ -1,0 +1,24 @@
+@use "./../../shared/styles/mixins/no-user-text-selection" as n;
+@use "./../../shared/styles/mixins/responsive" as r;
+@use "./../../shared/styles/variables/colors" as colors;
+@use "./../../shared/styles/variables/fonts" as fonts;
+
+.eco-app-network {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: clamp(50px, 5vw, 100px);
+
+  &__earth {
+    width: clamp(320px, 80vw, 1200px);
+    margin-top: clamp(10px, 8vw, 130px);
+    z-index: 5;
+
+    &-image {
+      width: 100%;
+      user-select: none;
+      -webkit-user-drag: none;
+      -webkit-touch-callout: none;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Trans } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import "./DescriptionCard.scss";
 
 interface DescriptionCardProps {
@@ -18,6 +18,8 @@ export const DescriptionCard: React.FC<DescriptionCardProps> = ({
   logo,
   styleVariant,
 }) => {
+  useTranslation(["pages/home-page"]);
+
   return (
     <div className={`description-card description-card-${styleVariant}`}>
       <div className={`description-card__slogan description-card-${styleVariant}__slogan`}>

@@ -62,9 +62,13 @@ export const EcoAppNetworkItems: React.FC = () => {
             "line1",
             "line7",
             "line9",
+            "line11",
             "line12",
+            "line13",
+            "line14",
+            "line16",
             "line17",
-            "line19",
+            "line18",
             "line20",
           ]}
         />

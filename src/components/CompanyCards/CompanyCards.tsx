@@ -5,8 +5,9 @@ import { contentData } from "./DataDescription/DataDescription";
 export const CompanyCards: React.FC = () => {
   return (
     <>
-      {contentData.map((item) => (
+      {contentData.map((item, index) => (
         <DescriptionCard
+          key={index}
           slogan={item.slogan}
           message={item.message}
           sentences={item.sentences}

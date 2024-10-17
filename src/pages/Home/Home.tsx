@@ -9,21 +9,24 @@ import {
     ContactUsForm,
     AppFooter,
     MoveUp,
-    EcoAppNetworkV2
-} from '../../components';
-import './Home.scss';
+    EcoAppNetworkV2,
+} from "../../components";
+import "./Home.scss";
 
 const Home = () => {
     return (
         <>
+            <div className="top-light-ellipse"></div>
             <div className={"home-page__container"}>
                 <AppHeader />
                 <Slogan />
                 <Overview />
                 <Welcome />
                 <CompanyCards />
-                <WeDidIt/>
-                <EcoAppNetworkV2/>
+                <WeDidIt />
+            </div>
+            <EcoAppNetworkV2 />
+            <div className={"home-page__container"}>
                 {/*<EcoAppNetwork />*/}
                 <ContactUsForm />
                 <MoveUp />

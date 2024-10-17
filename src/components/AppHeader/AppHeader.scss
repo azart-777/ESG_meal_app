@@ -1,4 +1,4 @@
-@use './../../shared/styles/mixins/responsive' as r;
+@use "./../../shared/styles/mixins/responsive" as r;
 @use "./../../shared/styles/mixins/no-user-text-selection" as n;
 @use "./../../shared/styles/variables/colors" as colors;
 @use "./../../shared/styles/variables/fonts" as fonts;
@@ -18,13 +18,12 @@ $font-size-paragraph-responsive: clamp(16px, 3vw, fonts.$font-size-paragraph);
   @include n.no-user-text-selection;
 
   &__logo {
-    // margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    &-image {
+    .logo__image {
       max-width: clamp(65px, 8vw, 115px);
       height: clamp(45px, 6vw, 95px);
       user-select: none;
@@ -32,7 +31,7 @@ $font-size-paragraph-responsive: clamp(16px, 3vw, fonts.$font-size-paragraph);
       -webkit-touch-callout: none;
     }
 
-    &-text {
+    .logo__text {
       font-size: $font-size-paragraph-responsive;
       font-weight: fonts.$font-weight-semibold;
       font-family: "Montserrat";
@@ -52,9 +51,7 @@ $font-size-paragraph-responsive: clamp(16px, 3vw, fonts.$font-size-paragraph);
     margin-right: clamp(2px, 1vw, 10px);
     position: absolute;
     right: 0;
-    // margin-top: 20px;
     margin-right: 20px;
     z-index: 30;
   }
 }
-

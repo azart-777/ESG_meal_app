@@ -1,3 +1,13 @@
+.top-light-ellipse {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  background-image: url('../../assets/images/header/top_green_ellipse.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .home-page {
   &__container {
     max-width: 1920px;

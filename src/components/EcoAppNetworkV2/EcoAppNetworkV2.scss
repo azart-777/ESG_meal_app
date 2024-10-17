@@ -73,7 +73,7 @@ $font-size-logo-responsive: clamp(14px, 3vw, 62px);
       font-family: "Montserrat";
       line-height: calc(#{$font-size-h4-responsive} * 1);
       padding: 0 5px clamp(5px, 1vw, 15px);
-      background-image: url("../../assets/images/companyCards/border_bottom.png");
+      background-image: url("../../assets/images/borders/home_company_card_border_bottom.svg");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: bottom;
@@ -83,7 +83,7 @@ $font-size-logo-responsive: clamp(14px, 3vw, 62px);
   &__light-ellipse-left {
     width: clamp(150px, 30vw, 600px);
     height: 100%;
-    background-image: url("../../assets/images/ecoAppNetwork/left_ellipse.png");
+    background-image: url("../../assets/images/eclipse/left_green.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: inherit;
@@ -95,7 +95,7 @@ $font-size-logo-responsive: clamp(14px, 3vw, 62px);
   &__light-ellipse-right {
     width: clamp(150px, 30vw, 600px);
     height: 100%;
-    background-image: url("../../assets/images/ecoAppNetwork/right_ellipse.png");
+    background-image: url("../../assets/images/eclipse/right_green.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;

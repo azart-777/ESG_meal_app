@@ -5,7 +5,6 @@ import {
     Overview,
     Welcome,
     WeDidIt,
-    EcoAppNetwork,
     ContactUsForm,
     AppFooter,
     MoveUp,
@@ -27,7 +26,6 @@ const Home = () => {
             </div>
             <EcoAppNetworkV2 />
             <div className={"home-page__container"}>
-                {/*<EcoAppNetwork />*/}
                 <ContactUsForm />
                 <MoveUp />
                 <AppFooter />

@@ -1,10 +1,6 @@
 import React from "react";
 import "./EcoAppNetworkItems.scss";
-import {
-  phone_with_logo_meal_count,
-  phone_with_logo_cheap_it,
-  phone_with_logo_eco_meal,
-} from "../../../assets/images";
+import { phones } from "../../../assets/images";
 import { useTranslation } from "react-i18next";
 import { EcoAppNetworkTree } from "./EcoAppNetworkTree/EcoAppNetworkTree";
 
@@ -15,7 +11,7 @@ export const EcoAppNetworkItems: React.FC = () => {
     <div className="eco-app-network__list">
       <div className="eco-app-network__list-item">
         <img
-          src={phone_with_logo_meal_count}
+          src={phones.phone_meal_count}
           alt={t("EcoAppNetworkItems.altPhoneMealCountImg")}
         />
         <EcoAppNetworkTree
@@ -34,7 +30,7 @@ export const EcoAppNetworkItems: React.FC = () => {
 
       <div className="eco-app-network__list-item">
         <img
-          src={phone_with_logo_cheap_it}
+          src={phones.phone_cheap_it}
           alt={t("EcoAppNetworkItems.altPhoneCheapItImg")}
         />
         <EcoAppNetworkTree
@@ -53,7 +49,7 @@ export const EcoAppNetworkItems: React.FC = () => {
 
       <div className="eco-app-network__list-item">
         <img
-          src={phone_with_logo_eco_meal}
+          src={phones.phone_eco_meal}
           alt={t("EcoAppNetworkItems.altPhoneEcoMealImg")}
         />
         <EcoAppNetworkTree

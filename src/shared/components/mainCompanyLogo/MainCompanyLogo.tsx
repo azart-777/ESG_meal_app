@@ -1,12 +1,12 @@
 import React from "react";
-import { cheap_it_family_logo } from "../../../assets/images";
+import { logos } from "../../../assets/images";
 
 export const MainCompanyLogo: React.FC = () => {
   return (
     <>
       <img
         className="logo__image"
-        src={cheap_it_family_logo}
+        src={logos.header_logo_chip_it_without_text}
         alt="Chip It Family Logo. Green Basket with the text Chip It Family under it."
       />
       <h3 className="logo__text">

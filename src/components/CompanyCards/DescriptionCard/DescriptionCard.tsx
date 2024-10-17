@@ -1,6 +1,7 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
 import "./DescriptionCard.scss";
+import { ShortTextDescription } from "../../../shared/components/shortDescription/ShortTextDescription";
 
 interface DescriptionCardProps {
   slogan: string;
@@ -46,9 +47,11 @@ export const DescriptionCard: React.FC<DescriptionCardProps> = ({
           </ul>
         </div>
       </div>
-      <h4 className={`description-card__short-description description-card-${styleVariant}-short-description`}>
-        <Trans i18nKey={shortDescription} />
-      </h4>
+      <div className="description-card__short-description">
+        <ShortTextDescription
+          text={shortDescription}
+        />
+      </div>
     </div>
-  );  
+  );
 };

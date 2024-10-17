@@ -88,7 +88,7 @@ $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
     font-weight: fonts.$font-weight-bold;
     font-family: "Montserrat";
     line-height: calc(#{$font-size-h4-responsive} * 1);
-    padding: 0 5px clamp(5px, 1vw, 15px);
+    padding: 0 10px clamp(5px, 1vw, 15px);
     background-image: url(../../../assets/images/borders/home_company_card_border_bottom.svg);
     background-repeat: no-repeat;
     background-size: contain;

@@ -55,7 +55,6 @@
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-typescript": "^7.23.3",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@jest/globals": "^29.7.0",
     "@types/enzyme": "^3.10.18",
     "@types/jest": "^29.5.12",

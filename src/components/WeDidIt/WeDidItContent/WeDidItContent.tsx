@@ -30,7 +30,6 @@ const WeDidItContent: React.FC<WeDidItProps> = ({ slogan, message, shortDescript
                     </div>
                 ))}
             </div>
-            <h4 className='we-did-it__short-description'>{shortDescription}</h4>
         </div>
     );
 };

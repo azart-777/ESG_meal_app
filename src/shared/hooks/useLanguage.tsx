@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { uk_UA, en_US } from '../../assets/images/flags';
 import { Translation } from '../constants';
 
 interface Language {

@@ -1,4 +1,8 @@
-import { logos } from "../../../assets/images/index";
+import {
+  cheap_it_logo,
+  meal_count_logo,
+  eco_meal_market,
+} from "../../../assets/images/index";
 
 export const contentData = [
   {
@@ -12,7 +16,7 @@ export const contentData = [
     ],
     shortDescription:
       "DescriptionCompanyCards.cheapITDescription.shortDescription",
-    logo: logos.cheap_it,
+    logo: cheap_it_logo,
   },
   {
     slogan: "DescriptionCompanyCards.mealCountDescription.slogan",
@@ -25,7 +29,7 @@ export const contentData = [
     ],
     shortDescription:
       "DescriptionCompanyCards.mealCountDescription.shortDescription",
-    logo: logos.meal_count,
+    logo: meal_count_logo,
     styleVariant: 2,
   },
   {
@@ -39,7 +43,7 @@ export const contentData = [
     ],
     shortDescription:
       "DescriptionCompanyCards.ecoMealMarketDescription.shortDescription",
-    logo: logos.eco_meal_market,
+    logo: eco_meal_market,
     styleVariant: 3,
   },
 ];

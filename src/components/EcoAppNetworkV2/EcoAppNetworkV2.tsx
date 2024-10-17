@@ -1,6 +1,6 @@
 import React from "react";
 import "./EcoAppNetworkV2.scss";
-import { earth_images } from "../../assets/images/";
+import { eco_app_network_earth_img } from "../../assets/images/";
 import { EcoAppNetworkItems } from "./EcoAppNetworkItems/EcoAppNetworkItems";
 import { useTranslation } from "react-i18next";
 
@@ -13,7 +13,7 @@ export const EcoAppNetworkV2: React.FC = () => {
       <div className="eco-app-network__earth">
         <img
           className="eco-app-network__earth-image"
-          src={earth_images.home_earth_for_animation}
+          src={eco_app_network_earth_img}
           alt={t("EcoAppNetworkComponent.altEarthImg")}
         />
       </div>

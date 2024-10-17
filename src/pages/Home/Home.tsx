@@ -5,6 +5,7 @@ import {
     Overview,
     Welcome,
     WeDidIt,
+    EcoAppNetwork,
     ContactUsForm,
     AppFooter,
     MoveUp,
@@ -23,6 +24,7 @@ const Home = () => {
                 <CompanyCards />
                 <WeDidIt/>
                 <EcoAppNetworkV2/>
+                {/*<EcoAppNetwork />*/}
                 <ContactUsForm />
                 <MoveUp />
                 <AppFooter />

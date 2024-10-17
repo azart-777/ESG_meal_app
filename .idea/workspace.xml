@@ -4,139 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="567604dc-d2ce-4c41-83cf-420d46a48241" name="Changes" comment="Form Update">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/arrows/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/arrows/move_up_arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/arrows/move_up_arrow_color.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/borders/home_company_card_border_bottom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/borders/home_company_card_border_top.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/borders/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/earth_images/earth_in_hands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/earth_images/home_earth_for_animation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/earth_images/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logos/cheap_it.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logos/eco_meal_market.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logos/header_logo_chip_it_without_text.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logos/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logos/meal_count.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/phones/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/phones/phone_cheap_it.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/phones/phone_eco_meal.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/phones/phone_meal_count.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/phones/phones_with_apps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/social/apple.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/social/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/social/google.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/social/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/social/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/social/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/vectors/footer_map_point.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/vectors/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/vectors/language_switch_frame_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/vectors/language_switch_frame_2.svg" afterDir="false" />
+    <list default="true" id="567604dc-d2ce-4c41-83cf-420d46a48241" name="Changes" comment="Update mixin responsive.scss">
+      <change afterPath="$PROJECT_DIR$/public/locales/en_US/navigation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/locales/en_US/pages/home-page.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/locales/uk_UA/navigation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/locales/uk_UA/pages/home-page.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/CheapItFamilyLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/CheapItLogoName.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/CircleForTalkingHead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/GreenPlanet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/HeaderLightEllipse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/HomePage_Background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/Jake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/MealCountLogoName.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/MoveUpArrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/NewLogoArrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/Phone cheap it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/Phone eco meal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/Phone meal count.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/SunBase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/Vector667.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/cheapItIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/cheapItLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/cheap_it_message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/companyCards/border_bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/companyCards/border_top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ecoAppNetwork/earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ecoAppNetwork/phone_cheap_it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ecoAppNetwork/phone_eco_meal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ecoAppNetwork/phone_meal_count.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ecoMealIconRotate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ecoMealMarketLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/eco_meal_market_message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/flags/en_US.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/flags/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/flags/uk_UA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/footer/Apple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/footer/Facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/footer/Google.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/footer/Instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/footer/Linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/footer/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/giftBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/greenBrush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/green_smoke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/header/frame_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/header/frame_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/cheap_it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/eco_meal_market.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/header_logo_cheap_it_family.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logo/meal_count.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/mealCountLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/meal_count_message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/moveUpArrow/move_up_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/moveUpArrow/move_up_arrow1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/moveUpArrow/move_up_arrow_color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/network_lines_center.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/new_cheap_it_logo_with_name.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/new_eco_meal_market_logo_with_name.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/new_meal_count_logo_with_name.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/overviewComponent/image_with_phones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/paintStainCheapIT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/paintStainEcoMeal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/paintStainMealCount.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/phone_Earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/phone_center.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/phone_left .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/phone_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/socialApple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/socialFacebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/socialGoogle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/socialInstagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/socialWeb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/sonikTechnology.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/welcomeComponent/hands_with_Earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppFooter/AppFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppFooter/AppFooter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CompanyCards/DataDescription/DataDescription.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CompanyCards/DataDescription/DataDescription.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CompanyCards/DescriptionCard/DescriptionCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CompanyCards/DescriptionCard/DescriptionCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/AppItem/AppItem.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/AppItem/AppItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/AppItem/dataAppItems.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/EcoAppNetwork.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/EcoAppNetwork.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/NetworkAnimation/FireflyMotion/Firefly.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/NetworkAnimation/FireflyMotion/FireflyMotion.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/NetworkAnimation/FireflyMotion/FireflyMotion.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/NetworkAnimation/FireflyMotion/fireflyCoordinates.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/NetworkAnimation/LightingLines.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/NetworkAnimation/LightingLines.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/NetworkAnimation/LinesContainer/LightingLinesContainer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/NetworkAnimation/LinesContainer/LightingLinesContainer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetworkV2/EcoAppNetworkItems/EcoAppNetworkItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EcoAppNetworkV2/EcoAppNetworkItems/EcoAppNetworkItems.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetworkV2/EcoAppNetworkV2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EcoAppNetworkV2/EcoAppNetworkV2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetworkV2/EcoAppNetworkV2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EcoAppNetworkV2/EcoAppNetworkV2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LanguageSwitch/LanguageSwitch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LanguageSwitch/LanguageSwitch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoveUp/MoveUp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoveUp/MoveUp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Overview/Overview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Overview/Overview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WeDidIt/WeDidItContent/WeDidItContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WeDidIt/WeDidItContent/WeDidItContent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Welcome/Welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome/Welcome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/hooks/useLanguage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/hooks/useLanguage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/form/FormTextField/FormTextField.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/form/FormTextField/FormTextField.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/styles/variables/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/variables/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/styles/variables/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/variables/fonts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,24 +29,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="we-did-it-fix" />
+        <entry key="$PROJECT_DIR$" value="IconCardComponent" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;StepPointer&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="a22ca6d9-7559-45ef-a1db-064b7ec5f7a4" />
-        <option name="url" value="https://github.com/azart-777/ESG_meal_landing.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -172,37 +41,34 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2jdRepe4oHC0B6TyctdfS0eHsrB" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ESG_meal_landing/public/locales/en_US&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\ESG_meal_landing\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "contactUsForm",
+    "last_opened_file_path": "D:/Projects/ESG_meal_landing/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "D:\\Projects\\ESG_meal_landing\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\ESG_meal_landing\public\locales\en_US" />
-      <recent name="D:\Projects\ESG_meal_landing\public\locales\uk_UA" />
-      <recent name="D:\Projects\ESG_meal_landing\public\locales\uk_UA\pages" />
       <recent name="D:\Projects\ESG_meal_landing\public" />
       <recent name="D:\Projects\ESG_meal_landing\src\shared\interfaces" />
+      <recent name="D:\Projects\ESG_meal_landing\src\pages" />
+      <recent name="D:\Projects\ESG_meal_landing\src\constants" />
+      <recent name="D:\Projects\ESG_meal_landing\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\ESG_meal_landing\src\assets\fonts" />
@@ -225,9 +91,6 @@
       <list>
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -246,16 +109,6 @@
       <workItem from="1721803519991" duration="14478000" />
       <workItem from="1721983769466" duration="18926000" />
       <workItem from="1722014002426" duration="248000" />
-      <workItem from="1728137891921" duration="1282000" />
-      <workItem from="1728206673889" duration="2454000" />
-      <workItem from="1728318762297" duration="1443000" />
-      <workItem from="1728373497166" duration="623000" />
-      <workItem from="1728724410437" duration="4171000" />
-      <workItem from="1728808938798" duration="13412000" />
-      <workItem from="1728916132390" duration="2564000" />
-      <workItem from="1728938954126" duration="2256000" />
-      <workItem from="1729069359780" duration="7123000" />
-      <workItem from="1729174922223" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="Update of Initial project&#10;Added: typescript, scss, material ui, jest(testing), i18n (languages)">
       <option name="closed" value="true" />
@@ -297,47 +150,7 @@
       <option name="project" value="LOCAL" />
       <updated>1722005508789</updated>
     </task>
-    <task id="LOCAL-00006" summary="Update container and remove unused components">
-      <option name="closed" value="true" />
-      <created>1728051419071</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1728051419071</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Update app namings">
-      <option name="closed" value="true" />
-      <created>1728066585059</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1728066585059</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Removing unused translations">
-      <option name="closed" value="true" />
-      <created>1728066718286</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1728066718286</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Form Update">
-      <option name="closed" value="true" />
-      <created>1728067087654</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1728067087654</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Form Update">
-      <option name="closed" value="true" />
-      <created>1728826413935</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1728826413935</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,10 +172,6 @@
     <MESSAGE value="Initial styles and exemle" />
     <MESSAGE value="Adding image types" />
     <MESSAGE value="First commit in branch" />
-    <MESSAGE value="Update container and remove unused components" />
-    <MESSAGE value="Update app namings" />
-    <MESSAGE value="Removing unused translations" />
-    <MESSAGE value="Form Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Form Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit in branch" />
   </component>
 </project>

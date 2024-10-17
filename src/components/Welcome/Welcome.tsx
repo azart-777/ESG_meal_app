@@ -1,7 +1,7 @@
 import React from "react";
 import "./Welcome.scss";
 import { useTranslation, Trans } from "react-i18next";
-import { earth_images } from "../../assets/images/index";
+import { hands_with_planet_welcome_component } from "../../assets/images/index";
 
 export const Welcome: React.FC = () => {
   useTranslation(["pages/home-page"]);
@@ -14,7 +14,7 @@ export const Welcome: React.FC = () => {
         </h2>
         <div className="welcome-container__hands-with-planet">
           <img
-            src={earth_images.earth_in_hands}
+            src={hands_with_planet_welcome_component}
             alt="Two hands are holding a planet from which a plant is growing"
           />
         </div>

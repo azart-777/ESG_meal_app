@@ -5,6 +5,7 @@ import { AppFooter } from './AppFooter/AppFooter'
 import { Welcome } from './Welcome/Welcome'
 import { AppHeader } from './AppHeader/AppHeader'
 import { Overview } from './Overview/Overview';
+import { EcoAppNetwork } from './EcoAppNetwork/EcoAppNetwork';
 import { CompanyCards } from './CompanyCards/CompanyCards';
 import { WeDidIt } from './WeDidIt/WeDidIt';
 import { EcoAppNetworkV2 } from './EcoAppNetworkV2/EcoAppNetworkV2'
@@ -17,6 +18,7 @@ export {
     AppHeader,
     Welcome,
     Overview,
+    EcoAppNetwork,
     WeDidIt,
     CompanyCards,
     EcoAppNetworkV2

@@ -84,6 +84,10 @@
   &__icon-map {
     padding-right: 10px;
     padding-bottom: 15px;
+    @include r.responsive(phone) {
+      padding-right: 0;
+      padding-bottom: 0;
+    }
   }
 
   &__social {
@@ -128,6 +132,18 @@
 
       &:hover {
         transform: scale(1.2);
+        @include r.responsive(tablet-large) {
+          transform: none;
+        }
+        @include r.responsive(tablet) {
+          transform: none;
+        }
+        @include r.responsive(phone-large) {
+          transform: none;
+        }
+        @include r.responsive(phone) {
+          transform: none;
+        }
       }
     }
   }

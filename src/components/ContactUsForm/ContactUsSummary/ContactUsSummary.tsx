@@ -1,7 +1,7 @@
 import React from 'react';
 import { FieldRenderProps } from "react-final-form";
 import './ContactUsSummary.scss'
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 interface ContactUsSummaryProps extends FieldRenderProps<string, HTMLElement> {
     hasError?: boolean;

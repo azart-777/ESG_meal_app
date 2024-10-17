@@ -1,6 +1,6 @@
 import React from "react";
 import "./AppHeader.scss";
-import { cheap_it_family_logo } from "../../assets/images";
+import { logos } from "../../assets/images";
 import { LanguageSwitch } from "../LanguageSwitch/LanguageSwitch";
 
 export const AppHeader: React.FC = () => {
@@ -11,7 +11,7 @@ export const AppHeader: React.FC = () => {
           <div className="header__logo">
             <img
               className="header__logo-image"
-              src={cheap_it_family_logo}
+              src={logos.header_logo_chip_it_without_text}
               alt="Chip It Family Logo. Green Basket with the text Chip It Family under it."
             />
             <h3 className="header__logo-text">

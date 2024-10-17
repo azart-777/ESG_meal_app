@@ -17,6 +17,7 @@
     &-image {
       width: 100%;
       user-select: none;
+      filter: brightness(0.8);
       -webkit-user-drag: none;
       -webkit-touch-callout: none;
     }

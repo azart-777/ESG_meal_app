@@ -14,7 +14,7 @@ $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
 
   &__slogan {
     &-border {
-      background-image: url(../../../assets/images/companyCards/border_top.png);
+      background-image: url(../../../assets/images/borders/home_company_card_border_top.svg);
       background-repeat: no-repeat;
       background-size: contain;
       display: inline-block;
@@ -89,7 +89,7 @@ $font-size-paragraph-responsive: clamp(12px, 1.2vw, fonts.$font-size-paragraph);
     font-family: "Montserrat";
     line-height: calc(#{$font-size-h4-responsive} * 1);
     padding: 0 5px clamp(5px, 1vw, 15px);
-    background-image: url(../../../assets/images/companyCards/border_bottom.png);
+    background-image: url(../../../assets/images/borders/home_company_card_border_bottom.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;

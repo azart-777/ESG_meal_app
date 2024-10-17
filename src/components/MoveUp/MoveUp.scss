@@ -5,7 +5,7 @@ html {
 #move-up-arrow {
   width: clamp(50px, 6vw, 100px);
   aspect-ratio: 1/1;
-  background-image: url("../../assets/images/moveUpArrow/move_up_arrow.png");
+  background-image: url("../../assets/images/arrows/move_up_arrow.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,7 +21,7 @@ html {
   opacity: 1;
 
   &:hover {
-    background-image: url("../../assets/images/moveUpArrow/move_up_arrow_color.png");
+    background-image: url("../../assets/images/arrows/move_up_arrow_color.svg");
   }
 
   &.move-up-arrow--hidden {

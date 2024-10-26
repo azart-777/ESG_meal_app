@@ -12,13 +12,18 @@ html {
   background-color: #282c34d8;
   border-radius: 100%;
   position: fixed;
-  bottom: clamp(170px, 18vw, 180px);
+  bottom: 20px;
   right: 10px;
   z-index: 200;
   cursor: pointer;
   animation: triangle 4s both infinite;
   transition: background-image 0.5s ease, opacity 0.4s ease;
+  transition: bottom 0.4s ease, background-image 0.5s ease, opacity 0.4s ease;
   opacity: 1;
+
+  &.move-up-arrow.move-up-arrow--bottom {
+    bottom: clamp(170px, 18vw, 180px);
+  }
 
   &:hover {
     background-image: url("../../assets/images/arrows/move_up_arrow_color.svg");

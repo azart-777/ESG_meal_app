@@ -1,6 +1,6 @@
-import left_green from "./left_green.svg";
-import right_green from "./right_green.svg";
-import top_left_corner_green from "./top_left_corner_green.svg";
+import left_green from "./left_green.png";
+import right_green from "./right_green.png";
+import top_left_corner_green from "./top_left_corner_green.png";
 
 export {
     left_green,

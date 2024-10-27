@@ -7,7 +7,7 @@ import { AppHeader } from './AppHeader/AppHeader'
 import { Overview } from './Overview/Overview';
 import { CompanyCards } from './CompanyCards/CompanyCards';
 import { WeDidIt } from './WeDidIt/WeDidIt';
-import { EcoAppNetworkV2 } from './EcoAppNetworkV2/EcoAppNetworkV2'
+import { EcoAppNetwork } from './EcoAppNetwork/EcoAppNetwork'
 
 export {
     ContactUsForm,
@@ -19,5 +19,5 @@ export {
     Overview,
     WeDidIt,
     CompanyCards,
-    EcoAppNetworkV2
+    EcoAppNetwork
 }

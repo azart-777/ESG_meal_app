@@ -3,14 +3,14 @@
   height: 400px;
   position: absolute;
   top: 0;
-  background-image: url('../../assets/images/eclipse/top_left_corner_green.svg');
+  background-image: url('../../assets/images/eclipse/top_left_corner_green.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .home-page {
   &__container {
-    max-width: 1920px;
+    max-width: 1420px;
     margin: 0 auto;
     padding: 0 clamp(5px, 2vw, 15px);
   }

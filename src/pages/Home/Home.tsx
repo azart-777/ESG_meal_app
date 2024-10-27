@@ -8,7 +8,7 @@ import {
     ContactUsForm,
     AppFooter,
     MoveUp,
-    EcoAppNetworkV2,
+    EcoAppNetwork
 } from "../../components";
 import "./Home.scss";
 
@@ -24,7 +24,7 @@ const Home = () => {
                 <CompanyCards />
                 <WeDidIt />
             </div>
-            <EcoAppNetworkV2 />
+            <EcoAppNetwork />
             <div className={"home-page__container"}>
                 <ContactUsForm />
                 <MoveUp />

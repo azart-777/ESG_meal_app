@@ -1,12 +1,12 @@
 import React from "react";
-import "./EcoAppNetworkV2.scss";
+import "./EcoAppNetwork.scss";
 import { earth_images } from "../../assets/images/";
 import { EcoAppNetworkItems } from "./EcoAppNetworkItems/EcoAppNetworkItems";
 import { useTranslation } from "react-i18next";
 import { ShortTextDescription } from "../../shared/components/shortDescription/ShortTextDescription";
 import { MainCompanyLogo } from "../../shared/components/mainCompanyLogo/MainCompanyLogo";
 
-export const EcoAppNetworkV2: React.FC = () => {
+export const EcoAppNetwork: React.FC = () => {
   const { t } = useTranslation(["pages/home-page"]);
 
   return (

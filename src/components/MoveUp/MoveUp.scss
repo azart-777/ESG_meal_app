@@ -3,7 +3,7 @@ html {
 }
 
 #move-up-arrow {
-  width: clamp(50px, 6vw, 100px);
+  width: clamp(60px, 6vw, 100px);
   aspect-ratio: 1/1;
   background-image: url("../../assets/images/arrows/move_up_arrow.svg");
   background-size: contain;
@@ -12,8 +12,8 @@ html {
   background-color: #282c34d8;
   border-radius: 100%;
   position: fixed;
-  bottom: 20px;
-  right: 10px;
+  bottom: 30px;
+  right: 15px;
   z-index: 200;
   cursor: pointer;
   animation: triangle 4s both infinite;

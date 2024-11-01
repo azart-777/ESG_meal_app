@@ -7,8 +7,8 @@ interface ShortDescriptionProps {
 
 export const ShortTextDescription: React.FC<ShortDescriptionProps> = ({ text }) => {
   return (
-    <h4>
+    <div>
       <Trans i18nKey={text} />
-    </h4>
+    </div>
   );
 };

@@ -35,9 +35,9 @@ export const DescriptionCard: React.FC<DescriptionCardProps> = ({
           <img src={logo} alt="logo" />
         </div>
         <div className={`description-card__content-details description-card-${styleVariant}__content-details`}>
-          <h5 className={`description-card__content-details-message description-card-${styleVariant}-content-details-message`}>
+          <div className={`description-card__content-details-message description-card-${styleVariant}-content-details-message`}>
             <Trans i18nKey={message} />
-          </h5>
+          </div>
           <ul className={`description-card__content-details-list description-card-${styleVariant}-content-details-list`}>
             {sentences.map((sentence, index) => (
               <li key={index} className="description-card__content-details-list-item">

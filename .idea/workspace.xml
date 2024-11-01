@@ -4,22 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="567604dc-d2ce-4c41-83cf-420d46a48241" name="Changes" comment="Update mixin responsive.scss">
-      <change afterPath="$PROJECT_DIR$/public/locales/en_US/navigation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/locales/en_US/pages/home-page.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/locales/uk_UA/navigation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/locales/uk_UA/pages/home-page.json" afterDir="false" />
+    <list default="true" id="567604dc-d2ce-4c41-83cf-420d46a48241" name="Changes" comment="Performance improve">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUsForm/ContactUsSummary/ContactUsSummary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/form/FormSubmitButton/FormSubmitButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/form/FormTextField/FormTextField.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/form/FormTextField/FormTextField.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/styles/variables/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/variables/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/styles/variables/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/variables/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/earth_images/earth_in_hands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/earth_images/home_earth_for_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/earth_images/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/earth_images/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/eclipse/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/eclipse/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/eclipse/left_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/eclipse/right_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/eclipse/top_left_corner_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/phones/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/phones/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/phones/phone_cheap_it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/phones/phone_eco_meal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/phones/phone_meal_count.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/phones/phones_with_apps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CompanyCards/DescriptionCard/DescriptionCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CompanyCards/DescriptionCard/DescriptionCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CompanyCards/DescriptionCard/DescriptionCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CompanyCards/DescriptionCard/DescriptionCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EcoAppNetwork/EcoAppNetwork.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EcoAppNetwork/EcoAppNetwork.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/shortDescription/ShortTextDescription.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/shortDescription/ShortTextDescription.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="IconCardComponent" />
+        <entry key="$PROJECT_DIR$" value="we-did-it-fix" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,27 +46,30 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2jdRepe4oHC0B6TyctdfS0eHsrB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "contactUsForm",
-    "last_opened_file_path": "D:/Projects/ESG_meal_landing/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "D:\\Projects\\ESG_meal_landing\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ESG_meal_landing/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\ESG_meal_landing\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\ESG_meal_landing\public" />
@@ -71,6 +79,7 @@
       <recent name="D:\Projects\ESG_meal_landing\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\ESG_meal_landing\src\assets\images\eclipse" />
       <recent name="D:\Projects\ESG_meal_landing\src\assets\fonts" />
       <recent name="D:\Projects\ESG_meal_landing\src\shared\components\form\FormTextField" />
       <recent name="D:\Projects\ESG_meal_landing\src\pages\Home" />
@@ -91,6 +100,8 @@
       <list>
         <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +120,9 @@
       <workItem from="1721803519991" duration="14478000" />
       <workItem from="1721983769466" duration="18926000" />
       <workItem from="1722014002426" duration="248000" />
+      <workItem from="1729243527158" duration="1257000" />
+      <workItem from="1730020766429" duration="6608000" />
+      <workItem from="1730457728973" duration="1801000" />
     </task>
     <task id="LOCAL-00001" summary="Update of Initial project&#10;Added: typescript, scss, material ui, jest(testing), i18n (languages)">
       <option name="closed" value="true" />
@@ -150,7 +164,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722005508789</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Image Structure Update. Convert from png to svg">
+      <option name="closed" value="true" />
+      <created>1729182247103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729182247103</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Performance improve">
+      <option name="closed" value="true" />
+      <created>1730022744378</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730022744378</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +202,8 @@
     <MESSAGE value="Initial styles and exemle" />
     <MESSAGE value="Adding image types" />
     <MESSAGE value="First commit in branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit in branch" />
+    <MESSAGE value="Image Structure Update. Convert from png to svg" />
+    <MESSAGE value="Performance improve" />
+    <option name="LAST_COMMIT_MESSAGE" value="Performance improve" />
   </component>
 </project>

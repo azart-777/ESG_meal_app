@@ -80,7 +80,7 @@ $font-size--info-icon: 22px;
       align-items: center;
       position: relative;
       border-radius: 2em;
-      padding: 1px;
+      padding: 1.5px;
     }
 
     &-right-container {
@@ -134,8 +134,16 @@ $font-size--info-icon: 22px;
       }
     }
 
-    &-user-name, &-user-email, &-user-message {
+    &-user-name, &-user-email, &-user-message{
+      margin-bottom: 5px;
+    }
+
+    &-user-name, &-user-email{
       height: 100px;
+    }
+
+    &-user-message {
+      min-height: 100px;
     }
   }
 }

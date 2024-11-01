@@ -29,9 +29,9 @@
           "5": "I'd like to chat"
         }
       },
-      "userName": "Your Name",
-      "userEmail": "Your Email",
-      "userMessage": "Just leave your message...",
+      "userName": "Name",
+      "userEmail": "Email",
+      "userMessage": "Message",
       "info": {
         "newLine": "New Line",
         "push": "push"

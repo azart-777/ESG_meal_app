@@ -65,7 +65,7 @@
     width: 100%;
     max-width: 700px;
     border-radius: 2em;
-    padding: 1px;
+    padding: 1.5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,8 +83,6 @@
 
     &:last-child {
       background: colors.$text-stroke-gradient-second;
-      border-radius: 2em;
-      padding: 1px;
     }
   }
 }
